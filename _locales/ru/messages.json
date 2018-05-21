@@ -1,0 +1,29 @@
+{
+  "appName": {
+    "message": "AudD - Распознавание музыки"
+  },
+  "appDesc": {
+    "message": "Расширение AudD распознаёт любую музыку, играющую на любом сайте"
+  },
+  "selectOneTab": {
+    "message": "Пожалуйста, выбери одну вкладку"
+  },
+  "tabHasntAudio": {
+    "message": "На этой вкладке нет звука"
+  },
+  "confirm": {
+    "message": "Подтверждение"
+  },
+  "confirmQuestion": {
+    "message": "Вы уверены, что хотите очистить историю?"
+  },
+  "yes": {
+    "message": "Да"
+  },
+  "no": {
+    "message": "Нет"
+  },
+  "signIn": {
+    "message": "Пожалуйста, <a url=\"chrome://chrome-signin/\" href=\"#\">войдите с помощью Google</a> в Google Chrome"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+<div id="main_popup">
+    <div id="search_bar" class="search_bar">
+        <a id="search_bar_start" style="cursor:pointer;"><img height="150px" src="../../img/search_btn.png"></a>
+        <a id="search_bar_running" style="display:none;"><img height="150px" src="../../img/searching.gif"></a>
+    </div>
+
+    <div id="search_result" style=""></div>
+    <div id="history_music_info" class="history_music_info">
+        <div class="loading_img"><img height="30px" src="../../img/searching.gif"></div>
+    </div>
+    <div id="footer" class="footer">
+        <div style="margin-left: 13px; float: left; text-align: center">
+            <div class="copyright">© <span id="copyright_year">2018</span> <a href="https://vk.com/audd" target="_blank"><span name="copyright" style="color:#ff7777;">AudD</span></a></div>
+            <a name="power_by" url="https://audd.io/"><img class="power_by" src="../../img/AudDlong.png"></a>
+        </div>
+        <div class="recycle"><a name="recycle" id="recycle"><img src="../../img/recycle.png"></a></div>
+    </div>
+</div>
+</body>
+
+<script id="music_info_template" type="text/x-handlebars-template">
+    {{#each music_infos}}
+    <div class="music_info_item {{#if_even @index}}even{{/if_even}}">
+        <div>
+            <div class="metadata">
+                <div class="title">{{title}}</div>
+            </div>
+            <div class="external_metadata"></div>
+        </div>
+        <div>
+            <div class="metadata">
+                <span class="artist">{{artist}}</span>
+            </div>
+            <div class="external_metadata">
+                <span class="time"><a url="{{tab_url}}">{{format_date timestamp}}</a></span>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+
+<script type="text/javascript" src="../vendor/jquery.min.js"></script>
+<script type="text/javascript" src="../vendor/handlebars-v4.0.10.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</html>

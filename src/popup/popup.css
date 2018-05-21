@@ -1,0 +1,143 @@
+html{
+    -webkit-text-size-adjust:none;
+}
+
+body {
+    width: 280px;
+    margin: 0;
+    white-space: nowrap;
+    -webkit-text-size-adjust:none;
+}
+
+a {
+    cursor:pointer;
+}
+
+#main_popup {
+}
+
+#search_bar {
+    height: 150px;
+    text-align: center;
+    /*background-color: #e2f6ff;*/
+    background-color: #fc85b9;
+}
+
+#search_result {
+    position: fixed;
+    width: 100%
+}
+
+#history_music_info {
+    padding-right: 10px;
+    height: 370px;
+    /*border-top :2px solid #000;*/
+    border-top: 1px solid #ff9b9b;
+    /*border-bottom :1px solid #000;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#history_music_info .loading_img {
+    height: 30px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.even {
+    background-color: #f0f0f0
+}
+
+.music_info_item {
+    /*height: 31px;*/
+    /*font-family: "Microsoft YaHei",simsun;*/
+    border-bottom: 1px solid #ffefef;
+    color: #666;
+    float:left;
+    width: 280px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+.music_info_item .metadata {
+    float: left;
+    margin-left: 13px;
+}
+
+.music_info_item .title {
+    width: 180px;
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.music_info_item .artist {
+    display: block;
+    width: 120px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #999;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.music_info_item .time {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #999;
+    /*margin-top: -1px;*/
+    /*text-decoration: underline;*/
+}
+
+.music_info_item .external_metadata {
+    float: right;
+    margin-right: 15px;
+}
+
+.music_info_item .external_metadata img {
+    height: 20px;
+    margin: 0;
+}
+
+#footer {
+    height: 30px;
+    background-color: #ffd1d1;
+    color: #a30101;
+}
+
+#footer .recycle {
+    margin-right: 0;
+    float: right;
+    margin-top: 4px;
+}
+
+#footer .copyright {
+    margin-top: 7px;
+    font-size: 12px;
+    color: #ff0000;
+    float: left;
+    width: 80px;
+}
+
+#footer .power_by {
+    margin-left: 23px;
+    margin-top: 2px;
+    overflow: hidden;
+    height: 25px;
+}
+
+#footer .recycle img {
+    height: 20px
+}
+
+.error {
+    background-color: #f2c3b9;
+}
+
+.success {
+    background-color: #b9f2c2;
+}

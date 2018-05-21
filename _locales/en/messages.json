@@ -1,0 +1,31 @@
+{
+  "appName": {
+    "message": "AudD Music Recognition",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "AudD extension recognizes any music playing on any website", 
+    "description":"The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Please select one tab"
+  },
+  "tabHasntAudio": {
+    "message": "Current tab doesn't have audio"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "confirmQuestion": {
+    "message": "Are you sure you want to clear history?"
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "signIn": {
+    "message": "Please, <a url=\"chrome://chrome-signin/\" href=\"#\">login with your Google account</a> in Google Chrome"
+  }
+}
