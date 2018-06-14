@@ -352,7 +352,7 @@ var g_recognizer_client = (function() {
         var app_id = chrome.runtime.id;
         console.log(app_id);
 
-        post_data.append('api_token', '8ec90ef80fd1b750c990642d6e17ccb9');
+        post_data.append('api_token', 'test');
         post_data.append('file', audio_buffer);
         post_data.append('local_lan', local_lan);
         //post_data.append('browser_version', browser_version);
