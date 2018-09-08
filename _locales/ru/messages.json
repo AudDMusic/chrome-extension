@@ -25,5 +25,8 @@
   },
   "signIn": {
     "message": "Пожалуйста, <a url=\"chrome://chrome-signin/\" href=\"#\">войдите с помощью Google</a> в Google Chrome"
+  },
+  "countryCode": {
+    "message": "ru"
   }
 }

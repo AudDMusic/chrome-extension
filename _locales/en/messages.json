@@ -27,5 +27,11 @@
   },
   "signIn": {
     "message": "Please, <a url=\"chrome://chrome-signin/\" href=\"#\">login with your Google account</a> in Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Couldn't find any lyrics for this song"
+  },
+  "countryCode": {
+    "message": "us"
   }
 }
