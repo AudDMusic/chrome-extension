@@ -5,70 +5,51 @@
     <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-<!--<div id="main_popup">
-    <div id="search_bar" class="search_bar">
-        <a id="search_bar_start" style="cursor:pointer;"><img height="150px" src="../../img/search_btn.png"></a>
-        <a id="search_bar_running" style="display:none;"><img height="150px" src="../../img/searching.gif"></a>
-    </div>
-
-    <div id="search_result" style=""></div>
-    <div id="history_music_info" class="history_music_info">
-        <div class="loading_img"><img height="30px" src="../../img/searching.gif"></div>
-    </div>
-    <div id="footer" class="footer">
-        <div style="margin-left: 13px; float: left; text-align: center">
-            <div class="copyright">© <span id="copyright_year">2018</span> <a href="https://vk.com/audd" target="_blank"><span name="copyright" style="color:#ff7777;">AudD</span></a></div>
-            <a name="power_by" url="https://audd.io/"><img class="power_by" src="../../img/AudDlong.png"></a>
+    <div id="main_popup">
+        <div id="main_header">
+            <h1></h1>
         </div>
-        <div class="recycle"><a name="recycle" id="recycle"><img src="../../img/recycle.png"></a></div>
-    </div>
-</div>-->
-
-<div id="main_popup">
-    <div id="main_header">
-        <h1></h1>
-    </div>
-    <div id="main_content">
-        <img class="screen_func" screen="initial" src="../../icons/refresh.png" />
-        <img class="screen_func" screen="history" src="../../icons/trash.png" />
-        <img class="screen_func" screen="favorites" src="../../icons/trash.png" />
-        <div id="initial_screen" class="screen">
-            <div class="audio-bands">
-                <img class="audio-band big 0" src="../../img/audio-band.png" />
-                <img class="audio-band med 1" src="../../img/audio-band.png" />
-                <img class="audio-band small 2" src="../../img/audio-band.png" />
-            </div>
-            <div id="logo">
-                <a href="https://audd.io/" target="_blank" ><img id="initial_screen_search_img" src="../../img/auddio-mic-logo.png" /></a>
-                <a href="https://audd.io/" target="_blank" ><img id="initial_screen_search_img2" src="../../img/AudD-text-logo.png" /></a>
-            </div>
-            <div id="initial_screen_info">
-                <img src="initial_screen_album" alt="">
-                <h1></h1>
-                <h2></h2>
-                <h2></h2>
-            </div>
-        </div>
-        <div id="history_screen" class="screen screen_list">
-            <ul>
-                <li>
-                    <h1 id="history_screen_title">History</h1>
-                </li>
-                <div id="history_screen_info">
+        <div id="main_content">
+            <img class="screen_func" screen="initial" src="../../icons/refresh.png" />
+            <img class="screen_func" screen="history" src="../../icons/trash.png" />
+            <img class="screen_func" screen="favorites" src="../../icons/trash.png" />
+            <div id="initial_screen" class="screen">
+                <div class="audio-bands">
+                    <img class="audio-band big 0" src="../../img/audio-band.png" />
+                    <img class="audio-band med 1" src="../../img/audio-band.png" />
+                    <img class="audio-band small 2" src="../../img/audio-band.png" />
                 </div>
-            </ul>
+                <div id="logo">
+                    <a href="https://audd.io/" target="_blank" ><img id="initial_screen_search_img" src="../../img/auddio-mic-logo.png" /></a>
+                    <a href="https://audd.io/" target="_blank" ><img id="initial_screen_search_img2" src="../../img/AudD-text-logo.png" /></a>
+                </div>
+                <div id="initial_screen_info">
+                    <img src="initial_screen_album" alt="">
+                    <h1></h1>
+                    <h2></h2>
+                    <h2></h2>
+                </div>
+            </div>
+            <div id="history_screen" class="screen screen_list">
+                <ul>
+                    <li>
+                        <h1 id="history_screen_title">History</h1>
+                    </li>
+                    <div id="history_screen_info">
+                    </div>
+                </ul>
+            </div>
+            <div id="lyrics_screen" class="screen">
+                <h1 id="history_screen_title">Lyrics</h1>
+                <p id="lyrics_body"></p>
+            </div>
         </div>
-        <div id="lyrics_screen" class="screen">
-            <h1 id="history_screen_title">Lyrics</h1>
-            <p id="lyrics_body"></p>
+        <div id="main_footer">
+            <button id="initial_button" class="main_footer_button">Home</button>
+            <button id="lyrics_button" class="main_footer_button">Lyrics</button>
+            <button id="history_button" class="main_footer_button">History</button>
         </div>
     </div>
-    <div id="main_footer">
-        <button id="initial_button" class="main_footer_button">Home</button>
-        <button id="lyrics_button" class="main_footer_button">Lyrics</button>
-        <button id="history_button" class="main_footer_button">History</button>
-    </div>
-</div>
 </body>
 
 <script id="music_info_template" type="text/x-handlebars-template">
