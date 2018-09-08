@@ -1,9 +1,11 @@
 {
   "appName": {
-    "message": "AudD - Распознавание музыки"
+    "message": "AudD - Распознавание музыки",
+    "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "Расширение AudD распознаёт любую музыку, играющую на любом сайте"
+    "message": "Расширение AudD распознаёт любую музыку, играющую на любом сайте", 
+    "description":"The description of the application, displayed in the web store."
   },
   "selectOneTab": {
     "message": "Пожалуйста, выбери одну вкладку"
@@ -25,6 +27,9 @@
   },
   "signIn": {
     "message": "Пожалуйста, <a url=\"chrome://chrome-signin/\" href=\"#\">войдите с помощью Google</a> в Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Не могу найти текст слов этой песни"
   },
   "countryCode": {
     "message": "ru"
