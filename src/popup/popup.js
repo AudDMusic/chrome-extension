@@ -45,7 +45,7 @@ function PopupView() {
     var show_new_result = function(song) {
         var img = "../../img/no-album.png"
         
-        if (song.deezer.album) {
+        if (song.deezer && song.deezer.album) {
             if (song.deezer.album.cover_big) img = song.deezer.album.cover_big;
         } else if (song.itunes) {
             if (song.itunes.artworkUrl100) img = song.itunes.artworkUrl100;
@@ -60,7 +60,7 @@ function PopupView() {
         if (song["itunes"] && song["itunes"]["trackViewUrl"]) {
             song.links.push({
                 "image": "../../img/itunes-icon.png",
-                "link": song["itunes"]["trackViewUrl"],
+                "link": song["itunes"]["trackViewUrl"].replace('ru', chrome.i18n.getMessage("countryCode")),
                 "label": "iTunes"
             })
         }
@@ -96,7 +96,7 @@ function PopupView() {
         if (song.lyrics) {
             $("#lyrics_body").html(song.lyrics.lyrics.replace(/(?:\r\n|\r|\n)/g, '<br>').replace(/(\])/g, ']<br>'));
         } else {
-            $("#lyrics_body").text("Couldn't find lyrics for this song");
+            $("#lyrics_body").text(chrome.i18n.getMessage("noLyrics"));
         }
     };
 
@@ -110,7 +110,7 @@ function PopupView() {
                 if (item["itunes"] && item["itunes"]["trackViewUrl"]) {
                     item.links.push({
                         "image": "../../img/itunes-icon.png",
-                        "link": item["itunes"]["trackViewUrl"],
+                        "link": item["itunes"]["trackViewUrl"].replace('ru', chrome.i18n.getMessage("countryCode")),
                         "label": "iTunes"
                     })
                 }
