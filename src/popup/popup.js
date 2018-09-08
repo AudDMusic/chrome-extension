@@ -45,7 +45,7 @@ function PopupView() {
     var show_new_result = function(song) {
         var img = "../../img/no-album.png"
         
-        if (song.deezer.album) {
+        if (song.deezer && song.deezer.album) {
             if (song.deezer.album.cover_big) img = song.deezer.album.cover_big;
         } else if (song.itunes) {
             if (song.itunes.artworkUrl100) img = song.itunes.artworkUrl100;
