@@ -213,8 +213,10 @@ function AudioRecorder() {
             audio : true,
             video : false
         }, function(audio_stream) {
-            var audio = new Audio(window.URL.createObjectURL(audio_stream));
-            audio.play();
+            var AudioContext = window.AudioContext || window.webkitAudioContext;
+            var audioCtx = new AudioContext();
+            var source = audioCtx.createMediaStreamSource(audio_stream);
+            source.connect(audioCtx.destination);
 
             _media_recorder_handler = new MediaRecorderWrapper(audio_stream);
 
@@ -485,17 +487,20 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
                 }
 
                 chrome.identity.getProfileUserInfo(function(user_info) {
+                    var email = "";
+                    var google_id = "";
                     if (chrome.runtime.lastError) {
                         console.log(chrome.runtime.lastError.message);
-                        chrome.runtime.sendMessage({cmd: "popup_login"});
-                    } 
-					//else {
+                        //chrome.runtime.sendMessage({cmd: "popup_login"});
+                    } else {
+                            email = user_info["email"];
+                            google_id = user_info["id"];
+                    }
                         g_recognizer_client.start({
                             "tab_url": tab_url,
-                            "email": user_info["email"],
-                            "google_id": user_info["id"],
+                            "email": email,
+                            "google_id": google_id,
                             "tab_title": tab_title});
-                    //}
                 });
             });
 

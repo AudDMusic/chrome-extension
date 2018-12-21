@@ -5,14 +5,13 @@
   "default_locale": "en",
   "manifest_version": 2,
   "author": "app@audd.io",
-  "version": "2.0.0",
+  "version": "2.1.1",
 
   "background": {
     "scripts": [
       "src/vendor/jquery.min.js",
       "src/bg/background.js"
-    ],
-    "persistent": false
+    ]
   },
 
   "browser_action": {
