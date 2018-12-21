@@ -11,7 +11,7 @@
     "scripts": [
       "src/vendor/jquery.min.js",
       "src/bg/background.js"
-    ],
+    ]
   },
 
   "browser_action": {
