@@ -13,6 +13,15 @@
   "tabHasntAudio": {
     "message": "Current tab doesn't have audio"
   },
+  "lyrics": {
+    "message": "Lyrics"
+  },
+  "history": {
+    "message": "History"
+  },
+  "goTo": {
+    "message": "Go to"
+  },
   "confirm": {
     "message": "Confirm"
   },
