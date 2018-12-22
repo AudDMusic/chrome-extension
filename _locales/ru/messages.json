@@ -13,6 +13,15 @@
   "tabHasntAudio": {
     "message": "На этой вкладке нет звука"
   },
+  "lyrics": {
+    "message": "Слова"
+  },
+  "history": {
+    "message": "История"
+  },
+  "goTo": {
+    "message": "Перейти"
+  },
   "confirm": {
     "message": "Подтверждение"
   },
