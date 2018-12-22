@@ -93,7 +93,7 @@ function PopupView() {
         var new_history_html = _list_template([song]);
         $('#history_screen_title').append(new_history_html);
 
-        if (song.lyrics) {
+        if (song.lyrics && song.lyrics.lyrics) {
             $("#lyrics_body").html(song.lyrics.lyrics.replace(/(?:\r\n|\r|\n)/g, '<br>').replace(/(\])/g, ']<br>'));
         } else {
             $("#lyrics_body").text(chrome.i18n.getMessage("noLyrics"));
