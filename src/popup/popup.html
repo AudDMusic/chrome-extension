@@ -33,21 +33,21 @@
             <div id="history_screen" class="screen screen_list">
                 <ul>
                     <li>
-                        <h1 id="history_screen_title">History</h1>
+                        <h1 id="history_screen_title" data-message="history">History</h1>
                     </li>
                     <div id="history_screen_info">
                     </div>
                 </ul>
             </div>
             <div id="lyrics_screen" class="screen">
-                <h1 id="history_screen_title">Lyrics</h1>
+                <h1 id="history_screen_title" data-message="lyrics">Lyrics</h1>
                 <p id="lyrics_body"></p>
             </div>
         </div>
         <div id="main_footer">
             <button id="initial_button" class="main_footer_button">Home</button>
-            <button id="lyrics_button" class="main_footer_button">__MSG_lyrics__</button>
-            <button id="history_button" class="main_footer_button">__MSG_history__</button>
+            <button id="lyrics_button" class="main_footer_button" data-message="lyrics">Lyrics</button>
+            <button id="history_button" class="main_footer_button" data-message="history">History</button>
         </div>
     </div>
 </body>
@@ -61,7 +61,7 @@
     <ul class="sub_menu info">
         <a href={{tab_url}} target="_blank">
             <img src="../../img/share-icon.png" />
-            <p>__MSG_goTo__</p>
+            <p data-message="goTo">Go to</p>
         </a>
         {{#each links}}
         <a href={{link}} target="_blank">
