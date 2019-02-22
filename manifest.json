@@ -5,7 +5,7 @@
   "default_locale": "en",
   "manifest_version": 2,
   "author": "app@audd.io",
-  "version": "2.2.2",
+  "version": "2.2.3",
 
   "background": {
     "scripts": [
