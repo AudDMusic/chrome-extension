@@ -64,28 +64,29 @@ function PopupView() {
                 "label": "iTunes"
             })
         }
-
-        if (song.media) {
-            var media = JSON.parse(song.media)
-            media.forEach(function(mediaItem) {
-                switch(mediaItem["provider"]) {
-                    case "spotify":
-                        song.links.push({
-                            "image": "../../img/spotify-icon.png",
-                            "link": mediaItem["url"],
-                            "label": "Spotify"
-                        })
-                        break;
-                    case "youtube":
-                        song.links.push({
-                            "image": "../../img/youtube-icon.png",
-                            "link": mediaItem["url"],
-                            "label": "YouTube"
-                        })
-                        break;
-                }
-            })
-        }
+		if(song.lyrics) {
+			if (song.lyrics.media) {
+				var media = JSON.parse(song.lyrics.media)
+				media.forEach(function(mediaItem) {
+					switch(mediaItem["provider"]) {
+						case "spotify":
+							song.links.push({
+								"image": "../../img/spotify-icon.png",
+								"link": mediaItem["url"],
+								"label": "Spotify"
+							})
+							break;
+						case "youtube":
+							song.links.push({
+								"image": "../../img/youtube-icon.png",
+								"link": mediaItem["url"],
+								"label": "YouTube"
+							})
+							break;
+					}
+				})
+			}
+		}
 
         var music_info_html = _music_info_template(song);
         $('#initial_screen_info').html(music_info_html);
@@ -114,28 +115,30 @@ function PopupView() {
                         "label": "iTunes"
                     })
                 }
-
-                if (item.media) {
-                    var media = JSON.parse(item.media)
-                    media.forEach(function(mediaItem) {
-                        switch(mediaItem["provider"]) {
-                            case "spotify":
-                                item.links.push({
-                                    "image": "../../img/spotify-icon.png",
-                                    "link": mediaItem["url"],
-                                    "label": "Spotify"
-                                })
-                                break;
-                            case "youtube":
-                                item.links.push({
-                                    "image": "../../img/youtube-icon.png",
-                                    "link": mediaItem["url"],
-                                    "label": "YouTube"
-                                })
-                                break;
-                        }
-                    })
-                }
+				
+				if(item.lyrics) {
+					if (item.lyrics.media) {
+						var media = JSON.parse(item.lyrics.media)
+						media.forEach(function(mediaItem) {
+							switch(mediaItem["provider"]) {
+								case "spotify":
+									item.links.push({
+										"image": "../../img/spotify-icon.png",
+										"link": mediaItem["url"],
+										"label": "Spotify"
+									})
+									break;
+								case "youtube":
+									item.links.push({
+										"image": "../../img/youtube-icon.png",
+										"link": mediaItem["url"],
+										"label": "YouTube"
+									})
+									break;
+							}
+						})
+					}
+				}
             })
 
             var tmp_html = _list_template({"music_info": data});
