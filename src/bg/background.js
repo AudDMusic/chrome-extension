@@ -361,7 +361,7 @@ var g_recognizer_client = (function() {
         post_data.append('device_id', device_id);
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'media,lyrics,itunes,deezer')
+        post_data.append('return', 'lyrics,itunes,deezer')
 
         $.ajax({
             type: 'POST',
