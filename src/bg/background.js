@@ -354,7 +354,7 @@ var g_recognizer_client = (function() {
         var app_id = chrome.runtime.id;
         console.log(app_id);
 
-        post_data.append('api_token', 'test');
+        post_data.append('api_token', '');
         post_data.append('file', audio_buffer);
         post_data.append('local_lan', local_lan);
         //post_data.append('browser_version', browser_version);
@@ -375,13 +375,17 @@ var g_recognizer_client = (function() {
                 console.log(data);
                 if (data['status'] == "success") {
                     var song = data['result'];
+					if (song == null) {
+						chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": chrome.i18n.getMessage("noResult")}});
+						
+					}
                     song["timestamp"] = new Date().getTime();
                     song["tab_url"] = self._params["tab_url"];
                     chrome.runtime.sendMessage({cmd: "popup_parse_result", result: {"status": "success", "msg": "", "result": song}});
                     self._storage_helper.set(song);
                     self.reload();
                 } else {
-                    chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": data['msg']}});
+                    chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": "API errror: "+data['error']['error_message']}});
                 }
             },
             error: function(error, textStatus) {
