@@ -4,7 +4,7 @@
     "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "AudD extension recognizes any music playing on any website", 
+    "message": "Recognize any music playing on any website in your browser", 
     "description":"The description of the application, displayed in the web store."
   },
   "selectOneTab": {
@@ -42,5 +42,8 @@
   },
   "countryCode": {
     "message": "us"
+  },
+  "noResult": {
+    "message": "Couldn't recognize this song. Try again?"
   }
 }
