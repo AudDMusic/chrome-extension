@@ -4,7 +4,7 @@
     "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "Расширение AudD распознаёт любую музыку, играющую на любом сайте", 
+    "message": "Распознавай любую музыку, играющую на любом сайте в браузере", 
     "description":"The description of the application, displayed in the web store."
   },
   "selectOneTab": {
@@ -42,5 +42,8 @@
   },
   "countryCode": {
     "message": "ru"
+  },
+  "noResult": {
+    "message": "Не получилось распознать эту песню"
   }
 }
