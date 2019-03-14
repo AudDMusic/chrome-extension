@@ -45,5 +45,8 @@
   },
   "noResult": {
     "message": "Couldn't recognize this song. Try again?"
+  },
+  "playsAt": {
+    "message": "plays at"
   }
 }

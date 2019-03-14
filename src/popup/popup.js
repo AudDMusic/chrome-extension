@@ -21,7 +21,7 @@ function PopupView() {
     var screens = ['history', 'lyrics', 'initial']
 
     screens.forEach(function(curScreen) {
-        $('#' + curScreen + '_button').click(function() {
+        $('#' + curScreen + '_button').on('click', function() {
             $('.screen').css('display', 'none');
             $('#' + curScreen + '_screen').css('display', 'block');
 
@@ -54,7 +54,7 @@ function PopupView() {
         song.albumImage = img;
         if (img != "../../img/auddio-mic-logo.png") song.imageClass = "found";
         else song.imageClass = "";
-
+		song.playsAt = chrome.i18n.getMessage("playsAt");
         song.links = [];
 
         if (song["itunes"] && song["itunes"]["trackViewUrl"]) {
@@ -151,16 +151,16 @@ function PopupView() {
             var is_set_click = $(this).attr('is_set_click');
             if (url && !is_set_click) {
                 $(this).attr('is_set_click', "true");
-                $(this).click(function() {
+                $(this).on('click', function() {
                     var name = $(this).attr('name');
                     chrome.tabs.create({url: url});
                 });
             }
         });
 
-        $('.sub_menu_toggle').unbind("click");
+        $('.sub_menu_toggle').off("click");
 
-        $('.sub_menu_toggle').click(function() {
+        $('.sub_menu_toggle').on('click', function() {
             expand_details($(this));
         })
     };
@@ -309,11 +309,11 @@ function init() {
     var popup_view = PopupView();
     var recognizer_controller = RecognizerController(popup_view);
 
-    $('.screen_func[screen="initial"]').click(function() {
+    $('.screen_func[screen="initial"]').on('click', function() {
         recognizer_controller.start();
     });
 
-    $('.screen_func[screen="history"]').click(function() {
+    $('.screen_func[screen="history"]').on('click', function() {
         recognizer_controller.clear_history();
     });
 
@@ -328,7 +328,7 @@ function init() {
     })();
 }
 
-$(window).load(function() {
+$(window).on('load', function() {
     var date = new Date();
     var year = date.getFullYear();
     $('#copyright_year').html(year);

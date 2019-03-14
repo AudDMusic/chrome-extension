@@ -1,6 +1,6 @@
 body {
     width: 250px;
-    height: 390px;
+    height: 420px;
     margin: 0;
 }
 
@@ -74,7 +74,7 @@ body {
     height: 100px;
     display: block;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 95px;
     transition: all 0.3s;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 #initial_screen_search_img.start {
-    margin-top: 130px;
+    margin-top: 145px;
 }
 
 #initial_screen_search_img2.start {
@@ -117,7 +117,7 @@ body {
 
 .audio-bands {
     position: absolute;
-    top: 87px;
+    top: 102px;
     left: 85px;
     opacity: 0;
 }
@@ -180,6 +180,20 @@ body {
     text-align: center;
     margin-top: 7px;
     margin-bottom: 0;
+}
+
+
+#initial_screen h3 {
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.plays_at {
+	content: "__MSG_playsAt__";
 }
 
 #initial_screen_heart_img {
@@ -388,4 +402,11 @@ body {
 
 .main_footer_button.active, .main_footer_button:hover {
     color: white;
+}
+
+.whitespace {
+	position: absolute;
+	left:-999px;
+	height:0px;
+	width:0px;
 }
