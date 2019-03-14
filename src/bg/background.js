@@ -322,7 +322,7 @@ function StorageHelper() {
         set: set,
         clear: clear,
         get_device_id: get_device_id
-    }
+    };
 }
 
 var g_recognizer_client = (function() {
@@ -342,7 +342,7 @@ var g_recognizer_client = (function() {
         }
         var s_url = this._server_url;
 
-        var browser_version = navigator.userAgent;
+        //var browser_version = navigator.userAgent;
         var device_id = this._storage_helper.get_device_id();
 
         var post_data = new FormData();
@@ -361,7 +361,7 @@ var g_recognizer_client = (function() {
         post_data.append('device_id', device_id);
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'timecode,lyrics,itunes,deezer')
+        post_data.append('return', 'timecode,lyrics,itunes,deezer');
 
         $.ajax({
             type: 'POST',
