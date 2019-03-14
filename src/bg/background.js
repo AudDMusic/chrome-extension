@@ -101,8 +101,7 @@ function MediaRecorderWrapper(user_media_stream) {
             _media_recorder = new MediaRecorder(_media_stream);
         }
 
-        if (!_media_recorder ||
-            ('canRecordMimeType' in _media_recorder && _media_recorder.canRecordMimeType(_mime_type) === false)) {
+        if ('canRecordMimeType' in _media_recorder && _media_recorder.canRecordMimeType(_mime_type) === false) {
             console.warn('MediaRecorder API seems unable to record mimeType:', _mime_type);
             return false;
         }
