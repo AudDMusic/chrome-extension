@@ -152,7 +152,7 @@ function PopupView() {
             if (url && !is_set_click) {
                 $(this).attr('is_set_click', "true");
                 $(this).on('click', function() {
-                    var name = $(this).attr('name');
+                    //var name = $(this).attr('name');
                     chrome.tabs.create({url: url});
                 });
             }
