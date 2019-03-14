@@ -55,7 +55,9 @@
 <script id="music_info_template" type="text/x-handlebars-template">
     <img id="initial_screen_album" src={{albumImage}} class={{imageClass}} />
     <h1>{{title}}</h1>
+		<div class="whitespace">&nbsp;</div>
     <h2>{{artist}}</h2>
+    <h2>({{playsAt}} {{timecode}})</h2>
     <h2>{{format_date timestamp}}</h2>
     <img class="sub_menu_toggle info" src="../../icons/options-dots.png" />
     <ul class="sub_menu info">
@@ -76,6 +78,7 @@
     {{#each music_info}}
     <li>
         <h2>{{title}}</h2>
+			<div class="whitespace">&nbsp;</div>
         <h3>{{artist}}</h3>
         <h3>{{format_date timestamp}}</h3>
         <img class="sub_menu_toggle" src="../../icons/options-dots.png" />
