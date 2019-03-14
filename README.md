@@ -1,3 +1,5 @@
+<a target="_blank" href="https://audd.app/chrome>![Try it now in CWS](https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton.png "Click here to install this extension from the Chrome Web Store")</a>
+
 # AudD Chrome extension
 An exapmle of [AudD API](https://audd.io) using.
 You can [install this extension in the Chrome Web Store](https://audd.app/chrome).
