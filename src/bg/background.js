@@ -361,7 +361,7 @@ var g_recognizer_client = (function() {
         post_data.append('device_id', device_id);
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'lyrics,itunes,deezer')
+        post_data.append('return', 'timecode,lyrics,itunes,deezer')
 
         $.ajax({
             type: 'POST',
@@ -377,7 +377,7 @@ var g_recognizer_client = (function() {
                     var song = data['result'];
 					if (song == null) {
 						chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": chrome.i18n.getMessage("noResult")}});
-						
+						return;
 					}
                     song["timestamp"] = new Date().getTime();
                     song["tab_url"] = self._params["tab_url"];
