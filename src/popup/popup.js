@@ -1,3 +1,7 @@
+function checkArtistsMatch(song) {
+	return song.lyrics.full_title.replace(/\s/g, '').includes(song.artist.replace(/\s/g, '')) || song.artist.replace(/\s/g, '').includes(song.lyrics.artist.replace(/\s/g, ''));
+}
+
 function PopupView() {
     Handlebars.registerHelper('if_even', function(conditional, options) {
         if(((conditional+1) % 2) == 0) {
@@ -45,29 +49,50 @@ function PopupView() {
     var show_new_result = function(song) {
         var img = "../../img/no-album.png"
         
-        if (song.deezer && song.deezer.album) {
-            if (song.deezer.album.cover_big) img = song.deezer.album.cover_big;
-        } else if (song.itunes) {
+        if (song.itunes) {
             if (song.itunes.artworkUrl100) img = song.itunes.artworkUrl100;
-        }
+        } else if (song.spotify) {
+			if (song.spotify.album.images[0].url) img = song.spotify.album.images[0].url;
+		} else if (song.deezer && song.deezer.album) {
+            if (song.deezer.album.cover_big) img = song.deezer.album.cover_big;
+        } 
 
         song.albumImage = img;
         if (img != "../../img/auddio-mic-logo.png") song.imageClass = "found";
         else song.imageClass = "";
 		song.playsAt = chrome.i18n.getMessage("playsAt");
         song.links = [];
-
+		var usedLabels = {};
+		
         if (song["itunes"] && song["itunes"]["trackViewUrl"]) {
             song.links.push({
                 "image": "../../img/itunes-icon.png",
-                "link": song["itunes"]["trackViewUrl"].replace('ru', chrome.i18n.getMessage("countryCode")),
-                "label": "iTunes"
+                "link": song["itunes"]["trackViewUrl"].replace('us', chrome.i18n.getMessage("countryCode")),
+                "label": "Apple Music"
             })
+			usedLabels["apple_music"] = true;
+        }
+        if (song["deezer"] && song["deezer"]["link"]) {
+            song.links.push({
+                "image": "../../img/deezer-icon.png",
+                "link": song["deezer"]["link"],
+                "label": "Deezer"
+            })
+			usedLabels["deezer"] = true;
+        }
+        if (song["spotify"] && song["spotify"]["external_urls"] && song["spotify"]["external_urls"]["spotify"]) {
+            song.links.push({
+                "image": "../../img/spotify-icon.png",
+                "link": song["spotify"]["external_urls"]["spotify"],
+                "label": "Spotify"
+            })
+			usedLabels["spotify"] = true;
         }
 		if(song.lyrics) {
 			if (song.lyrics.media) {
 				var media = JSON.parse(song.lyrics.media)
 				media.forEach(function(mediaItem) {
+					if(usedLabels[mediaItem["provider"]]) return;
 					switch(mediaItem["provider"]) {
 						case "spotify":
 							song.links.push({
@@ -83,6 +108,13 @@ function PopupView() {
 								"label": "YouTube"
 							})
 							break;
+						case "apple_music":
+							song.links.push({
+								"image": "../../img/itunes-icon.png",
+								"link": mediaItem["url"],
+								"label": "Apple Music"
+							})
+							break;
 					}
 				})
 			}
@@ -94,7 +126,7 @@ function PopupView() {
         var new_history_html = _list_template([song]);
         $('#history_screen_title').append(new_history_html);
 
-        if (song.lyrics && song.lyrics.lyrics) {
+        if (song.lyrics && song.lyrics.lyrics && checkArtistsMatch(song)) {
             $("#lyrics_body").html(song.lyrics.lyrics.replace(/(?:\r\n|\r|\n)/g, '<br>').replace(/(\])/g, ']<br>'));
         } else {
             $("#lyrics_body").text(chrome.i18n.getMessage("noLyrics"));
@@ -107,19 +139,37 @@ function PopupView() {
 
             data.forEach(function(item) {
                 item.links = [];
-
+				var usedLabels = {};
                 if (item["itunes"] && item["itunes"]["trackViewUrl"]) {
                     item.links.push({
                         "image": "../../img/itunes-icon.png",
                         "link": item["itunes"]["trackViewUrl"].replace('ru', chrome.i18n.getMessage("countryCode")),
-                        "label": "iTunes"
+                        "label": "Apple Music"
                     })
+					usedLabels["apple_music"] = true;
                 }
+				if (item["deezer"] && item["deezer"]["link"]) {
+					item.links.push({
+						"image": "../../img/deezer-icon.png",
+						"link": item["deezer"]["link"],
+						"label": "Deezer"
+					})
+					usedLabels["deezer"] = true;
+				}
+				if (item["spotify"] && item["spotify"]["external_urls"] && item["spotify"]["external_urls"]["spotify"]) {
+					item.links.push({
+						"image": "../../img/spotify-icon.png",
+						"link": item["spotify"]["external_urls"]["spotify"],
+						"label": "Spotify"
+					})
+					usedLabels["spotify"] = true;
+				}
 				
-				if(item.lyrics) {
+				if (item.lyrics && checkArtistsMatch(item)) {
 					if (item.lyrics.media) {
 						var media = JSON.parse(item.lyrics.media)
 						media.forEach(function(mediaItem) {
+							if(usedLabels[mediaItem["provider"]]) return;
 							switch(mediaItem["provider"]) {
 								case "spotify":
 									item.links.push({
@@ -133,6 +183,13 @@ function PopupView() {
 										"image": "../../img/youtube-icon.png",
 										"link": mediaItem["url"],
 										"label": "YouTube"
+									})
+									break;
+								case "apple_music":
+									item.links.push({
+										"image": "../../img/itunes-icon.png",
+										"link": mediaItem["url"],
+										"label": "Apple Music"
 									})
 									break;
 							}

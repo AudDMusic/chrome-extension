@@ -360,7 +360,7 @@ var g_recognizer_client = (function() {
         post_data.append('device_id', device_id);
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'timecode,lyrics,itunes,deezer');
+        post_data.append('return', 'timecode,lyrics,itunes,spotify,deezer');
 
         $.ajax({
             type: 'POST',
