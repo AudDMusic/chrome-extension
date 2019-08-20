@@ -5,7 +5,7 @@ body {
 }
 
 #main_content {
-    height: 85%;
+    height: 90%;
     width: 100%;
     position: absolute;
     background: linear-gradient(105deg, #f21b4f, #bd237c);
@@ -158,7 +158,7 @@ body {
     margin: auto;
     display: block;
     margin-top: 15px;
-    height: 150px;
+    height: 171px;
     margin-bottom: 0;
     box-shadow: 0px 0px 15px 2px #dadada;
 }
@@ -207,7 +207,7 @@ body {
     height: 20px;
     position: absolute;
     right: 8px;
-    top: 230px;
+    top: 251px;
     cursor: pointer;
 }
 
@@ -383,7 +383,7 @@ body {
     position: absolute;
     bottom: 0;
     background-color: #f21b4f;
-    height: 15%;
+    height: 10%;
     width: 100%;
     border-top: 1px solid #ff6464;
 }
