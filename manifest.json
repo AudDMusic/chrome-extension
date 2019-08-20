@@ -5,7 +5,7 @@
   "default_locale": "en",
   "manifest_version": 2,
   "author": "app@audd.io",
-  "version": "2.3.1",
+  "version": "2.3.2",
 
   "background": {
     "scripts": [
@@ -31,13 +31,11 @@
   "update_url": "https://clients2.google.com/service/update2/crx",
   "permissions": [
     "identity",
-    "https://www.googleapis.com/",
     "identity.email",
     "storage",
     "unlimitedStorage",
     "background",
     "activeTab",
     "tabCapture",
-    "notifications" ],
-	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsSWFRFBrmQRG4G/0qbkTzyCGNYeUWKmVIzge6jP4knjt/IqvRwmBpnwbqQS8JaMJTidVc1imuyYQTho7Fu4juGqKCeo6MFXAW/M2powbQ3qbVm698UyPQ4OdZApL2asFboYdpzzBtPyM+mlAV9rey/5U0tpTFe+B6lR6J3Zbg2kJxCKwpmWSal8UK4FPUjQPPSzJ7fIkHv/A5Fat1RbaGZSUo5WL9q3ls3qnTPSilt400865ZINVIPeAIFVyYNKTm3EFMsnNMrzjll14c84tIR4cZ9OpxnlkcJPXIOFZGZUBKJz0jC4B4HaJTam4xEiUFqj00PQULuoW36qjW0rw7wIDAQAB"
+    "notifications" ]
 }
