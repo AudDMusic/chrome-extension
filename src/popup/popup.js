@@ -50,7 +50,7 @@ function PopupView() {
         var img = "../../img/no-album.png"
         
         if (song.itunes) {
-            if (song.itunes.artworkUrl100) img = song.itunes.artworkUrl100.replace("100x100","1000x1000");
+            if (song.itunes.artworkUrl100) img = song.itunes.artworkUrl100.replace("100x100","171x171");
         } else if (song.spotify) {
 			if (song.spotify.album.images[0].url) img = song.spotify.album.images[0].url;
 		} else if (song.deezer && song.deezer.album) {
