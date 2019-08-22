@@ -1,5 +1,11 @@
 function checkArtistsMatch(song) {
-	return song.lyrics.full_title.replace(/\s/g, '').includes(song.artist.replace(/\s/g, '')) || song.artist.replace(/\s/g, '').includes(song.lyrics.artist.replace(/\s/g, ''));
+	var song_artist = clean_names(song.artist);
+	var lyrics_artist = clean_names(song.lyrics.artist);
+	var lyrics_fullTitle = clean_names(song.lyrics.full_title);
+	return lyrics_fullTitle.includes(song_artist) || song_artist.includes(lyrics_artist);
+}
+function clean_names(str) {
+	return str.toLowerCase().replace(/\s/g, '').replace(/&/gi, '').replace(/,/gi, '').replace(/feat/gi, '').replace(/ft/gi, '');
 }
 
 function PopupView() {
@@ -49,8 +55,8 @@ function PopupView() {
     var show_new_result = function(song) {
         var img = "../../img/no-album.png"
         
-        if (song.itunes) {
-            if (song.itunes.artworkUrl100) img = song.itunes.artworkUrl100.replace("100x100","171x171");
+        if (song.apple_music) {
+            if (song.apple_music.artwork && song.apple_music.artwork.url) img = song.apple_music.artwork.url.replace("{w}x{h}","171x171");
         } else if (song.spotify) {
 			if (song.spotify.album.images[0].url) img = song.spotify.album.images[0].url;
 		} else if (song.deezer && song.deezer.album) {
@@ -64,10 +70,10 @@ function PopupView() {
         song.links = [];
 		var usedLabels = {};
 		
-        if (song["itunes"] && song["itunes"]["trackViewUrl"]) {
+        if (song["apple_music"] && song["apple_music"]["url"]) {
             song.links.push({
                 "image": "../../img/itunes-icon.png",
-                "link": song["itunes"]["trackViewUrl"].replace('us', chrome.i18n.getMessage("countryCode")),
+                "link": song["apple_music"]["url"],
                 "label": "Apple Music"
             })
 			usedLabels["apple_music"] = true;
@@ -140,10 +146,10 @@ function PopupView() {
             data.forEach(function(item) {
                 item.links = [];
 				var usedLabels = {};
-                if (item["itunes"] && item["itunes"]["trackViewUrl"]) {
+                if (item["apple_music"] && item["apple_music"]["url"]) {
                     item.links.push({
                         "image": "../../img/itunes-icon.png",
-                        "link": item["itunes"]["trackViewUrl"].replace('ru', chrome.i18n.getMessage("countryCode")),
+                        "link": item["apple_music"]["url"],
                         "label": "Apple Music"
                     })
 					usedLabels["apple_music"] = true;
