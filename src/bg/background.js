@@ -358,9 +358,10 @@ var g_recognizer_client = (function() {
         post_data.append('local_lan', local_lan);
         //post_data.append('browser_version', browser_version);
         post_data.append('device_id', device_id);
+        //post_data.append('market', chrome.i18n.getMessage("countryCode"));
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'timecode,lyrics,itunes,spotify,deezer');
+        post_data.append('return', 'timecode,lyrics,apple_music,spotify,deezer');
 
         $.ajax({
             type: 'POST',
