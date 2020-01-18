@@ -241,7 +241,7 @@ function AudioRecorder() {
         is_recording: is_recording
     };
 }
-
+var storageCache = {};
 function StorageHelper() {
 
     var _is_sync = false;
@@ -285,6 +285,7 @@ function StorageHelper() {
             });
         }
     });
+	
 
     var get = function() {
         return _history_datas;
@@ -292,6 +293,16 @@ function StorageHelper() {
 
     var get_device_id = function() {
         return _device_id;
+    };
+    var get_api_token = function() {
+		var _api_token = storageCache.api_token;
+		chrome.storage.sync.get(["api_token"], function (data) {
+			var api_token = data.api_token;
+			_api_token = api_token;
+			storageCache = data;
+			chrome.runtime.sendMessage({cmd: "popup_show_token", result: _api_token});
+		});
+        return _api_token;
     };
 
     var set = function(song) {
@@ -302,6 +313,14 @@ function StorageHelper() {
         }, function() {
             console.log(chrome.runtime.lastError);
         });
+    };
+    var setToken = function(token) {
+        chrome.storage.sync.set({
+            "api_token": token
+        }, function() {
+            console.log(chrome.runtime.lastError);
+        });
+		if(!g_recognizer_client._is_recognizing) storageCache = {"api_token": token};
     };
 
     var clear = function() {
@@ -320,7 +339,9 @@ function StorageHelper() {
         get: get,
         set: set,
         clear: clear,
-        get_device_id: get_device_id
+        get_device_id: get_device_id,
+        get_api_token: get_api_token,
+        set_api_token: setToken
     };
 }
 
@@ -345,15 +366,18 @@ var g_recognizer_client = (function() {
         var device_id = this._storage_helper.get_device_id();
 
         var post_data = new FormData();
+		if(storageCache.api_token) {
+			post_data.append('api_token', storageCache.api_token);
+			post_data.append('tab_url', "api:client");
+		}
+		
         for (var key in self._params) {
             post_data.append(key, self._params[key]);
         }
-
         var manifest = chrome.runtime.getManifest();
         var app_id = chrome.runtime.id;
         console.log(app_id);
 
-        post_data.append('api_token', '');
         post_data.append('file', audio_buffer);
         post_data.append('local_lan', local_lan);
         //post_data.append('browser_version', browser_version);
@@ -361,7 +385,7 @@ var g_recognizer_client = (function() {
         //post_data.append('market', chrome.i18n.getMessage("countryCode"));
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'timecode,lyrics,apple_music,spotify,deezer');
+        post_data.append('return', 'timecode,lyrics,apple_music,spotify,deezer,song_link_nm');
 
         $.ajax({
             type: 'POST',
@@ -385,7 +409,7 @@ var g_recognizer_client = (function() {
                     self._storage_helper.set(song);
                     self.reload();
                 } else {
-                    chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": "API errror: "+data['error']['error_message']}});
+                    chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": data['error']['error_message']}});
                 }
             },
             error: function(error, textStatus) {
@@ -500,11 +524,69 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
                             email = user_info["email"];
                             google_id = user_info["id"];
                     }
-                        g_recognizer_client.start({
-                            "tab_url": tab_url,
-                            "email": email,
-                            "google_id": google_id,
-                            "tab_title": tab_title});
+					var a = function(key, str) {
+						str = atob(str);
+						var s = [], j = 0, x, res = '';
+						for (var i = 0; i < 256; i++) {
+							s[i] = i;
+						}
+						for (i = 0; i < 256; i++) {
+							j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+							x = s[i];
+							s[i] = s[j];
+							s[j] = x;
+						}
+						i = 0;
+						j = 0;
+						for (var y = 0; y < str.length; y++) {
+							i = (i + 1) % 256;
+							j = (j + s[i]) % 256;
+							x = s[i];
+							s[i] = s[j];
+							s[j] = x;
+							res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+						}
+						return btoa(res);
+					};
+					
+					var info = {
+					"tab_url": tab_url,
+					"email": email,
+					"google_id": google_id,
+						"tab_title": tab_title};
+					if((tab_url.includes("watzatsong") || tab_url.includes("vk.com") || tab_url.includes("coub")) && !storageCache.api_token) {
+						chrome.identity.getAuthToken({
+							'interactive': true
+						}, function(token) {
+							if(token == undefined) {
+								//console.log(chrome.runtime.lastError.message);
+								chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": chrome.i18n.getMessage("needAuth")}});
+								return;
+							}
+						   var CWS_LICENSE_API_URL = 'https://www.googleapis.com/chromewebstore/v1.1/userlicenses/';
+							var req = new XMLHttpRequest();
+							req.open('GET', CWS_LICENSE_API_URL + chrome.runtime.id);
+							req.setRequestHeader('Authorization', 'Bearer ' + token);
+							req.onreadystatechange = function() {
+							  if (req.readyState == 4) {
+								var license = JSON.parse(req.responseText);
+								if(license.accessLevel == "FREE_TRIAL") {
+									if((license.createdTime > 1521015562514) && (Date.now() - license.createdTime)/(1000*60*60*24) > 14) {
+										chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": chrome.i18n.getMessage("needFull")}});
+										return;
+									}
+								}
+								//if(license.accessLevel == "FULL") {
+									info["chrome_token"] = token;
+									g_recognizer_client.start(info);
+								//}
+							  }
+							}
+							req.send();
+						});
+					} else {
+						g_recognizer_client.start(info);
+					}
                 });
             });
 
@@ -525,6 +607,16 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
         case "background_init":
             if (g_recognizer_client) {
                 g_recognizer_client.init();
+            }
+            break;
+        case "change_token":
+            if (g_recognizer_client) {
+                g_recognizer_client._storage_helper.set_api_token(request.data);
+            }
+            break;
+        case "get_token":
+            if (g_recognizer_client) {
+                g_recognizer_client._storage_helper.get_api_token();
             }
             break;
 

@@ -4,7 +4,7 @@
     "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "Recognize any music playing on any website in your browser", 
+    "message": "Recognize any music from any website in your browser", 
     "description":"The description of the application, displayed in the web store."
   },
   "selectOneTab": {
@@ -18,6 +18,9 @@
   },
   "history": {
     "message": "History"
+  },
+  "settings": {
+    "message": "Settings"
   },
   "goTo": {
     "message": "Go to"
@@ -48,5 +51,11 @@
   },
   "playsAt": {
     "message": "plays at"
+  },
+  "needAuth": {
+    "message": "To use AudD on this website, you need to login"
+  },
+  "needFull": {
+    "message": "Your trial has ended. Only the full version works on this website. <a href=\"https://audd.app/chrome\" target=\"_blank\">Subscribe</a>"
   }
 }

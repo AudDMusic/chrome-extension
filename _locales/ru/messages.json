@@ -19,6 +19,9 @@
   "history": {
     "message": "История"
   },
+  "settings": {
+    "message": "Настройки"
+  },
   "goTo": {
     "message": "Перейти"
   },
@@ -48,5 +51,11 @@
   },
   "playsAt": {
     "message": "играет на"
+  },
+  "needAuth": {
+    "message": "Чтобы использовать AudD на этом сайте, авторизуйетесь"
+  },
+  "needFull": {
+    "message": "Ваш пробный период завершён. На этом сайте работает только полная версия. <a href=\"https://audd.app/chrome\" target=\"_blank\">Подписаться</a>"
   }
 }

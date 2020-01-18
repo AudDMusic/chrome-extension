@@ -28,7 +28,7 @@ function PopupView() {
     var _list_template_str = $("#list_template").html();
     var _list_template = Handlebars.compile(_list_template_str);
 
-    var screens = ['history', 'lyrics', 'initial']
+    var screens = ['history', 'lyrics', 'initial', 'settings']
 
     screens.forEach(function(curScreen) {
         $('#' + curScreen + '_button').on('click', function() {
@@ -36,7 +36,18 @@ function PopupView() {
             $('#' + curScreen + '_screen').css('display', 'block');
 
             $('.screen_func').hide();
+            $('.settings_button').hide();
             $('.screen_func[screen="' + curScreen + '"]').show();
+            $('.settings_button[screen="' + curScreen + '"]').show();
+        })
+        $('[button-'+curScreen+']').on('click', function() {
+            $('.screen').css('display', 'none');
+            $('#' + curScreen + '_screen').css('display', 'block');
+
+            $('.screen_func').hide();
+            $('.settings_button').hide();
+            $('.screen_func[screen="' + curScreen + '"]').show();
+            $('.settings_button[screen="' + curScreen + '"]').show();
         })
     })
 
@@ -47,7 +58,7 @@ function PopupView() {
         }
 
         $("#main_header").hide();
-        $("#main_header h1").text(msg);
+        $("#main_header h1").html(msg);
         $("#main_header").addClass(show_class);
         $("#main_header").slideDown(msg);
     };
@@ -70,9 +81,17 @@ function PopupView() {
         song.links = [];
 		var usedLabels = {};
 		
+		if (song["song_link"]) {
+			song.links.push({
+				"image": "../../img/auddio-mic-logo.png",
+				"link": song["song_link"],
+				"label": "lis.tn"
+			})
+			usedLabels["lis.tn"] = true;
+		}
         if (song["apple_music"] && song["apple_music"]["url"]) {
             song.links.push({
-                "image": "../../img/itunes-icon.png",
+                "image": "../../img/applemusic-icon.svg",
                 "link": song["apple_music"]["url"],
                 "label": "Apple Music"
             })
@@ -116,7 +135,7 @@ function PopupView() {
 							break;
 						case "apple_music":
 							song.links.push({
-								"image": "../../img/itunes-icon.png",
+								"image": "../../img/applemusic-icon.svg",
 								"link": mediaItem["url"],
 								"label": "Apple Music"
 							})
@@ -146,9 +165,17 @@ function PopupView() {
             data.forEach(function(item) {
                 item.links = [];
 				var usedLabels = {};
+				if (item["song_link"]) {
+					item.links.push({
+						"image": "../../img/auddio-mic-logo.png",
+						"link": item["song_link"],
+						"label": "lis.tn"
+					})
+					usedLabels["lis.tn"] = true;
+				}
                 if (item["apple_music"] && item["apple_music"]["url"]) {
                     item.links.push({
-                        "image": "../../img/itunes-icon.png",
+                        "image": "../../img/applemusic-icon.svg",
                         "link": item["apple_music"]["url"],
                         "label": "Apple Music"
                     })
@@ -193,7 +220,7 @@ function PopupView() {
 									break;
 								case "apple_music":
 									item.links.push({
-										"image": "../../img/itunes-icon.png",
+										"image": "../../img/applemusic-icon.svg",
 										"link": mediaItem["url"],
 										"label": "Apple Music"
 									})
@@ -313,6 +340,9 @@ function RecognizerController(popup_view) {
                 case "popup_login":
                     _popup_view.show_message(chrome.i18n.getMessage("signIn"), -1);
                     break;
+                case "popup_show_token":
+					$('#token_input').val(request.result);
+                    return;
             }
             if (request.cmd != "popup_init") {
                 _popup_view.stop();
@@ -379,6 +409,10 @@ function init() {
     $('.screen_func[screen="history"]').on('click', function() {
         recognizer_controller.clear_history();
     });
+    chrome.runtime.sendMessage({cmd: "get_token"});
+	$('#save_token').on('click', function() {
+		chrome.runtime.sendMessage({cmd: "change_token", data: $('#token_input').val()});
+	})
 
     recognizer_controller.init();
 
