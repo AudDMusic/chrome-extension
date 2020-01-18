@@ -10,6 +10,7 @@
             <h1></h1>
         </div>
         <div id="main_content">
+            <img class="settings_button" id="settings_button" screen="initial" src="../../icons/settings.png" />
             <img class="screen_func" screen="initial" src="../../icons/refresh.png" />
             <img class="screen_func" screen="history" src="../../icons/trash.png" />
             <img class="screen_func" screen="favorites" src="../../icons/trash.png" />
@@ -43,6 +44,39 @@
                 <h1 id="lyrics_screen_title" data-message="lyrics">Lyrics</h1>
                 <p id="lyrics_body"></p>
             </div>
+            <div id="settings_screen" class="screen">
+                <h1 id="settings_screen_title" data-message="settings">Settings</h1>
+               <div class="MuiDialogContent-root">
+				<div class="MuiBox-root jss306">
+					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body2 MuiTypography-colorTextSecondary">If you're subscribed to the <a href="https://audd.io/" target="_blank">AudD® Music recognition API</a> and have an API token, you don't need to pay for the <a href="https://chrome.google.com/webstore/detail/audd%C2%AE-music-recognition/lhhohkfofnfbnildpdhhjeeenapeceei" target="_blank">full version</a> of the extension. Just paste your token here.</p><small><p>Requests will be sent with your token; API ToS are applicable. If your API subscription has ended, just remove the token from here.</br>In the future, we're planning to add more settings, like recording leength.</p></small>
+					<div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth" spellcheck="false">
+						<div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+							<input aria-invalid="false" class="MuiInputBase-input MuiInput-input" type="text" placeholder="Paste api_token" id="token_input" value="">
+						</div>
+					</div>
+				</div>
+				<!--<div class="MuiBox-root jss309">
+					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary">Recording Length</p>
+					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body2 MuiTypography-colorTextSecondary">The length in seconds of the recorded audio clips to send to AudD for identification. Longer clips may provide more accurate results, but will take longer to send and may exceed AudD's maximum accepted file size.</p><span class="MuiSlider-root MuiSlider-colorSecondary MuiSlider-marked"><span class="MuiSlider-rail"></span><span class="MuiSlider-track" style="left: 0%; width: 24%;"></span>
+					<input type="hidden" value="11000"><span class="MuiSlider-mark MuiSlider-markActive" style="left: 0%;"></span><span aria-hidden="true" class="MuiSlider-markLabel MuiSlider-markLabelActive" style="left: 0%;">5s</span><span class="MuiSlider-mark" style="left: 100%;"></span><span aria-hidden="true" class="MuiSlider-markLabel" style="left: 100%;">30s</span><span class="MuiSlider-thumb MuiSlider-thumbColorSecondary jss328" tabindex="0" role="slider" data-index="0" aria-orientation="horizontal" aria-valuemax="30000" aria-valuemin="5000" aria-valuenow="11000" style="left: 24%;"><span class="jss330 MuiSlider-valueLabel"><span class="jss331"><span class="jss332">11s</span></span>
+					</span>
+					</span>
+					</span>
+				</div>-->
+				<!--<div class="MuiBox-root jss333">
+					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary">Wait Length</p>
+					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body2 MuiTypography-colorTextSecondary">The number of seconds to wait between making API calls. Longer values will send requests less often, costing less money but also possibly missing some songs.</p><span class="MuiSlider-root MuiSlider-colorSecondary MuiSlider-marked"><span class="MuiSlider-rail"></span><span class="MuiSlider-track" style="left: 0%; width: 21.7391%;"></span>
+					<input type="hidden" value="30000"><span class="MuiSlider-mark MuiSlider-markActive" style="left: 0%;"></span><span aria-hidden="true" class="MuiSlider-markLabel MuiSlider-markLabelActive" style="left: 0%;">5s</span><span class="MuiSlider-mark" style="left: 100%;"></span><span aria-hidden="true" class="MuiSlider-markLabel" style="left: 100%;">120s</span><span class="MuiSlider-thumb MuiSlider-thumbColorSecondary jss328" tabindex="0" role="slider" data-index="0" aria-orientation="horizontal" aria-valuemax="120000" aria-valuemin="5000" aria-valuenow="30000" style="left: 21.7391%;"><span class="jss330 MuiSlider-valueLabel"><span class="jss331"><span class="jss332">30s</span></span>
+					</span>
+					</span>
+					</span>
+				</div>-->
+			</div>
+			<div class="MuiDialogActions-root MuiDialogActions-spacing">
+				<button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-colorInherit" tabindex="0" type="button"><span class="MuiButton-label" id="save_token">Save</span><span class="MuiTouchRipple-root"></span></button>
+				<button class="MuiButtonBase-root MuiButton-root MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label" button-initial>Back</span><span class="MuiTouchRipple-root"></span></button>
+			</div>
+          </div>
         </div>
         <div id="main_footer">
             <button id="initial_button" class="main_footer_button">Home</button>
@@ -100,4 +134,5 @@
 <script type="text/javascript" src="../vendor/jquery.min.js"></script>
 <script type="text/javascript" src="../vendor/handlebars-v4.0.10.js"></script>
 <script type="text/javascript" src="popup.js"></script>
+<script type="text/javascript" src="../vendor/buy.js"></script>
 </html>
