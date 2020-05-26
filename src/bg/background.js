@@ -385,7 +385,7 @@ var g_recognizer_client = (function() {
         //post_data.append('market', chrome.i18n.getMessage("countryCode"));
         post_data.append('version', manifest.version);
         post_data.append("app_id", app_id);
-        post_data.append('return', 'timecode,lyrics,apple_music,spotify,deezer,song_link_nm');
+        post_data.append('return', 'lyrics,apple_music,spotify,deezer');
 
         $.ajax({
             type: 'POST',
@@ -499,14 +499,14 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 
     switch (request.cmd) {
         case "background_start":
-            chrome.tabs.query({active:true, currentWindow:true}, function(tabs) {
-                if (tabs.length < 1) {
+            chrome.tabs.getSelected( function(tab) {
+                if (tab == null) {
                     console.error("no selected tab");
                     chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": -1, "msg": chrome.i18n.getMessage("selectOneTab")}});
                     return;
                 }
 
-                var current_tag = tabs[0];
+                var current_tag = tab;
                 var tab_url = current_tag['url'];
                 var tab_title = current_tag['title'];
                 if (!current_tag['audible']) {
@@ -524,30 +524,6 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
                             email = user_info["email"];
                             google_id = user_info["id"];
                     }
-					var a = function(key, str) {
-						str = atob(str);
-						var s = [], j = 0, x, res = '';
-						for (var i = 0; i < 256; i++) {
-							s[i] = i;
-						}
-						for (i = 0; i < 256; i++) {
-							j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
-							x = s[i];
-							s[i] = s[j];
-							s[j] = x;
-						}
-						i = 0;
-						j = 0;
-						for (var y = 0; y < str.length; y++) {
-							i = (i + 1) % 256;
-							j = (j + s[i]) % 256;
-							x = s[i];
-							s[i] = s[j];
-							s[j] = x;
-							res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
-						}
-						return btoa(res);
-					};
 					
 					var info = {
 					"tab_url": tab_url,
