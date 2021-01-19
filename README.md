@@ -1,5 +1,5 @@
 # AudD Chrome extension
-<a target="_blank" href="https://audd.app/chrome">![Try it now in CWS](https://audd.io/images/chrome-store.png.png "Click here to install this extension from the Chrome Web Store")</a>
+<a target="_blank" href="https://audd.app/chrome">![Try it now in CWS](https://audd.io/images/chrome-store.png "Click here to install this extension from the Chrome Web Store")</a>
 
 Recognize any music from any website in your browser
 Install the AudD extension and click on the extension icon to recognize the song playing on the current tab.
