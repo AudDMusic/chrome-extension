@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="popup.css">
+	<link href="../vendor/inter.css" rel="stylesheet">
 </head>
 <body>
     <div id="main_popup">
@@ -10,59 +10,47 @@
             <h1></h1>
         </div>
         <div id="main_content">
-            <img class="settings_button" id="settings_button" screen="initial" src="../../icons/settings.png" />
-            <img class="screen_func" screen="initial" src="../../icons/refresh.png" />
-            <img class="screen_func" screen="history" src="../../icons/trash.png" />
-            <img class="screen_func" screen="favorites" src="../../icons/trash.png" />
+            <img class="up_button up_right_button" id="settings_button" show-on show-on-initial src="../../icons/Settings.svg" />
+            <img class="up_button up_left_button" button-initial show-on show-on-lyrics show-on-settings src="../../icons/Arrow.svg" style="display:none;"/>
             <div id="initial_screen" class="screen">
                 <div class="audio-bands">
                     <img class="audio-band big 0" src="../../img/audio-band.png" />
                     <img class="audio-band med 1" src="../../img/audio-band.png" />
                     <img class="audio-band small 2" src="../../img/audio-band.png" />
                 </div>
-                <div id="logo">
-                    <a href="https://audd.io/" target="_blank" ><img id="initial_screen_search_img" src="../../img/auddio-mic-logo.png" /></a>
-                    <a href="https://audd.io/" target="_blank" ><img id="initial_screen_search_img2" src="../../img/AudD-text-logo.png" /></a>
+				
+                <div id="logo" class="logo-div">
+					<div class="logo mic-eclipse" screen="initial"></div>
+                    <img id="initial_screen_search_img" src="../../img/auddio-mic-logo.png" class="logo" screen="initial" />
+					<img src="../../img/mic.svg" class="inactive_img logo" screen="initial">
                 </div>
-                <div id="initial_screen_info">
-                    <img src="initial_screen_album" alt="">
-                    <h1></h1>
-                    <h2></h2>
-                    <h2></h2>
-                </div>
-            </div>
-            <div id="history_screen" class="screen screen_list">
-                <ul>
-                    <li>
-                        <h1 id="history_screen_title" data-message="history">History</h1>
-                    </li>
-                    <div id="history_screen_info">
-                    </div>
-                </ul>
-            </div>
-            <div id="lyrics_screen" class="screen">
-                <h1 id="lyrics_screen_title" data-message="lyrics">Lyrics</h1>
-                <p id="lyrics_body"></p>
+                <div id="initial_screen_info"></div>
+				<div id="main_footer">
+					<div id="footer_msg"></div>
+				</div>
             </div>
             <div id="settings_screen" class="screen">
-                <h1 id="settings_screen_title" data-message="settings">Settings</h1>
+				<div class="found settings logo-div">
+					<img src="../../img/mic.svg" class="inactive_img settings">
+                </div>
                <div class="MuiDialogContent-root">
-				<div class="MuiBox-root jss306">
-					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body2 MuiTypography-colorTextSecondary">If you're subscribed to the <a href="https://audd.io/" target="_blank">AudD® Music recognition API</a> and have an API token, you don't need to pay for the <a href="https://chrome.google.com/webstore/detail/audd%C2%AE-music-recognition/lhhohkfofnfbnildpdhhjeeenapeceei" target="_blank">full version</a> of the extension. Just paste your token here.</p><small><p>Requests will be sent with your token; API ToS are applicable. If your API subscription has ended, just remove the token from here.</br>In the future, we're planning to add more settings, like recording leength.</p></small>
-					<div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth" spellcheck="false">
-						<div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-							<input aria-invalid="false" class="MuiInputBase-input MuiInput-input" type="text" placeholder="Paste api_token" id="token_input" value="">
-						</div>
+                <h1 id="settings_screen_title" data-message="settings">Settings</h1>
+				<div class="">
+					<h2>Auth</h2>
+					<p class="text">If you're subscribed to the <a href="https://audd.io/" target="_blank">AudD® Music recognition API</a> and have an API token, paste it below.</p>
+					<div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+						<input aria-invalid="false" class="MuiInputBase-input MuiInput-input" type="text" placeholder="Paste api_token" id="token_input" value="">
 					</div>
+					<p>Requests will be sent with your token; API ToS are applicable. If your API subscription has ended, just remove the token from here.</p>
 				</div>
-				<!--<div class="MuiBox-root jss309">
-					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary">Recording Length</p>
-					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body2 MuiTypography-colorTextSecondary">The length in seconds of the recorded audio clips to send to AudD for identification. Longer clips may provide more accurate results, but will take longer to send and may exceed AudD's maximum accepted file size.</p><span class="MuiSlider-root MuiSlider-colorSecondary MuiSlider-marked"><span class="MuiSlider-rail"></span><span class="MuiSlider-track" style="left: 0%; width: 24%;"></span>
-					<input type="hidden" value="11000"><span class="MuiSlider-mark MuiSlider-markActive" style="left: 0%;"></span><span aria-hidden="true" class="MuiSlider-markLabel MuiSlider-markLabelActive" style="left: 0%;">5s</span><span class="MuiSlider-mark" style="left: 100%;"></span><span aria-hidden="true" class="MuiSlider-markLabel" style="left: 100%;">30s</span><span class="MuiSlider-thumb MuiSlider-thumbColorSecondary jss328" tabindex="0" role="slider" data-index="0" aria-orientation="horizontal" aria-valuemax="30000" aria-valuemin="5000" aria-valuenow="11000" style="left: 24%;"><span class="jss330 MuiSlider-valueLabel"><span class="jss331"><span class="jss332">11s</span></span>
-					</span>
-					</span>
-					</span>
-				</div>-->
+				<div class="">
+					<h2>Recording Length</h2>
+					<div class="slidecontainer" style="">
+					  <input type="range" min="20" max="120" value="56" class="slider" id="recordingLength">
+					</div>
+					<div id="recordingLengthText"></div>
+					<p>The length in seconds of the recorded audio clips to send to AudD for identification. Longer clips may provide more accurate results, but will take longer to send.</p>
+				</div>
 				<!--<div class="MuiBox-root jss333">
 					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary">Wait Length</p>
 					<p class="MuiTypography-root MuiDialogContentText-root MuiTypography-body2 MuiTypography-colorTextSecondary">The number of seconds to wait between making API calls. Longer values will send requests less often, costing less money but also possibly missing some songs.</p><span class="MuiSlider-root MuiSlider-colorSecondary MuiSlider-marked"><span class="MuiSlider-rail"></span><span class="MuiSlider-track" style="left: 0%; width: 21.7391%;"></span>
@@ -71,44 +59,126 @@
 					</span>
 					</span>
 				</div>-->
-			</div>
-			<div class="MuiDialogActions-root MuiDialogActions-spacing">
-				<button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-colorInherit" tabindex="0" type="button"><span class="MuiButton-label" id="save_token">Save</span><span class="MuiTouchRipple-root"></span></button>
-				<button class="MuiButtonBase-root MuiButton-root MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label" button-initial>Back</span><span class="MuiTouchRipple-root"></span></button>
+				<div>
+					<h2>History</h2>
+					<p class="text">Click <span id="clean-history">here</span> to clean the recognition history.</p>
+				</div>
+				<br />
+				<button class="button button--outline button--primary" tabindex="0" type="button" id="save_settings">Save</button>
+				<br />
+				<br />
 			</div>
           </div>
-        </div>
-        <div id="main_footer">
-            <button id="initial_button" class="main_footer_button">Home</button>
-            <button id="lyrics_button" class="main_footer_button" data-message="lyrics">Lyrics</button>
-            <button id="history_button" class="main_footer_button" data-message="history">History</button>
         </div>
     </div>
 </body>
 
 <script id="music_info_template" type="text/x-handlebars-template">
-    <img id="initial_screen_album" src={{albumImage}} class={{imageClass}} />
-    <h1>{{title}}</h1>
-		<div class="whitespace">&nbsp;</div>
-    <h2>{{artist}}</h2>
-    <h2>({{playsAt}} {{timecode}})</h2>
-    <img class="sub_menu_toggle info" src="../../icons/options-dots.png" />
-    <ul class="sub_menu info">
-        <a href={{tab_url}} target="_blank">
-            <img src="../../img/share-icon.png" />
-            <p data-message="goTo">Go to</p>
-        </a>
-        {{#each links}}
-        <a href={{link}} target="_blank">
-            <img src={{image}} />
-            <p>{{label}}</p>
-        </a>
-        {{/each}}
-    </ul>
+    
+	<div class="cover-content {{^SquereCover}}not_squere{{/SquereCover}}">
+		<img id="initial_screen_album" src={{albumImage}} class="found" />
+		<div class="cover-content-info {{^albumImage}}cover-content-info-no-cover{{/albumImage}} {{^SquereCover}}not_squere{{/SquereCover}}">
+			<div class="cover-content-info-text">
+				<h2>{{artist}}</h2>
+				<div class="whitespace">&nbsp;</div>
+				<h1>{{title}}</h1>
+				<div class="plays-at">{{playsAt}} [{{timecode}}]</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-content">
+		<div class="result-buttons">
+			<a href="{{song_link}}?t={{timecode}}" target="_blank"><button class="results-button button-listen">LISTEN</button></a>
+			{{#lyrics}}<button class="results-button button-lyrics" id="lyrics_button" data-message="lyrics" button-lyrics>LYRICS</button>{{/lyrics}}
+			<div class="share"><button class="results-button button-share">&nbsp;&nbsp;<img src="../../img/Share.svg"></button><div class="sub_menu"><div class="sub_menu_rectangle"></div>
+				<div class="sub_menu_share">
+					<button class="share-icon" share-url={{shareTwitter}}><img src="../../icons/twitter.svg"></button>
+					<button class="share-icon" share-url={{shareFacebook}}><img src="../../icons/facebook.svg"></button>
+					<button class="share-icon" share-url={{shareTelegram}}><img src="../../icons/telegram.svg"></button>
+					<button class="share-icon" copy-text={{copyText}}><img src="../../icons/copy.svg"></button>
+				</div>
+			</div></div>
+		</div>
+		<div id="lyrics_body"></div>
+		<a class="saved-to-history" show-on show-on-initial>{{SavedToHistory}}</a>
+		<div id="history-on-result" show-on show-on-initial></div>
+		<div class="history-right-shadow on-result" show-on show-on-initial></div>
+		<div class="history-shadow on-result" show-on show-on-initial></div>
+		<div class="scroll-shadows" style="display:none;" show-on show-on-lyrics>
+			<div class="history-shadow"></div>
+			<div class="history-shadow upper-shadow"></div>
+		</div>
+	</div>
+</script>
+<script id="no_results_template" type="text/x-handlebars-template">
+	<div class="cover-content-no-results">
+		<div class="no-results-header"><div></div>
+			<h1 class="no-results-text">{{noMatchesText}}</h1>
+		</div>
+		<div id="try-again"><div id="try-again-rectangle"></div><div id="try-again-text">{{tryAgainText}}</div></div>
+	</div>
+	<h2 class="identified-before-text" {{^history}}style="display:none;"{{/history}}>{{identifiedEarlierText}}</h2>
+	<div class="bottom-content no-results">
+		<div class="bottom-content no-results">
+			<div id="history-tracks">
+				<div class="history-right-shadow no-results"></div>
+				<div id="history-results" class="no-results">
+				{{#history}}
+				<a href="{{song_link}}" target="_blank"> <div class="history-track">
+				  <div class="history-cover"><img src="../../img/no-album.svg" data-src="{{albumImage}}" width="45"></div>
+				<div class="history-info">
+				  <div class="history-artist">{{artist}}</div>
+				  <div class="history-title">{{title}}</div>
+				</div></div></a>
+				{{/history}}
+				</div>
+			</div>
+	</div></div>
+	<div class="scroll-shadows">
+		<div class="history-shadow no-results"></div>
+		<div class="history-shadow no-results upper-shadow"></div>
+	</div>
+</script>
+<script id="show_error_template" type="text/x-handlebars-template">
+	<div class="cover-content-show-error">
+	</div>
+	<div class="bottom-content show-error" id="bottom-content">
+		<h2 class="show-error identified-before-text" {{^history}}style="display:none;"{{/history}}>{{identifiedEarlierText}}</h2>
+		<div class="bottom-content show-error">
+			<div class="history-right-shadow"></div>
+			<div id="history-tracks">
+				<div id="history-results">
+				{{#history}}
+				<a href="{{song_link}}" target="_blank"> <div class="history-track">
+				  <div class="history-cover"><img src="../../img/no-album.svg" data-src="{{albumImage}}" width="45"></div>
+				<div class="history-info">
+				  <div class="history-artist">{{artist}}</div>
+				  <div class="history-title">{{title}}</div>
+				</div></div></a>
+				{{/history}}
+				</div>
+			</div>
+	</div></div>
+	<div class="scroll-shadows">
+		<div class="history-shadow"></div>
+		<div class="history-shadow upper-shadow"></div>
+	</div>
 </script>
 
 <script id="list_template" type="text/x-handlebars-template">
-    {{#each music_info}}
+	<div id="history-results">
+	{{#history}}
+	<a href="{{song_link}}" target="_blank"> <div class="history-track">
+	  <div class="history-cover"><img src="../../img/no-album.svg" data-src="{{albumImage}}" width="45"></div>
+	<div class="history-info">
+	  <div class="history-artist">{{artist}}</div>
+	  <div class="history-title">{{title}}</div>
+	</div></div></a>
+	{{/history}}
+	</div>
+</script>
+<!--<script id="list_template" type="text/x-handlebars-template">
+    {{#history}}
     <li>
         <h2>{{title}}</h2>
 			<div class="whitespace">&nbsp;</div>
@@ -120,19 +190,18 @@
                 <img src="../../img/share-icon.png" />
                 <p>Go to</p>
             </a>
-            {{#each links}}
+            {{#links}}
             <a href={{link}} target="_blank">
                 <img src={{image}} />
                 <p>{{label}}</p>
             </a>
-            {{/each}}
+            {{/links}}
         </ul>
     </li>
-    {{/each}}
-</script>
+    {{/history}}
+</script>-->
 
 <script type="text/javascript" src="../vendor/jquery.min.js"></script>
-<script type="text/javascript" src="../vendor/handlebars-v4.0.10.js"></script>
+<script type="text/javascript" src="../vendor/mustache.min.js"></script>
 <script type="text/javascript" src="popup.js"></script>
-<script type="text/javascript" src="../vendor/buy.js"></script>
 </html>

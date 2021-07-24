@@ -10,8 +10,8 @@
   "selectOneTab": {
     "message": "Please select one tab"
   },
-  "tabHasntAudio": {
-    "message": "Current tab doesn't have audio"
+  "noAudioOnTab": {
+    "message": "No audio on the current tab"
   },
   "lyrics": {
     "message": "Lyrics"
@@ -29,7 +29,7 @@
     "message": "Confirm"
   },
   "confirmQuestion": {
-    "message": "Are you sure you want to clear history?"
+    "message": "This action is irreversible. Are you sure you want to clear the history?"
   },
   "yes": {
     "message": "Yes"
@@ -46,8 +46,8 @@
   "countryCode": {
     "message": "us"
   },
-  "noResult": {
-    "message": "Couldn't recognize this song. Try again?"
+  "noMatchesText": {
+    "message": "Sorry, we couldn't get any matches"
   },
   "playsAt": {
     "message": "plays at"
@@ -55,7 +55,28 @@
   "needAuth": {
     "message": "To use AudD on this website, you need to login"
   },
-  "needFull": {
-    "message": "Your trial has ended. Only the full version works on this website. <a href=\"https://audd.app/chrome\" target=\"_blank\">Subscribe</a>"
+  "trialEnded": {
+    "message": "Your trial has ended. Only the full version works on this website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Subscribe</a>"
+  },
+  "SavedToHistory": {
+    "message": "Saved to the History"
+  },
+  "notInvoked": {
+    "message": "The extension has not been invoked for the current page. Chrome pages cannot be captured. Click on a tab and relaunch the extension."
+  },
+  "tryAgainText": {
+    "message": "try again"
+  },
+  "identifiedEarlierText": {
+    "message": "Identified earlier"
+  },
+  "copiedSuccessfully": {
+    "message": "Copied!"
+  },
+  "clearHistoryInit": {
+    "message": "Confirm the action in the notifications"
+  },
+  "settingsSaved": {
+    "message": "Successfully saved the settings"
   }
 }
