@@ -10,7 +10,7 @@
   "selectOneTab": {
     "message": "Пожалуйста, выбери одну вкладку"
   },
-  "tabHasntAudio": {
+  "noAudioOnTab": {
     "message": "На этой вкладке нет звука"
   },
   "lyrics": {
@@ -29,7 +29,7 @@
     "message": "Подтверждение"
   },
   "confirmQuestion": {
-    "message": "Вы уверены, что хотите очистить историю?"
+    "message": "Это действие необратимо. Вы уверены, что хотите очистить историю?"
   },
   "yes": {
     "message": "Да"
@@ -46,8 +46,8 @@
   "countryCode": {
     "message": "ru"
   },
-  "noResult": {
-    "message": "Не получилось распознать эту песню"
+  "noMatchesText": {
+    "message": "Простите, не получилось распознать эту песню"
   },
   "playsAt": {
     "message": "играет на"
@@ -55,7 +55,28 @@
   "needAuth": {
     "message": "Чтобы использовать AudD на этом сайте, авторизуйетесь"
   },
-  "needFull": {
-    "message": "Ваш пробный период завершён. На этом сайте работает только полная версия. <a href=\"https://audd.app/chrome\" target=\"_blank\">Подписаться</a>"
+  "trialEnded": {
+    "message": "Ваш пробный период завершён. На этом сайте работает только полная версия. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Подписаться</a>"
+  },
+  "SavedToHistory": {
+    "message": "Сохранено в историю распознаваний"
+  },
+  "notInvoked": {
+    "message": "Расширение не было запущено на текущей вкладке. Страницы Chrome не могут быть записаны. Кликните на вкладку и перезапустите расширение."
+  },
+  "tryAgainText": {
+    "message": "попробовать ещё раз"
+  },
+  "identifiedEarlierText": {
+    "message": "Распознано ранее"
+  },
+  "copiedSuccessfully": {
+    "message": "Скопировано!"
+  },
+  "clearHistoryInit": {
+    "message": "Подтвердите очистку истории в уведомлениях"
+  },
+  "settingsSaved": {
+    "message": "Настройки успешно сохранены"
   }
 }
