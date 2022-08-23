@@ -5,11 +5,15 @@
   "default_locale": "en",
   "manifest_version": 3,
   "author": "app@audd.io",
-  "version": "3.1.0",
+  "version": "3.1.3",
 
   "background": {
     "service_worker": "background.js"
   },
+   "content_scripts": [ {
+      "js": [ "src/content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
 
   "action": {
     "default_icon": "img/favicon.png",
@@ -19,6 +23,10 @@
   "content_security_policy": {
 	  "extension_pages": "script-src 'self'; object-src 'self'"
   },
+  "host_permissions": [
+    "https://api.audd.io/",
+    "https://www.googleapis.com/"
+  ],
   "oauth2": {
 	"client_id": "875741845768-1jga752cov9r774giitn0hbeom6hkh19.apps.googleusercontent.com",
     "scopes":["https://www.googleapis.com/auth/chromewebstore.readonly", "https://www.googleapis.com/auth/userinfo.profile"]

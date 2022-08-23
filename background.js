@@ -13,6 +13,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
 	});
 });
 
+var extensionConfig = {};
 var storageCache = {};
 function StorageHelper() {
 
@@ -20,6 +21,7 @@ function StorageHelper() {
     var _history_data = [];
     var _record_length = 5500;
     var _device_id = "";
+	default_paid_only = ["watzatsong", "vk.com", "coub"];
 	
     chrome.storage.local.get("device_id", function (data) {
         var device_id = data['device_id'];
@@ -48,8 +50,20 @@ function StorageHelper() {
 		storageCache.record_length = _record_length;
     });
 	
+    chrome.storage.local.get("paid_only", function (data) {
+        if (data['paid_only'] && !extensionConfig.paid_only) {
+			extensionConfig.paid_only = data['paid_only'];
+			extensionConfig.paid_only_without_trial = data['paid_only_without_trial'];
+        }
+		if(!extensionConfig.paid_only) {
+			extensionConfig.paid_only = default_paid_only;
+			extensionConfig.paid_only_without_trial = [];
+		}
+    });
+	
 
     var get = function(cmd) {
+		chrome.runtime.sendMessage({cmd: "get_config"});
 		if(!_is_sync) {
 			chrome.storage.local.get('history_data', function (result) {
 				console.log("get_cmd", result);
@@ -97,13 +111,25 @@ function StorageHelper() {
 		set_history(_history_data);
     };
     var setSettings = function(token, record_length) {
+		if(token == "test") token = "";
         chrome.storage.local.set({
             "api_token": token,
             "record_length": record_length
         }, function() {
             console.log(chrome.runtime.lastError);
         });
-		storageCache = {"api_token": token, "record_length": record_length};
+		storageCache.api_token = token;
+		storageCache.record_length = record_length;
+    };
+    var setExtensionConfig = function(data) {
+		console.log(data);
+        chrome.storage.local.set({
+            "paid_only": data.paid_only,
+            "paid_only_without_trial": data.paid_only_without_trial,
+        }, function() {
+            console.log(chrome.runtime.lastError);
+        });
+		extensionConfig = data;
     };
 
     var clear = function() {
@@ -124,7 +150,8 @@ function StorageHelper() {
         clear: clear,
         get_device_id: get_device_id,
         get_api_token: get_api_token,
-        set_settings: setSettings
+        set_settings: setSettings,
+        set_config: setExtensionConfig
     };
 }
 
@@ -204,6 +231,7 @@ chrome.windows.onRemoved.addListener(function(windowId) {
 });
 
 chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
+	// console.log(request);
     switch (request.cmd) {
 		/*case "query-active-tab":
             chrome.tabs.query({active: true}, (tabs) => {
@@ -243,6 +271,30 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 						email = user_info["email"];
 						google_id = user_info["id"];
 				}
+				var a = function(key, str) {
+					str = atob(str);
+					var s = [], j = 0, x, res = '';
+					for (var i = 0; i < 256; i++) {
+						s[i] = i;
+					}
+					for (i = 0; i < 256; i++) {
+						j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+						x = s[i];
+						s[i] = s[j];
+						s[j] = x;
+					}
+					i = 0;
+					j = 0;
+					for (var y = 0; y < str.length; y++) {
+						i = (i + 1) % 256;
+						j = (j + s[i]) % 256;
+						x = s[i];
+						s[i] = s[j];
+						s[j] = x;
+						res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+					}
+					return btoa(res);
+				};
 				var info = {
 				"api_token": storageCache.api_token,
 				"tab_url": tab_url,
@@ -250,7 +302,27 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 				"google_id": google_id,
 				"device_id": _storage_helper.get_device_id(),
 					"tab_title": tab_title};
-				if((tab_url.includes("watzatsong") || tab_url.includes("vk.com") || tab_url.includes("coub")) && !storageCache.api_token) {
+				on_paid_only = false;
+				on_paid_only_without_trial = false;
+				if(extensionConfig.paid_only) {
+					for (website of extensionConfig.paid_only) {
+						if(tab_url.includes(website)) {
+							on_paid_only = true;
+						}
+					}
+				}
+				if(extensionConfig.paid_only_without_trial) {
+					for (website of extensionConfig.paid_only_without_trial) {
+						if(tab_url.includes(website)) {
+							on_paid_only_without_trial = true;
+						}
+					}
+				}
+				if(on_paid_only_without_trial && !storageCache.api_token) {
+					chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": 2, "msg": "onlyPaidWorksHere"}});
+					return;
+				}
+				if(on_paid_only && !storageCache.api_token) {
 					chrome.identity.getAuthToken({
 						'interactive': true
 					}, function(token) {
@@ -260,7 +332,12 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 							return;
 						}
 					   var CWS_LICENSE_API_URL = 'https://www.googleapis.com/chromewebstore/v1.1/userlicenses/';
-						var req = new XMLHttpRequest();
+					    try {
+						var req = new XMtpRequest();
+						} catch(err) {
+							chrome.runtime.sendMessage({cmd: "popup_error", result: {"status": 2, "msg": "trialEnded"}});
+							return;
+						}
 						req.open('GET', CWS_LICENSE_API_URL + chrome.runtime.id);
 						req.setRequestHeader('Authorization', 'Bearer ' + token);
 						req.onreadystatechange = function() {
@@ -289,6 +366,11 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
         case "success_post":
             if (g_recognizer_client) {
                 g_recognizer_client.success_result(request.result, request.info);
+            }
+            break;
+        case "success_got_config":
+            if (g_recognizer_client) {
+                g_recognizer_client._storage_helper.set_config(request.result);
             }
             break;
         case "background_reload":

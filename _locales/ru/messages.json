@@ -58,6 +58,9 @@
   "trialEnded": {
     "message": "Ваш пробный период завершён. На этом сайте работает только полная версия. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Подписаться</a>"
   },
+  "onlyPaidWorksHere": {
+    "message": "Простите, на этом сайте работает только платная версия. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Получите токен тут</a> и вставьте в настройки или автоматизируйте свою работу с помощью нашего <a href=\"https://audd.io/\" target=\"_blank\">API</a>."
+  },
   "SavedToHistory": {
     "message": "Сохранено в историю распознаваний"
   },

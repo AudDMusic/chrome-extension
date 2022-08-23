@@ -25,13 +25,36 @@ function OnRecordedAudio(buf) {
 	post_request(buf);
 }
 
+function get_config() {
+	$.ajax({
+		type: 'GET',
+		url: "https://api.audd.io/extension_config/",
+		timeout : 15000,
+		dataType: 'json',
+		processData: false,
+		contentType: false,
+		success: function(data) {
+			console.log(data);
+			chrome.runtime.sendMessage({cmd: "success_got_config", result: data});
+		},
+		error: function(error, textStatus) {
+			console.log(error);
+			var msg = "HTTP Error (Code = " + textStatus + "), can't get settings";
+			if (textStatus == 'timeout') {
+				msg = "Network Timeout, can't get settings";
+			}
+			chrome.runtime.sendMessage({cmd: "popup_error_relay", result: {"status": 2, "text": msg}});
+		}
+	});
+}
+
 function post_request(audio_buffer) {
 	var server_url = "https://api.audd.io/";
 	//var browser_version = navigator.userAgent;
 	var post_data = new FormData();
 	if(_info.api_token) {
 		post_data.append('api_token', _info.api_token);
-		post_data.append('tab_url', "api:client");
+		// post_data.append('tab_url', "api:client");
 	}
 	
 	for (var key in _info) {
@@ -105,6 +128,7 @@ function RecognizerController(popup_view) {
 
     chrome.runtime.onMessage.addListener(
         function(request, sender, sendResponse) {
+			// console.log(request);
             switch (request.cmd) {
 				case "start_recording":
 					_info = request.info;
@@ -115,6 +139,9 @@ function RecognizerController(popup_view) {
 					_info.local_lan = local_lan;
 					audio_start(request.record_length);
 					_popup_view.start();
+					break;
+				case "get_config":
+					get_config();
 					break;
                 case "popup_init":
                     console.log(request);
@@ -167,7 +194,7 @@ function RecognizerController(popup_view) {
 					$('#recordingLengthText').text((request.record_length / 1000) + "s")
                     return;
             }
-            if (request.cmd != "popup_init" && request.cmd != "popup_reload" && request.cmd != "start_recording" && request.cmd != "no_audio" && request.cmd != "popup_error" && request.cmd != "popup_message") {
+            if (request.cmd != "popup_init" && request.cmd != "popup_reload" && request.cmd != "get_config" && request.cmd != "start_recording" && request.cmd != "no_audio" && request.cmd != "popup_error" && request.cmd != "popup_message") {
 				console.log("stopping <-", request);
                 _popup_view.stop();
             }
@@ -206,6 +233,10 @@ function init() {
     $('.logo[screen="initial"]').on('click', function() {
         recognizer_controller.start();
     });
+    $('.inactive_img.settings').on('click', function() {
+        openScreen("initial");
+        recognizer_controller.start();
+    });
     $('.up_button[screen="lyrics"]').on('click', function() {
         openScreen("initial");
     });
@@ -228,8 +259,10 @@ $(window).on('load', function() {
     var date = new Date();
     var year = date.getFullYear();
     $('#copyright_year').html(year);
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas");
 
-    setTimeout(init, 200);
+    setTimeout(init, 100);
     
     var objects = document.getElementsByTagName('*'), i;
     for(i = 0; i < objects.length; i++) {
@@ -368,7 +401,7 @@ function MediaRecorderWrapper(user_media_stream) {
         _media_recorder.onerror = function(error) {
             console.error(error.name);
 
-            self.ondataavailable({"status":-1, "data": error.name + ": can not record audio."});
+            self.ondataavailable({"status":-1, "data": error.name + ": can't record audio. Please make sure you're using the latest browser and OS versions."});
 
             if (_media_recorder) {
                 _media_recorder.stop();
@@ -656,6 +689,7 @@ function PopupView() {
 			$("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").removeClass("found")
 			$("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").addClass("show-error");
 			activateScreenButtons();
+			msg = "<p>" + msg + "</p>";
 			$("#footer_msg").html(msg).ready(function(){
 				var padding_for_h2 = 35;
 				var padding_top_for_history = parseInt($("#history-results").css("padding-top").replace("px", ""));
@@ -710,8 +744,6 @@ function PopupView() {
 			var history_height = bottom_content_height - padding_for_buttons;
 			$(".bottom-content").css("height", bottom_content_height);
 			$("#history-results").css("height", history_height);
-			var share_left = $(".share").offset().left + $(".share").width()/2 - $(".sub_menu").width() / 2;
-			$(".sub_menu").css("left", share_left)
 			
 			$("[share-url]").on("click", function() {
 				chrome.windows.create({url: $(this).attr("share-url")});
@@ -719,6 +751,14 @@ function PopupView() {
 			$("[copy-text]").on("click", function() {
 				copyTextToClipboard(decodeURIComponent($(this).attr("copy-text")));
             });
+			setTimeout(function(){
+				var share_left = $(".share").offset().left + $(".share").width()/2 - $(".sub_menu").width() / 2;
+				$(".sub_menu").css("left", share_left);
+			}, 100);
+			setTimeout(function(){
+				var share_left = $(".share").offset().left + $(".share").width()/2 - $(".sub_menu").width() / 2;
+				$(".sub_menu").css("left", share_left);
+			}, 1000);
 		});
         if(song.lyrics) {
             $("#lyrics_body").html(song.lyrics.lyrics.replace(/(?:\r\n|\r|\n)/g, '<br>').replace(/(\])/g, ']<br>'));
@@ -788,12 +828,6 @@ function PopupView() {
                 });
             }
         });
-
-        $('.sub_menu_toggle').off("click");
-
-        $('.sub_menu_toggle').on('click', function() {
-            expand_details($(this));
-        })
     };
 
 
@@ -801,7 +835,6 @@ function PopupView() {
 		if(running) return;
 		running = true;
         $("#main_header").hide();
-        $(".sub_menu_toggle.info").hide();
 		$("#main_footer").hide();
         $("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").removeClass("found")
         $("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").removeClass("show-error")
@@ -826,7 +859,6 @@ function PopupView() {
         $("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").removeClass("start");
         $("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").removeClass("show-error");
         $("#initial_screen_search_img, #initial_screen_search_img2, #logo, .inactive_img, .audio-bands, .mic-eclipse").addClass("found");
-        $(".sub_menu_toggle.info").show();
     };
 
     var reset = function() {
@@ -837,14 +869,7 @@ function PopupView() {
     var clear_history = function() {
         $('#search_result').html("");
     };
-
-    var expand_details = function(item) {
-        const isDisplayed = $(item).siblings(".sub_menu").hasClass("show");
-        $(".sub_menu").removeClass("show");
-
-        if (!isDisplayed) $(item).siblings(".sub_menu").addClass("show");
-    }
-
+	
     return {
         start: start,
         stop: stop,
@@ -853,7 +878,6 @@ function PopupView() {
         reset: reset,
         show_new_result: show_new_result,
         show_no_result: show_no_result,
-        clear_history: clear_history,
-        expand_details: expand_details
+        clear_history: clear_history
     };
 }
