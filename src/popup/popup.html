@@ -13,6 +13,7 @@
             <img class="up_button up_right_button" id="settings_button" show-on show-on-initial src="../../icons/Settings.svg" />
             <img class="up_button up_left_button" button-initial show-on show-on-lyrics show-on-settings src="../../icons/Arrow.svg" style="display:none;"/>
             <div id="initial_screen" class="screen">
+				<div><canvas id="canvas" /></div>
                 <div class="audio-bands">
                     <img class="audio-band big 0" src="../../img/audio-band.png" />
                     <img class="audio-band med 1" src="../../img/audio-band.png" />
@@ -61,7 +62,7 @@
 				</div>-->
 				<div>
 					<h2>History</h2>
-					<p class="text">Click <span id="clean-history">here</span> to clean the recognition history.</p>
+					<p class="text">Click <b id="clean-history">here</b> to clean the recognition history.</p>
 				</div>
 				<br />
 				<button class="button button--outline button--primary" tabindex="0" type="button" id="save_settings">Save</button>
@@ -204,4 +205,5 @@
 <script type="text/javascript" src="../vendor/jquery.min.js"></script>
 <script type="text/javascript" src="../vendor/mustache.min.js"></script>
 <script type="text/javascript" src="popup.js"></script>
+<script type="text/javascript" src="canvas.js"></script>
 </html>

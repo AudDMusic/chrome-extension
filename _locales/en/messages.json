@@ -58,6 +58,9 @@
   "trialEnded": {
     "message": "Your trial has ended. Only the full version works on this website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Subscribe</a>"
   },
+  "onlyPaidWorksHere": {
+    "message": "Sorry, only the paid version works on this website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Get token here</a> and past it in the settings or consider automating your work with our <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
   "SavedToHistory": {
     "message": "Saved to the History"
   },
