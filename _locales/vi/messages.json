@@ -78,5 +78,8 @@
   },
   "noMatchesText": {
     "message": "Xin lỗi, chúng tôi không thể nhận được bất kỳ kết quả phù hợp nào"
+  },
+  "listingDescription": {
+    "message": "Cài đặt tiện ích mở rộng AudD và nhấp vào biểu tượng của nó để xác định bài hát đang phát trên tab hiện tại.\nXem video ở trên để xem nó hoạt động như thế nào.\n\nPhần mở rộng AudD:\n- Nhận dạng nhạc đang phát trong trình duyệt của bạn;\n- Tìm nhạc trong cơ sở dữ liệu AudD với hơn 65 triệu bài hát bằng công nghệ nhận dạng âm nhạc của nó;\n- Hiển thị lời bài hát đã xác định;\n- Hiển thị liên kết để nghe các bài hát trên Apple Music, Spotify, Deezer, YouTube Music;\n- Hiển thị thời điểm chính xác trong bài hát được nhận dạng khi âm thanh từ trình duyệt được phát.\n\nAPI nhận dạng âm nhạc: https://audd.io\nMã nguồn: https://github.com/AudDMusic/chrome-extension\n\nTiện ích mở rộng được hỗ trợ bởi API nhận dạng âm nhạc AudD®\n\nĐược tạo và thiết kế bởi nhóm AudD.io với sự trợ giúp của Eric Stark, Mitchell Kossoris và Ivan Kasatkin."
   }
 }
