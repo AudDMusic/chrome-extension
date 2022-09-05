@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® musikigenkänning",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Känn igen all musik från vilken webbplats som helst i din webbläsare",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Välj en flik"
+  },
+  "noAudioOnTab": {
+    "message": "Inget ljud på den aktuella fliken"
+  },
+  "lyrics": {
+    "message": "Text"
+  },
+  "history": {
+    "message": "Historia"
+  },
+  "settings": {
+    "message": "inställningar"
+  },
+  "goTo": {
+    "message": "Gå till"
+  },
+  "confirm": {
+    "message": "Bekräfta"
+  },
+  "confirmQuestion": {
+    "message": "Denna åtgärd är oåterkallelig. Är du säker på att du vill rensa historiken?"
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "no": {
+    "message": "Nej"
+  },
+  "signIn": {
+    "message": "Vänligen <a url=\"chrome://chrome-signin/\" href=\"#\">logga in med ditt Google-konto</a> i Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Det gick inte att hitta någon text till den här låten"
+  },
+  "countryCode": {
+    "message": "oss"
+  },
+  "noMatchesText": {
+    "message": "Tyvärr, vi kunde inte få några matchningar"
+  },
+  "playsAt": {
+    "message": "spelar kl"
+  },
+  "needAuth": {
+    "message": "För att använda AudD på denna webbplats måste du logga in"
+  },
+  "trialEnded": {
+    "message": "Din rättegång har avslutats. Endast den fullständiga versionen fungerar på denna webbplats. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Prenumerera</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Tyvärr, bara den betalda versionen fungerar på denna webbplats. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Hämta token här</a> och klistra in det i inställningarna eller överväg att automatisera ditt arbete med vår <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Sparad i historiken"
+  },
+  "notInvoked": {
+    "message": "Tillägget har inte anropats för den aktuella sidan. Chrome-sidor kan inte fångas. Klicka på en flik och starta om tillägget."
+  },
+  "tryAgainText": {
+    "message": "försök igen"
+  },
+  "identifiedEarlierText": {
+    "message": "Identifierad tidigare"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopierade!"
+  },
+  "clearHistoryInit": {
+    "message": "Bekräfta åtgärden i aviseringarna"
+  },
+  "settingsSaved": {
+    "message": "Inställningarna har sparats"
+  }
+}
