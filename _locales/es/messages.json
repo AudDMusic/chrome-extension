@@ -78,5 +78,8 @@
   },
   "settingsSaved": {
     "message": "Guardó correctamente la configuración"
+  },
+  "listingDescription": {
+    "message": "Instale la extensión AudD y haga clic en su icono para identificar la canción que se está reproduciendo en la pestaña actual.\nMire el video de arriba para ver cómo funciona.\n\nExtensión AudD:\n- Reconoce la reproducción de música en su navegador;\n- Encuentra música en la base de datos AudD con más de 65 millones de canciones utilizando su tecnología de reconocimiento de música;\n- Muestra letras de canciones identificadas;\n- Muestra enlaces para escuchar las canciones en Apple Music, Spotify, Deezer, YouTube Music;\n- Muestra el momento exacto en la canción reconocida cuando se reproduce el sonido del navegador.\n\nAPI de reconocimiento de música: https://audd.io\nCódigo fuente: https://github.com/AudDMusic/chrome-extension\n\nExtensión Desarrollada por AudD® API de reconocimiento de música\n\nCreado y diseñado por el equipo de AudD.io con la ayuda de Eric Stark, Mitchell Kossoris e Ivan Kasatkin."
   }
 }
