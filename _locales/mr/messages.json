@@ -1,1 +1,85 @@
-{}
+{
+  "needAuth": {
+    "message": "या वेबसाइटवर AudD वापरण्यासाठी, तुम्हाला लॉग इन करणे आवश्यक आहे"
+  },
+  "trialEnded": {
+    "message": "तुमची चाचणी संपली आहे. या वेबसाइटवर केवळ पूर्ण आवृत्ती कार्य करते. <a href=\"https://dashboard.audd.io\" target=\"_blank\">सदस्य व्हा</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "क्षमस्व, या वेबसाइटवर फक्त सशुल्क आवृत्ती कार्य करते. <a href=\"https://dashboard.audd.io\" target=\"_blank\">येथे टोकन मिळवा</a> आणि ते सेटिंग्जमध्ये जा किंवा आमच्या <a href=\"https://audd.io\" target=\"_blank\">API</a> सह तुमचे कार्य स्वयंचलित करण्याचा विचार करा."
+  },
+  "SavedToHistory": {
+    "message": "इतिहासात जतन केले"
+  },
+  "notInvoked": {
+    "message": "सध्याच्या पृष्ठासाठी विस्ताराची मागणी केली गेली नाही. Chrome पृष्ठे कॅप्चर केली जाऊ शकत नाहीत. एका टॅबवर क्लिक करा आणि विस्तार पुन्हा लाँच करा."
+  },
+  "tryAgainText": {
+    "message": "पुन्हा प्रयत्न करा"
+  },
+  "identifiedEarlierText": {
+    "message": "आधी ओळख झाली"
+  },
+  "copiedSuccessfully": {
+    "message": "कॉपी केले!"
+  },
+  "clearHistoryInit": {
+    "message": "सूचनांमध्ये कृतीची पुष्टी करा"
+  },
+  "settingsSaved": {
+    "message": "सेटिंग्ज यशस्वीरित्या सेव्ह केल्या"
+  },
+  "playsAt": {
+    "message": "येथे खेळतो"
+  },
+  "appName": {
+    "message": "AudD® संगीत ओळख",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "तुमच्या ब्राउझरमधील कोणत्याही वेबसाइटवरील कोणतेही संगीत ओळखा",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "कृपया एक टॅब निवडा"
+  },
+  "noAudioOnTab": {
+    "message": "वर्तमान टॅबवर कोणताही ऑडिओ नाही"
+  },
+  "lyrics": {
+    "message": "गाण्याचे बोल"
+  },
+  "history": {
+    "message": "इतिहास"
+  },
+  "settings": {
+    "message": "सेटिंग्ज"
+  },
+  "goTo": {
+    "message": "जा"
+  },
+  "confirm": {
+    "message": "पुष्टी"
+  },
+  "confirmQuestion": {
+    "message": "ही क्रिया अपरिवर्तनीय आहे. तुमची खात्री आहे की तुम्ही इतिहास साफ करू इच्छिता?"
+  },
+  "yes": {
+    "message": "होय"
+  },
+  "no": {
+    "message": "नाही"
+  },
+  "signIn": {
+    "message": "कृपया, Google Chrome मध्ये <a url=\"chrome://chrome-signin/\" href=\"#\">तुमच्या Google खात्याने</a> लॉगिन करा"
+  },
+  "noLyrics": {
+    "message": "या गाण्याचे कोणतेही बोल सापडले नाहीत"
+  },
+  "countryCode": {
+    "message": "आम्हाला"
+  },
+  "noMatchesText": {
+    "message": "क्षमस्व, आम्हाला कोणतेही सामने मिळू शकले नाहीत"
+  }
+}
