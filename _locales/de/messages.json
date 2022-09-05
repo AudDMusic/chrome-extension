@@ -1,1 +1,85 @@
-{}
+{
+  "history": {
+    "message": "Geschichte"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "goTo": {
+    "message": "Gehe zu"
+  },
+  "confirm": {
+    "message": "Bestätigen"
+  },
+  "confirmQuestion": {
+    "message": "Diese Aktion ist irreversibel. Möchten Sie den Verlauf wirklich löschen?"
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "no": {
+    "message": "Nein"
+  },
+  "signIn": {
+    "message": "Bitte <a url=\"chrome://chrome-signin/\" href=\"#\">melden Sie sich mit Ihrem Google-Konto</a> in Google Chrome an"
+  },
+  "noLyrics": {
+    "message": "Konnte keinen Text für dieses Lied finden"
+  },
+  "countryCode": {
+    "message": "uns"
+  },
+  "noMatchesText": {
+    "message": "Tut uns leid, wir konnten keine Übereinstimmungen finden"
+  },
+  "playsAt": {
+    "message": "spielt bei"
+  },
+  "needAuth": {
+    "message": "Um AudD auf dieser Website nutzen zu können, müssen Sie sich anmelden"
+  },
+  "trialEnded": {
+    "message": "Ihre Testversion ist beendet. Auf dieser Website funktioniert nur die Vollversion. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abonnieren</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Entschuldigung, auf dieser Website funktioniert nur die kostenpflichtige Version. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Token hier abrufen</a> und in den Einstellungen einfügen oder erwägen, Ihre Arbeit mit unserer <a href=\"https://audd.io\" target=\"_blank\">API</a> zu automatisieren."
+  },
+  "SavedToHistory": {
+    "message": "Im Verlauf gespeichert"
+  },
+  "notInvoked": {
+    "message": "Die Erweiterung wurde für die aktuelle Seite nicht aufgerufen. Chrome-Seiten können nicht erfasst werden. Klicken Sie auf eine Registerkarte und starten Sie die Erweiterung neu."
+  },
+  "tryAgainText": {
+    "message": "versuchen Sie es nochmal"
+  },
+  "identifiedEarlierText": {
+    "message": "Früher identifiziert"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopiert!"
+  },
+  "clearHistoryInit": {
+    "message": "Bestätigen Sie die Aktion in den Benachrichtigungen"
+  },
+  "settingsSaved": {
+    "message": "Die Einstellungen wurden erfolgreich gespeichert"
+  },
+  "appName": {
+    "message": "AudD® Musikerkennung",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Erkennen Sie Musik von jeder Website in Ihrem Browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Bitte wählen Sie einen Reiter aus"
+  },
+  "noAudioOnTab": {
+    "message": "Kein Audio auf der aktuellen Registerkarte"
+  },
+  "lyrics": {
+    "message": "Text"
+  }
+}
