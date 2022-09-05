@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "Reconocimiento de música AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Reconoce cualquier música de cualquier sitio web en tu navegador",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Seleccione una pestaña"
+  },
+  "noAudioOnTab": {
+    "message": "No hay audio en la pestaña actual"
+  },
+  "lyrics": {
+    "message": "Letra"
+  },
+  "history": {
+    "message": "Historia"
+  },
+  "settings": {
+    "message": "Ajustes"
+  },
+  "goTo": {
+    "message": "Ir"
+  },
+  "copiedSuccessfully": {
+    "message": "¡Copiado!"
+  },
+  "confirm": {
+    "message": "Confirmar"
+  },
+  "confirmQuestion": {
+    "message": "Esta acción es irreversible. ¿Seguro que quieres borrar el historial?"
+  },
+  "yes": {
+    "message": "Sí"
+  },
+  "no": {
+    "message": "No"
+  },
+  "signIn": {
+    "message": "Por favor, <a url=\"chrome://chrome-signin/\" href=\"#\">inicie sesión con su cuenta de Google</a> en Google Chrome"
+  },
+  "noLyrics": {
+    "message": "No se pudo encontrar ninguna letra para esta canción."
+  },
+  "countryCode": {
+    "message": "a nosotros"
+  },
+  "noMatchesText": {
+    "message": "Lo sentimos, no pudimos obtener ninguna coincidencia."
+  },
+  "playsAt": {
+    "message": "juega en"
+  },
+  "needAuth": {
+    "message": "Para usar AudD en este sitio web, debe iniciar sesión"
+  },
+  "trialEnded": {
+    "message": "Su prueba ha terminado. Solo la versión completa funciona en este sitio web. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Suscribirse</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Lo sentimos, solo la versión paga funciona en este sitio web. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Obtenga el token aquí</a> y péguelo en la configuración o considere automatizar su trabajo con nuestra <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Guardado en la historia"
+  },
+  "notInvoked": {
+    "message": "La extensión no se ha invocado para la página actual. Las páginas de Chrome no se pueden capturar. Haz clic en una pestaña y reinicia la extensión."
+  },
+  "tryAgainText": {
+    "message": "intentar otra vez"
+  },
+  "identifiedEarlierText": {
+    "message": "identificado anteriormente"
+  },
+  "clearHistoryInit": {
+    "message": "Confirmar la acción en las notificaciones"
+  },
+  "settingsSaved": {
+    "message": "Guardó correctamente la configuración"
+  }
+}
