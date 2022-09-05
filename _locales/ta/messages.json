@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® இசை அங்கீகாரம்",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "உங்கள் உலாவியில் உள்ள எந்த இணையதளத்திலிருந்தும் எந்த இசையையும் அங்கீகரிக்கவும்",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "ஒரு தாவலைத் தேர்ந்தெடுக்கவும்"
+  },
+  "noAudioOnTab": {
+    "message": "தற்போதைய தாவலில் ஆடியோ இல்லை"
+  },
+  "lyrics": {
+    "message": "பாடல் வரிகள்"
+  },
+  "history": {
+    "message": "வரலாறு"
+  },
+  "settings": {
+    "message": "அமைப்புகள்"
+  },
+  "goTo": {
+    "message": "செல்க"
+  },
+  "confirm": {
+    "message": "உறுதிப்படுத்தவும்"
+  },
+  "confirmQuestion": {
+    "message": "இந்த நடவடிக்கை மீள முடியாதது. வரலாற்றை அழிக்க விரும்புகிறீர்களா?"
+  },
+  "yes": {
+    "message": "ஆம்"
+  },
+  "no": {
+    "message": "இல்லை"
+  },
+  "signIn": {
+    "message": "தயவு செய்து, Google Chrome இல் <a url=\"chrome://chrome-signin/\" href=\"#\">உங்கள் Google கணக்குடன்</a> உள்நுழையவும்"
+  },
+  "noLyrics": {
+    "message": "இந்தப் பாடலுக்கான வரிகள் எதையும் கண்டுபிடிக்க முடியவில்லை"
+  },
+  "countryCode": {
+    "message": "எங்களுக்கு"
+  },
+  "noMatchesText": {
+    "message": "மன்னிக்கவும், எங்களால் பொருத்தங்கள் எதையும் பெற முடியவில்லை"
+  },
+  "playsAt": {
+    "message": "இல் விளையாடுகிறது"
+  },
+  "SavedToHistory": {
+    "message": "வரலாற்றில் சேமிக்கப்பட்டது"
+  },
+  "needAuth": {
+    "message": "இந்த இணையதளத்தில் AudDஐப் பயன்படுத்த, நீங்கள் உள்நுழைய வேண்டும்"
+  },
+  "trialEnded": {
+    "message": "உங்கள் சோதனை முடிந்தது. இந்த இணையதளத்தில் முழு பதிப்பு மட்டுமே வேலை செய்கிறது. <a href=\"https://dashboard.audd.io\" target=\"_blank\">குழுசேர்</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "மன்னிக்கவும், இந்த இணையதளத்தில் கட்டண பதிப்பு மட்டுமே வேலை செய்கிறது. <a href=\"https://dashboard.audd.io\" target=\"_blank\">இங்கே டோக்கனைப் பெற்று</a> அதை அமைப்புகளில் ஒட்டவும் அல்லது எங்கள் <a href=\"https://audd.io\" target=\"_blank\">API</a> மூலம் உங்கள் வேலையை தானியங்குபடுத்துவதைக் கருத்தில் கொள்ளவும்."
+  },
+  "notInvoked": {
+    "message": "தற்போதைய பக்கத்திற்கு நீட்டிப்பு செயல்படுத்தப்படவில்லை. Chrome பக்கங்களைப் பிடிக்க முடியாது. ஒரு தாவலைக் கிளிக் செய்து, நீட்டிப்பை மீண்டும் துவக்கவும்."
+  },
+  "tryAgainText": {
+    "message": "மீண்டும் முயற்சி செய்"
+  },
+  "identifiedEarlierText": {
+    "message": "முன்பே அடையாளம் காணப்பட்டது"
+  },
+  "copiedSuccessfully": {
+    "message": "நகலெடுக்கப்பட்டது!"
+  },
+  "clearHistoryInit": {
+    "message": "அறிவிப்புகளில் செயலை உறுதிப்படுத்தவும்"
+  },
+  "settingsSaved": {
+    "message": "அமைப்புகள் வெற்றிகரமாகச் சேமிக்கப்பட்டன"
+  }
+}
