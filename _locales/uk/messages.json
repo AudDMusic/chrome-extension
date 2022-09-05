@@ -1,1 +1,85 @@
-{}
+{
+  "confirmQuestion": {
+    "message": "Ця дія незворотна. Ви впевнені, що бажаєте очистити історію?"
+  },
+  "yes": {
+    "message": "Так"
+  },
+  "no": {
+    "message": "Ні"
+  },
+  "signIn": {
+    "message": "Будь ласка, <a url=\"chrome://chrome-signin/\" href=\"#\">увійдіть у свій обліковий запис Google</a> у Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Не вдалося знайти слова цієї пісні"
+  },
+  "countryCode": {
+    "message": "нас"
+  },
+  "noMatchesText": {
+    "message": "На жаль, не вдалося знайти збігів"
+  },
+  "playsAt": {
+    "message": "грає в"
+  },
+  "needAuth": {
+    "message": "Щоб використовувати AudD на цьому веб-сайті, вам потрібно увійти"
+  },
+  "trialEnded": {
+    "message": "Ваш пробний період закінчився. На цьому сайті працює лише повна версія. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Підписатися</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "На жаль, на цьому сайті працює лише платна версія. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Отримайте маркер тут</a> і вставте його в налаштування або спробуйте автоматизувати свою роботу за допомогою нашого <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Збережено в Історії"
+  },
+  "notInvoked": {
+    "message": "Розширення не було викликано для поточної сторінки. Неможливо записати сторінки Chrome. Натисніть вкладку та перезапустіть розширення."
+  },
+  "tryAgainText": {
+    "message": "спробуйте ще раз"
+  },
+  "identifiedEarlierText": {
+    "message": "Виявлено раніше"
+  },
+  "copiedSuccessfully": {
+    "message": "Скопійовано!"
+  },
+  "clearHistoryInit": {
+    "message": "Підтвердьте дію в сповіщеннях"
+  },
+  "settingsSaved": {
+    "message": "Налаштування успішно збережено"
+  },
+  "appName": {
+    "message": "Розпізнавання музики AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Розпізнавайте будь-яку музику з будь-якого веб-сайту у вашому браузері",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Виберіть одну вкладку"
+  },
+  "noAudioOnTab": {
+    "message": "На поточній вкладці немає звуку"
+  },
+  "lyrics": {
+    "message": "Тексти пісень"
+  },
+  "history": {
+    "message": "історія"
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "goTo": {
+    "message": "Йти до"
+  },
+  "confirm": {
+    "message": "Підтвердити"
+  }
+}
