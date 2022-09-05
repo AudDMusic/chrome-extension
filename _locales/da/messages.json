@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® musikgenkendelse",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Genkend enhver musik fra enhver hjemmeside i din browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Vælg venligst én fane"
+  },
+  "noAudioOnTab": {
+    "message": "Ingen lyd på den aktuelle fane"
+  },
+  "lyrics": {
+    "message": "Sangtekster"
+  },
+  "history": {
+    "message": "Historie"
+  },
+  "settings": {
+    "message": "Indstillinger"
+  },
+  "goTo": {
+    "message": "Gå til"
+  },
+  "confirm": {
+    "message": "Bekræfte"
+  },
+  "confirmQuestion": {
+    "message": "Denne handling er irreversibel. Er du sikker på, at du vil rydde historikken?"
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "no": {
+    "message": "Ingen"
+  },
+  "signIn": {
+    "message": "Venligst <a url=\"chrome://chrome-signin/\" href=\"#\">log ind med din Google-konto</a> i Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Kunne ikke finde nogen tekst til denne sang"
+  },
+  "countryCode": {
+    "message": "os"
+  },
+  "noMatchesText": {
+    "message": "Beklager, vi kunne ikke få nogen matches"
+  },
+  "playsAt": {
+    "message": "spiller kl"
+  },
+  "needAuth": {
+    "message": "For at bruge AudD på denne hjemmeside, skal du logge ind"
+  },
+  "trialEnded": {
+    "message": "Din prøveperiode er afsluttet. Kun den fulde version virker på denne hjemmeside. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abonner</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Beklager, kun den betalte version fungerer på denne hjemmeside. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Få token her</a> og indsæt det i indstillingerne, eller overvej at automatisere dit arbejde med vores <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Gemt i historikken"
+  },
+  "notInvoked": {
+    "message": "Udvidelsen er ikke blevet aktiveret for den aktuelle side. Chrome-sider kan ikke fanges. Klik på en fane, og genstart udvidelsen."
+  },
+  "tryAgainText": {
+    "message": "Prøv igen"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificeret tidligere"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopieret!"
+  },
+  "clearHistoryInit": {
+    "message": "Bekræft handlingen i meddelelserne"
+  },
+  "settingsSaved": {
+    "message": "Indstillingerne blev gemt"
+  }
+}
