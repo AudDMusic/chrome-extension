@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® ሙዚቃ እውቅና",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "በአሳሽዎ ውስጥ ካለ ከማንኛውም ድር ጣቢያ ማንኛውንም ሙዚቃ ይወቁ",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "እባክዎ አንድ ትር ይምረጡ"
+  },
+  "noAudioOnTab": {
+    "message": "በአሁኑ ትር ላይ ምንም ኦዲዮ የለም።"
+  },
+  "lyrics": {
+    "message": "ግጥሞች"
+  },
+  "history": {
+    "message": "ታሪክ"
+  },
+  "settings": {
+    "message": "ቅንብሮች"
+  },
+  "goTo": {
+    "message": "መሄድ"
+  },
+  "confirm": {
+    "message": "አረጋግጥ"
+  },
+  "confirmQuestion": {
+    "message": "ይህ እርምጃ የማይቀለበስ ነው። እርግጠኛ ነዎት ታሪክን ማጽዳት ይፈልጋሉ?"
+  },
+  "yes": {
+    "message": "አዎ"
+  },
+  "no": {
+    "message": "አይ"
+  },
+  "signIn": {
+    "message": "እባካችሁ <a url=\"chrome://chrome-signin/\" href=\"#\"> በጉግል ክሮም ውስጥ በጉግል መለያዎ</a> ይግቡ"
+  },
+  "noLyrics": {
+    "message": "ለዚህ ዘፈን ምንም ግጥም ማግኘት አልተቻለም"
+  },
+  "countryCode": {
+    "message": "እኛ"
+  },
+  "noMatchesText": {
+    "message": "ይቅርታ፣ ምንም ተዛማጅ ማግኘት አልቻልንም።"
+  },
+  "playsAt": {
+    "message": "ላይ ይጫወታል"
+  },
+  "needAuth": {
+    "message": "በዚህ ድህረ ገጽ ላይ AudD ለመጠቀም፣ መግባት አለቦት"
+  },
+  "trialEnded": {
+    "message": "ሙከራህ አልቋል። ሙሉው ስሪት ብቻ በዚህ ድህረ ገጽ ላይ ይሰራል። <a href=\"https://dashboard.audd.io\" target=\"_blank\"> ተመዝገብ</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "ይቅርታ፣ የሚከፈልበት ስሪት ብቻ በዚህ ድህረ ገጽ ላይ ይሰራል። <a href=\"https://dashboard.audd.io\" target=\"_blank\"> ማስመሰያ ያግኙ </a> እና በቅንብሮች ውስጥ አልፈው ወይም ስራዎን በእኛ <a href=\"https://audd.io\" target=\"_blank\"> ኤፒአይ</a> በራስ ሰር ለማድረግ ያስቡበት።"
+  },
+  "SavedToHistory": {
+    "message": "ወደ ታሪክ ተቀምጧል"
+  },
+  "notInvoked": {
+    "message": "ቅጥያው ለአሁኑ ገጽ አልተጠራም። የChrome ገጾች ሊያዙ አይችሉም። ትር ላይ ጠቅ ያድርጉ እና ቅጥያውን እንደገና ያስጀምሩ።"
+  },
+  "tryAgainText": {
+    "message": "ድጋሚ ሞክር"
+  },
+  "identifiedEarlierText": {
+    "message": "ቀደም ብሎ ተለይቷል"
+  },
+  "copiedSuccessfully": {
+    "message": "ተቀድቷል!"
+  },
+  "clearHistoryInit": {
+    "message": "በማሳወቂያዎች ውስጥ እርምጃውን ያረጋግጡ"
+  },
+  "settingsSaved": {
+    "message": "ቅንብሮቹን በተሳካ ሁኔታ አስቀምጧል"
+  }
+}
