@@ -75,5 +75,11 @@
   },
   "clearHistoryInit": {
     "message": "Erősítse meg a műveletet az értesítésekben"
+  },
+  "settingsSaved": {
+    "message": "A beállítások sikeresen elmentve"
+  },
+  "webstoreListingDescription": {
+    "message": "Telepítse az AudD bővítményt, és kattintson az ikonjára az aktuális lapon lejátszott dal azonosításához.\nNézze meg a fenti videót, hogy megtudja, hogyan működik.\n\nAudD kiterjesztés:\n- Felismeri a böngészőben lejátszott zenét;\n- Zenéket talál az AudD adatbázisban több mint 75 millió dallal a zenefelismerő technológia segítségével;\n- Megmutatja az azonosított dalok szövegét;\n- Linkeket jelenít meg a dalok meghallgatásához az Apple Music, Spotify, Deezer, YouTube Music szolgáltatásban;\n- Pontosan azt a pillanatot jeleníti meg a felismert dalban, amikor a böngésző hangját lejátssza.\n\nMusic Recognition API: https://audd.io\nForráskód: https://github.com/AudDMusic/chrome-extension\n\nAz AudD® zenefelismerő API által működtetett bővítmény\n\nAz AudD.io csapata készítette és tervezte Eric Stark, Mitchell Kossoris és Ivan Kasatkin segítségével."
   }
 }
