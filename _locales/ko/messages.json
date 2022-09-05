@@ -11,7 +11,7 @@
     "message": "하나의 탭을 선택하십시오"
   },
   "noAudioOnTab": {
-    "message": "현재 탭에 오디오가 없습니다."
+    "message": "현재 탭에 오디오가 없습니다"
   },
   "lyrics": {
     "message": "가사"
@@ -38,7 +38,7 @@
     "message": "아니"
   },
   "signIn": {
-    "message": "Google 크롬에서 <a url=\"chrome://chrome-signin/\" href=\"#\">Google 계정</a>으로 로그인하세요."
+    "message": "Google 크롬에서 <a url=\"chrome://chrome-signin/\" href=\"#\">Google 계정</a>으로 로그인하세요"
   },
   "noLyrics": {
     "message": "이 노래의 가사를 찾을 수 없습니다"
@@ -47,13 +47,13 @@
     "message": "우리를"
   },
   "noMatchesText": {
-    "message": "죄송합니다. 일치하는 항목을 찾을 수 없습니다."
+    "message": "죄송합니다. 일치하는 항목을 찾을 수 없습니다"
   },
   "playsAt": {
     "message": "에서 놀다"
   },
   "needAuth": {
-    "message": "이 웹사이트에서 AudD를 사용하려면 로그인해야 합니다."
+    "message": "이 웹사이트에서 AudD를 사용하려면 로그인해야 합니다"
   },
   "trialEnded": {
     "message": "평가판이 종료되었습니다. 이 웹사이트에서는 정식 버전만 작동합니다. <a href=\"https://dashboard.audd.io\" target=\"_blank\">구독</a>"
@@ -80,6 +80,6 @@
     "message": "알림에서 작업 확인"
   },
   "settingsSaved": {
-    "message": "설정을 저장했습니다."
+    "message": "설정을 저장했습니다"
   }
 }
