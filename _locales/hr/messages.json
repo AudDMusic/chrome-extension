@@ -1,1 +1,85 @@
-{}
+{
+  "yes": {
+    "message": "Da"
+  },
+  "no": {
+    "message": "Ne"
+  },
+  "signIn": {
+    "message": "Molimo, <a url=\"chrome://chrome-signin/\" href=\"#\">prijavite se svojim Google računom</a> u Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Nisam mogao pronaći nijedan tekst za ovu pjesmu"
+  },
+  "countryCode": {
+    "message": "nas"
+  },
+  "noMatchesText": {
+    "message": "Žao nam je, nismo mogli pronaći nijedno podudaranje"
+  },
+  "playsAt": {
+    "message": "igra na"
+  },
+  "needAuth": {
+    "message": "Za korištenje AudD-a na ovoj web stranici morate se prijaviti"
+  },
+  "appName": {
+    "message": "AudD® prepoznavanje glazbe",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Prepoznajte bilo koju glazbu s bilo koje web stranice u vašem pregledniku",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Odaberite jednu karticu"
+  },
+  "noAudioOnTab": {
+    "message": "Nema zvuka na trenutnoj kartici"
+  },
+  "lyrics": {
+    "message": "Tekst"
+  },
+  "history": {
+    "message": "Povijest"
+  },
+  "settings": {
+    "message": "postavke"
+  },
+  "goTo": {
+    "message": "Ići"
+  },
+  "confirm": {
+    "message": "Potvrdi"
+  },
+  "confirmQuestion": {
+    "message": "Ova radnja je nepovratna. Jeste li sigurni da želite obrisati povijest?"
+  },
+  "trialEnded": {
+    "message": "Vaše suđenje je završilo. Na ovoj web stranici radi samo puna verzija. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Pretplatite se</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Nažalost, samo plaćena verzija radi na ovoj web stranici. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Ovdje preuzmite token</a> i zalijepite ga u postavke ili razmislite o automatizaciji svog rada s našim <a href=\"https://audd.io\" target=\"_blank\">API-jem</a>."
+  },
+  "SavedToHistory": {
+    "message": "Spremljeno u Povijest"
+  },
+  "notInvoked": {
+    "message": "Proširenje nije pozvano za trenutnu stranicu. Chrome stranice se ne mogu snimiti. Pritisnite karticu i ponovno pokrenite proširenje."
+  },
+  "tryAgainText": {
+    "message": "pokušaj ponovno"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificiran ranije"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopirano!"
+  },
+  "clearHistoryInit": {
+    "message": "Potvrdite radnju u obavijestima"
+  },
+  "settingsSaved": {
+    "message": "Postavke su uspješno spremljene"
+  }
+}
