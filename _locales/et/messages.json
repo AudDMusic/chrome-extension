@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® muusikatuvastus",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Tuvastage oma brauseris mis tahes muusikat mis tahes veebisaidilt",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Valige üks vahekaart"
+  },
+  "noAudioOnTab": {
+    "message": "Praegusel vahelehel pole heli"
+  },
+  "lyrics": {
+    "message": "Laulusõnad"
+  },
+  "history": {
+    "message": "Ajalugu"
+  },
+  "settings": {
+    "message": "Seaded"
+  },
+  "goTo": {
+    "message": "Minema"
+  },
+  "confirm": {
+    "message": "Kinnita"
+  },
+  "confirmQuestion": {
+    "message": "See toiming on pöördumatu. Kas soovite kindlasti ajaloo kustutada?"
+  },
+  "yes": {
+    "message": "Jah"
+  },
+  "no": {
+    "message": "Ei"
+  },
+  "signIn": {
+    "message": "Palun <a url=\"chrome://chrome-signin/\" href=\"#\">logige Google Chrome'is sisse oma Google'i kontoga</a>"
+  },
+  "noLyrics": {
+    "message": "Selle laulu sõnu ei leitud"
+  },
+  "countryCode": {
+    "message": "meie"
+  },
+  "noMatchesText": {
+    "message": "Kahjuks ei õnnestunud vasteid leida"
+  },
+  "playsAt": {
+    "message": "mängib kell"
+  },
+  "needAuth": {
+    "message": "AudD kasutamiseks sellel veebisaidil peate sisse logima"
+  },
+  "trialEnded": {
+    "message": "Teie prooviperiood on lõppenud. Sellel veebisaidil töötab ainult täisversioon. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Telli</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Kahjuks töötab sellel veebisaidil ainult tasuline versioon. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Hankige tunnus siit</a> ja mööduge sellest seadetes või kaaluge oma töö automatiseerimist meie <a href=\"https://audd.io\" target=\"_blank\">API-ga</a>."
+  },
+  "SavedToHistory": {
+    "message": "Salvestatud ajalukku"
+  },
+  "notInvoked": {
+    "message": "Laiendust ei ole praeguse lehe jaoks välja kutsutud. Chrome'i lehti ei saa jäädvustada. Klõpsake vahekaardil ja taaskäivitage laiendus."
+  },
+  "tryAgainText": {
+    "message": "proovi uuesti"
+  },
+  "identifiedEarlierText": {
+    "message": "Varem tuvastatud"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopeeritud!"
+  },
+  "clearHistoryInit": {
+    "message": "Kinnitage toiming teatistes"
+  },
+  "settingsSaved": {
+    "message": "Seadete salvestamine õnnestus"
+  }
+}
