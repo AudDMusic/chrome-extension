@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® 음악 인식",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "브라우저에서 모든 웹사이트의 모든 음악 인식",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "하나의 탭을 선택하십시오"
+  },
+  "noAudioOnTab": {
+    "message": "현재 탭에 오디오가 없습니다."
+  },
+  "lyrics": {
+    "message": "가사"
+  },
+  "history": {
+    "message": "역사"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "goTo": {
+    "message": "이동"
+  },
+  "confirm": {
+    "message": "확인하다"
+  },
+  "confirmQuestion": {
+    "message": "이 작업은 되돌릴 수 없습니다. 기록을 지우시겠습니까?"
+  },
+  "yes": {
+    "message": "예"
+  },
+  "no": {
+    "message": "아니"
+  },
+  "signIn": {
+    "message": "Google 크롬에서 <a url=\"chrome://chrome-signin/\" href=\"#\">Google 계정</a>으로 로그인하세요."
+  },
+  "noLyrics": {
+    "message": "이 노래의 가사를 찾을 수 없습니다"
+  },
+  "countryCode": {
+    "message": "우리를"
+  },
+  "noMatchesText": {
+    "message": "죄송합니다. 일치하는 항목을 찾을 수 없습니다."
+  },
+  "playsAt": {
+    "message": "에서 놀다"
+  },
+  "needAuth": {
+    "message": "이 웹사이트에서 AudD를 사용하려면 로그인해야 합니다."
+  },
+  "trialEnded": {
+    "message": "평가판이 종료되었습니다. 이 웹사이트에서는 정식 버전만 작동합니다. <a href=\"https://dashboard.audd.io\" target=\"_blank\">구독</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "죄송합니다. 이 웹사이트에서는 유료 버전만 작동합니다. <a href=\"https://dashboard.audd.io\" target=\"_blank\">여기</a>에서 토큰을 받아 설정에 추가하거나 <a href=\"https://audd.io\" target=\"_blank\">API</a>로 작업 자동화를 고려하십시오."
+  },
+  "SavedToHistory": {
+    "message": "기록에 저장됨"
+  },
+  "notInvoked": {
+    "message": "현재 페이지에 대해 확장이 호출되지 않았습니다. Chrome 페이지를 캡처할 수 없습니다. 탭을 클릭하고 확장 프로그램을 다시 실행하십시오."
+  },
+  "tryAgainText": {
+    "message": "다시 시도하십시오"
+  },
+  "identifiedEarlierText": {
+    "message": "이전에 확인됨"
+  },
+  "copiedSuccessfully": {
+    "message": "복사되었습니다!"
+  },
+  "clearHistoryInit": {
+    "message": "알림에서 작업 확인"
+  },
+  "settingsSaved": {
+    "message": "설정을 저장했습니다."
+  }
+}
