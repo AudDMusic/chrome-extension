@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD®音楽認識",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "ブラウザであらゆるウェブサイトのあらゆる音楽を認識",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "1 つのタブを選択してください"
+  },
+  "noAudioOnTab": {
+    "message": "現在のタブに音声がありません"
+  },
+  "lyrics": {
+    "message": "歌詞"
+  },
+  "history": {
+    "message": "歴史"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "goTo": {
+    "message": "に行く"
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "confirmQuestion": {
+    "message": "このアクションは元に戻せません。履歴をクリアしてもよろしいですか？"
+  },
+  "yes": {
+    "message": "はい"
+  },
+  "no": {
+    "message": "いいえ"
+  },
+  "signIn": {
+    "message": "<a url=\"chrome://chrome-signin/\" href=\"#\">Google Chrome で </a> Google アカウントにログインしてください"
+  },
+  "noLyrics": {
+    "message": "この曲の歌詞が見つかりませんでした"
+  },
+  "countryCode": {
+    "message": "我ら"
+  },
+  "noMatchesText": {
+    "message": "申し訳ありませんが、一致するものが見つかりませんでした"
+  },
+  "playsAt": {
+    "message": "で遊ぶ"
+  },
+  "needAuth": {
+    "message": "このウェブサイトでAudDを使用するには、ログインする必要があります"
+  },
+  "trialEnded": {
+    "message": "トライアルは終了しました。この Web サイトでは完全版のみが機能します。 <a href=\"https://dashboard.audd.io\" target=\"_blank\">購読</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "申し訳ありませんが、この Web サイトでは有料版のみが機能します。 <a href=\"https://dashboard.audd.io\" target=\"_blank\">ここ</a>でトークンを取得して設定に貼り付けるか、<a href=\"https://audd.io\" target=\"_blank\">API</a>で作業を自動化することを検討してください。"
+  },
+  "SavedToHistory": {
+    "message": "履歴に保存"
+  },
+  "notInvoked": {
+    "message": "現在のページに対して拡張機能が呼び出されていません。 Chrome ページをキャプチャできません。タブをクリックして、拡張機能を再起動します。"
+  },
+  "tryAgainText": {
+    "message": "再試行"
+  },
+  "identifiedEarlierText": {
+    "message": "以前に特定された"
+  },
+  "copiedSuccessfully": {
+    "message": "コピーしました！"
+  },
+  "clearHistoryInit": {
+    "message": "通知でアクションを確認する"
+  },
+  "settingsSaved": {
+    "message": "設定を保存しました"
+  }
+}
