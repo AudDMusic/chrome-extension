@@ -44,13 +44,13 @@
     "message": "Por favor, <a url=\"chrome://chrome-signin/\" href=\"#\">inicie sesión con su cuenta de Google</a> en Google Chrome"
   },
   "noLyrics": {
-    "message": "No se pudo encontrar ninguna letra para esta canción."
+    "message": "No se pudo encontrar ninguna letra para esta canción"
   },
   "countryCode": {
     "message": "a nosotros"
   },
   "noMatchesText": {
-    "message": "Lo sentimos, no pudimos obtener ninguna coincidencia."
+    "message": "Lo sentimos, no pudimos obtener ninguna coincidencia"
   },
   "playsAt": {
     "message": "juega en"
