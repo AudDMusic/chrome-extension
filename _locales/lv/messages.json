@@ -75,5 +75,11 @@
   },
   "SavedToHistory": {
     "message": "Saglabāts vēsturē"
+  },
+  "settingsSaved": {
+    "message": "Iestatījumi ir veiksmīgi saglabāti"
+  },
+  "webstoreListingDescription": {
+    "message": "Instalējiet paplašinājumu AudD un noklikšķiniet uz tā ikonas, lai identificētu dziesmu, kas tiek atskaņota pašreizējā cilnē.\nNoskatieties iepriekš redzamo video, lai redzētu, kā tas darbojas.\n\nAudD paplašinājums:\n- atpazīst jūsu pārlūkprogrammā atskaņoto mūziku;\n- Izmantojot mūzikas atpazīšanas tehnoloģiju, AudD datubāzē atrod mūziku ar vairāk nekā 75 miljoniem dziesmu;\n- Rāda tekstus identificētajām dziesmām;\n- Parāda saites, lai klausītos dziesmas Apple Music, Spotify, Deezer, YouTube Music;\n- Parāda precīzu brīdi atpazītajā dziesmā, kad tiek atskaņota skaņa no pārlūkprogrammas.\n\nMūzikas atpazīšanas API: https://audd.io\nAvota kods: https://github.com/AudDMusic/chrome-extension\n\nPaplašinājumu nodrošina AudD® mūzikas atpazīšanas API\n\nIzveidoja un izstrādāja AudD.io komanda ar Ērika Stārka, Mičela Kosorisa un Ivana Kasatkina palīdzību."
   }
 }
