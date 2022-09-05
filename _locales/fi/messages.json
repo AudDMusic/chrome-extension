@@ -1,1 +1,85 @@
-{}
+{
+  "notInvoked": {
+    "message": "Laajennusta ei ole kutsuttu nykyiselle sivulle. Chrome-sivuja ei voi kaapata. Napsauta välilehteä ja käynnistä laajennus uudelleen."
+  },
+  "tryAgainText": {
+    "message": "yritä uudelleen"
+  },
+  "identifiedEarlierText": {
+    "message": "Aiemmin tunnistettu"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopioitu!"
+  },
+  "clearHistoryInit": {
+    "message": "Vahvista toiminto ilmoituksissa"
+  },
+  "settingsSaved": {
+    "message": "Asetusten tallennus onnistui"
+  },
+  "SavedToHistory": {
+    "message": "Tallennettu historiaan"
+  },
+  "appName": {
+    "message": "AudD®-musiikintunnistus",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Tunnista minkä tahansa musiikin miltä tahansa selaimesi verkkosivustolta",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Valitse yksi välilehti"
+  },
+  "noAudioOnTab": {
+    "message": "Ei ääntä nykyisellä välilehdellä"
+  },
+  "lyrics": {
+    "message": "Sanoitukset"
+  },
+  "history": {
+    "message": "Historia"
+  },
+  "settings": {
+    "message": "asetukset"
+  },
+  "goTo": {
+    "message": "Mene"
+  },
+  "confirm": {
+    "message": "Vahvistaa"
+  },
+  "confirmQuestion": {
+    "message": "Tämä toimenpide on peruuttamaton. Haluatko varmasti tyhjentää historian?"
+  },
+  "yes": {
+    "message": "Joo"
+  },
+  "no": {
+    "message": "Ei"
+  },
+  "signIn": {
+    "message": "Ole hyvä ja <a url=\"chrome://chrome-signin/\" href=\"#\">kirjaudu sisään Google-tililläsi</a> Google Chromessa"
+  },
+  "noLyrics": {
+    "message": "Tälle kappaleelle ei löytynyt sanoja"
+  },
+  "countryCode": {
+    "message": "meille"
+  },
+  "noMatchesText": {
+    "message": "Valitettavasti emme löytäneet yhtään ottelua"
+  },
+  "playsAt": {
+    "message": "soittaa klo"
+  },
+  "needAuth": {
+    "message": "Jotta voit käyttää AudD:tä tällä sivustolla, sinun on kirjauduttava sisään"
+  },
+  "trialEnded": {
+    "message": "Kokeilujaksosi on päättynyt. Vain täysi versio toimii tällä sivustolla. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Tilaa</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Valitettavasti vain maksullinen versio toimii tällä sivustolla. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Hanki tunnus tästä</a> ja ohita se asetuksissa tai harkitse työsi automatisointia <a href=\"https://audd.io\" target=\"_blank\">API:n</a> avulla."
+  }
+}
