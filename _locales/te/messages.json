@@ -1,1 +1,85 @@
-{}
+{
+  "countryCode": {
+    "message": "మాకు"
+  },
+  "playsAt": {
+    "message": "వద్ద ఆడుతుంది"
+  },
+  "appName": {
+    "message": "AudD® సంగీత గుర్తింపు",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "మీ బ్రౌజర్‌లోని ఏదైనా వెబ్‌సైట్ నుండి ఏదైనా సంగీతాన్ని గుర్తించండి",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "దయచేసి ఒక ట్యాబ్‌ని ఎంచుకోండి"
+  },
+  "noMatchesText": {
+    "message": "క్షమించండి, మేము ఏ మ్యాచ్‌లను పొందలేకపోయాము"
+  },
+  "noAudioOnTab": {
+    "message": "ప్రస్తుత ట్యాబ్‌లో ఆడియో లేదు"
+  },
+  "lyrics": {
+    "message": "సాహిత్యం"
+  },
+  "history": {
+    "message": "చరిత్ర"
+  },
+  "settings": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "goTo": {
+    "message": "వెళ్ళండి"
+  },
+  "confirm": {
+    "message": "నిర్ధారించండి"
+  },
+  "confirmQuestion": {
+    "message": "ఈ చర్య తిరుగులేనిది. మీరు ఖచ్చితంగా చరిత్రను క్లియర్ చేయాలనుకుంటున్నారా?"
+  },
+  "yes": {
+    "message": "అవును"
+  },
+  "no": {
+    "message": "నం"
+  },
+  "signIn": {
+    "message": "దయచేసి, Google Chromeలో <a url=\"chrome://chrome-signin/\" href=\"#\">మీ Google ఖాతాతో</a> లాగిన్ చేయండి"
+  },
+  "noLyrics": {
+    "message": "ఈ పాటకు సాహిత్యం ఏదీ కనుగొనబడలేదు"
+  },
+  "needAuth": {
+    "message": "ఈ వెబ్‌సైట్‌లో AudDని ఉపయోగించడానికి, మీరు లాగిన్ చేయాలి"
+  },
+  "trialEnded": {
+    "message": "మీ ట్రయల్ ముగిసింది. ఈ వెబ్‌సైట్‌లో పూర్తి వెర్షన్ మాత్రమే పని చేస్తుంది. <a href=\"https://dashboard.audd.io\" target=\"_blank\">సభ్యత్వం</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "క్షమించండి, ఈ వెబ్‌సైట్‌లో చెల్లింపు సంస్కరణ మాత్రమే పని చేస్తుంది. <a href=\"https://dashboard.audd.io\" target=\"_blank\">ఇక్కడ టోకెన్ పొందండి</a> మరియు సెట్టింగ్‌లలో అతికించండి లేదా మా <a href=\"https://audd.io\" target=\"_blank\">API</a>తో మీ పనిని ఆటోమేట్ చేయడాన్ని పరిగణించండి."
+  },
+  "SavedToHistory": {
+    "message": "చరిత్రలో సేవ్ చేయబడింది"
+  },
+  "notInvoked": {
+    "message": "ప్రస్తుత పేజీ కోసం పొడిగింపు అమలు చేయబడలేదు. Chrome పేజీలను క్యాప్చర్ చేయడం సాధ్యం కాదు. ట్యాబ్‌పై క్లిక్ చేసి, పొడిగింపును మళ్లీ ప్రారంభించండి."
+  },
+  "tryAgainText": {
+    "message": "మళ్ళీ ప్రయత్నించండి"
+  },
+  "identifiedEarlierText": {
+    "message": "ముందుగా గుర్తించారు"
+  },
+  "copiedSuccessfully": {
+    "message": "కాపీ చేయబడింది!"
+  },
+  "clearHistoryInit": {
+    "message": "నోటిఫికేషన్‌లలో చర్యను నిర్ధారించండి"
+  },
+  "settingsSaved": {
+    "message": "సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి"
+  }
+}
