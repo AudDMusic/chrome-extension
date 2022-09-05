@@ -59,9 +59,6 @@
   "clearHistoryInit": {
     "message": "Confirmați acțiunea în notificări"
   },
-  "settingsSaved": {
-    "message": "Instalați extensia AudD și faceți clic pe pictograma acesteia pentru a identifica melodia redată în fila curentă.\nUrmărește videoclipul de mai sus pentru a vedea cum funcționează.\n\nExtensie AudD:\n- Recunoaște muzica redată în browser;\n- Găsește muzică în baza de date AudD cu peste 75 de milioane de melodii folosind tehnologia sa de recunoaștere a muzicii;\n- Afișează versuri pentru melodiile identificate;\n- Afișează linkuri pentru a asculta melodiile pe Apple Music, Spotify, Deezer, YouTube Music;\n- Afișează momentul exact din melodia recunoscută când este redat sunetul din browser.\n\nAPI de recunoaștere a muzicii: https://audd.io\nCod sursă: https://github.com/AudDMusic/chrome-extension\n\nExtensie alimentată de API-ul de recunoaștere a muzicii AudD®\n\nCreat și proiectat de echipa AudD.io cu ajutorul lui Eric Stark, Mitchell Kossoris și Ivan Kasatkin."
-  },
   "appName": {
     "message": "Recunoaștere muzicală AudD®",
     "description": "The title of the application, displayed in the web store."

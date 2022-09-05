@@ -44,9 +44,6 @@
   "clearHistoryInit": {
     "message": "אשר את הפעולה בהתראות"
   },
-  "settingsSaved": {
-    "message": "התקן את התוסף AudD ולחץ על הסמל שלה כדי לזהות את השיר שמתנגן בכרטיסייה הנוכחית.\nצפה בסרטון למעלה כדי לראות איך זה עובד.\n\nסיומת AuD:\n- מזהה את המוזיקה המתנגנת בדפדפן שלך;\n- מוצא מוזיקה במסד הנתונים של AudD עם יותר מ-75 מיליון שירים באמצעות טכנולוגיית זיהוי המוזיקה שלו;\n- מציג מילים לשירים מזוהים;\n- מציג קישורים להאזנה לשירים ב-Apple Music, Spotify, Deezer, YouTube Music;\n- מציג את הרגע המדויק בשיר המזוהה כאשר הצליל מהדפדפן מושמע.\n\nAPI לזיהוי מוזיקה: https://audd.io\nקוד מקור: https://github.com/AudDMusic/chrome-extension\n\nהרחבה המופעלת על ידי AudD® API לזיהוי מוזיקה\n\nנוצר ועוצב על ידי צוות AudD.io בעזרת אריק סטארק, מיטשל קוסוריס ואיבן קסאטקין."
-  },
   "appName": {
     "message": "AudD® זיהוי מוזיקה",
     "description": "The title of the application, displayed in the web store."
