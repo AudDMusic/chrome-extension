@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® prepoznavanje glasbe",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Prepoznajte katero koli glasbo s katerega koli spletnega mesta v vašem brskalniku",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Izberite en zavihek"
+  },
+  "noAudioOnTab": {
+    "message": "Na trenutnem zavihku ni zvoka"
+  },
+  "lyrics": {
+    "message": "Besedila"
+  },
+  "history": {
+    "message": "Zgodovina"
+  },
+  "settings": {
+    "message": "nastavitve"
+  },
+  "goTo": {
+    "message": "Pojdi do"
+  },
+  "confirm": {
+    "message": "Potrdi"
+  },
+  "confirmQuestion": {
+    "message": "To dejanje je nepovratno. Ali ste prepričani, da želite počistiti zgodovino?"
+  },
+  "yes": {
+    "message": "ja"
+  },
+  "no": {
+    "message": "št"
+  },
+  "signIn": {
+    "message": "Prosimo, <a url=\"chrome://chrome-signin/\" href=\"#\">prijavite se s svojim Google Računom</a> v Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Ni bilo mogoče najti nobenega besedila za to pesem"
+  },
+  "countryCode": {
+    "message": "nas"
+  },
+  "noMatchesText": {
+    "message": "Oprostite, nismo mogli najti nobenega zadetka"
+  },
+  "playsAt": {
+    "message": "igra pri"
+  },
+  "needAuth": {
+    "message": "Za uporabo AudD na tej spletni strani se morate prijaviti"
+  },
+  "trialEnded": {
+    "message": "Vaše preizkusno obdobje se je končalo. Na tej spletni strani deluje samo polna različica. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Naročite se</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Žal na tej spletni strani deluje samo plačljiva različica. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Pridobite žeton tukaj</a> in ga prilepite v nastavitve ali razmislite o avtomatizaciji svojega dela z našim <a href=\"https://audd.io\" target=\"_blank\">API-jem</a>."
+  },
+  "SavedToHistory": {
+    "message": "Shranjeno v zgodovino"
+  },
+  "notInvoked": {
+    "message": "Razširitev ni bila priklicana za trenutno stran. Strani v Chromu ni mogoče zajeti. Kliknite zavihek in znova zaženite razširitev."
+  },
+  "tryAgainText": {
+    "message": "poskusi ponovno"
+  },
+  "identifiedEarlierText": {
+    "message": "Ugotovljeno prej"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopirano!"
+  },
+  "clearHistoryInit": {
+    "message": "Potrdite dejanje v obvestilih"
+  },
+  "settingsSaved": {
+    "message": "Nastavitve so bile uspešno shranjene"
+  }
+}
