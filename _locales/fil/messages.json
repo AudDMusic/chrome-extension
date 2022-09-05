@@ -1,1 +1,85 @@
-{}
+{
+  "lyrics": {
+    "message": "Lyrics"
+  },
+  "history": {
+    "message": "Kasaysayan"
+  },
+  "settings": {
+    "message": "Mga setting"
+  },
+  "goTo": {
+    "message": "Pumunta sa"
+  },
+  "confirm": {
+    "message": "Kumpirmahin"
+  },
+  "confirmQuestion": {
+    "message": "Ang pagkilos na ito ay hindi maibabalik. Sigurado ka bang gusto mong i-clear ang history?"
+  },
+  "no": {
+    "message": "Hindi"
+  },
+  "signIn": {
+    "message": "Mangyaring, <a url=\"chrome://chrome-signin/\" href=\"#\">mag-login gamit ang iyong Google account</a> sa Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Hindi makahanap ng anumang lyrics para sa kantang ito"
+  },
+  "countryCode": {
+    "message": "sa amin"
+  },
+  "noMatchesText": {
+    "message": "Paumanhin, hindi kami makakuha ng anumang mga tugma"
+  },
+  "playsAt": {
+    "message": "naglalaro sa"
+  },
+  "needAuth": {
+    "message": "Upang magamit ang AudD sa website na ito, kailangan mong mag-login"
+  },
+  "trialEnded": {
+    "message": "Natapos na ang iyong pagsubok. Tanging ang buong bersyon ang gumagana sa website na ito. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Mag-subscribe</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Paumanhin, ang bayad na bersyon lamang ang gumagana sa website na ito. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Kumuha ng token dito</a> at ipasa ito sa mga setting o isaalang-alang ang pag-automate ng iyong trabaho gamit ang aming <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Naka-save sa Kasaysayan"
+  },
+  "notInvoked": {
+    "message": "Hindi na-invoke ang extension para sa kasalukuyang page. Hindi maaaring makuha ang mga pahina ng Chrome. Mag-click sa isang tab at muling ilunsad ang extension."
+  },
+  "tryAgainText": {
+    "message": "subukan ulit"
+  },
+  "identifiedEarlierText": {
+    "message": "Nakilala kanina"
+  },
+  "copiedSuccessfully": {
+    "message": "Kinopya!"
+  },
+  "clearHistoryInit": {
+    "message": "Kumpirmahin ang pagkilos sa mga notification"
+  },
+  "settingsSaved": {
+    "message": "Matagumpay na na-save ang mga setting"
+  },
+  "appName": {
+    "message": "AudD® Music Recognition",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Kilalanin ang anumang musika mula sa anumang website sa iyong browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Mangyaring pumili ng isang tab"
+  },
+  "noAudioOnTab": {
+    "message": "Walang audio sa kasalukuyang tab"
+  },
+  "yes": {
+    "message": "Oo"
+  }
+}
