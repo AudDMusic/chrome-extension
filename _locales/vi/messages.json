@@ -1,1 +1,85 @@
-{}
+{
+  "playsAt": {
+    "message": "chơi ở"
+  },
+  "needAuth": {
+    "message": "Để sử dụng AudD trên trang web này, bạn cần đăng nhập"
+  },
+  "trialEnded": {
+    "message": "Thời gian dùng thử của bạn đã kết thúc. Chỉ có phiên bản đầy đủ hoạt động trên trang web này. <a href=\"https://dashboard.audd.io\" target=\"_blank\"> Đăng ký </a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Xin lỗi, chỉ có phiên bản trả phí hoạt động trên trang web này. <a href=\"https://dashboard.audd.io\" target=\"_blank\"> Nhận mã thông báo tại đây </a> và dán mã vào cài đặt hoặc xem xét tự động hóa công việc của bạn với API <a href=\"https://audd.io\" target=\"_blank\"> </a> của chúng tôi."
+  },
+  "SavedToHistory": {
+    "message": "Đã lưu vào Lịch sử"
+  },
+  "notInvoked": {
+    "message": "Phần mở rộng chưa được gọi cho trang hiện tại. Không thể chụp các trang Chrome. Nhấp vào một tab và khởi chạy lại tiện ích mở rộng."
+  },
+  "tryAgainText": {
+    "message": "thử lại"
+  },
+  "identifiedEarlierText": {
+    "message": "Đã xác định trước đó"
+  },
+  "copiedSuccessfully": {
+    "message": "Đã sao chép!"
+  },
+  "clearHistoryInit": {
+    "message": "Xác nhận hành động trong thông báo"
+  },
+  "settingsSaved": {
+    "message": "Đã lưu thành công cài đặt"
+  },
+  "appName": {
+    "message": "Nhận dạng âm nhạc AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Nhận ra bất kỳ bản nhạc nào từ bất kỳ trang web nào trong trình duyệt của bạn",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Vui lòng chọn một tab"
+  },
+  "noAudioOnTab": {
+    "message": "Không có âm thanh trên tab hiện tại"
+  },
+  "lyrics": {
+    "message": "Lời bài hát"
+  },
+  "history": {
+    "message": "Lịch sử"
+  },
+  "settings": {
+    "message": "Cài đặt"
+  },
+  "goTo": {
+    "message": "Đi đến"
+  },
+  "confirm": {
+    "message": "Xác nhận"
+  },
+  "confirmQuestion": {
+    "message": "Hành động này là không thể thay đổi. Bạn có chắc chắn muốn xóa lịch sử không?"
+  },
+  "yes": {
+    "message": "Đúng"
+  },
+  "no": {
+    "message": "Không"
+  },
+  "signIn": {
+    "message": "Vui lòng đăng nhập <a url=\"chrome://chrome-signin/\" href=\"#\"> bằng tài khoản Google của bạn </a> trong Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Không thể tìm thấy bất kỳ lời bài hát nào cho bài hát này"
+  },
+  "countryCode": {
+    "message": "chúng ta"
+  },
+  "noMatchesText": {
+    "message": "Xin lỗi, chúng tôi không thể nhận được bất kỳ kết quả phù hợp nào"
+  }
+}
