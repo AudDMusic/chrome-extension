@@ -75,5 +75,11 @@
   },
   "yes": {
     "message": "Ja"
+  },
+  "settingsSaved": {
+    "message": "De instellingen zijn opgeslagen"
+  },
+  "webstoreListingDescription": {
+    "message": "Installeer de AudD-extensie en klik op het pictogram om het nummer te identificeren dat op het huidige tabblad wordt afgespeeld.\nBekijk de video hierboven om te zien hoe het werkt.\n\nAudD-extensie:\n- Herkent de muziek die in uw browser wordt afgespeeld;\n- Vindt muziek in de AudD-database met meer dan 75 miljoen nummers met behulp van de muziekherkenningstechnologie;\n- Toont songteksten voor geïdentificeerde nummers;\n- Toont links om naar de nummers te luisteren op Apple Music, Spotify, Deezer, YouTube Music;\n- Geeft het exacte moment in het herkende nummer weer wanneer het geluid van de browser wordt afgespeeld.\n\nMuziekherkenning API: https://audd.io\nBroncode: https://github.com/AudDMusic/chrome-extension\n\nExtensie aangedreven door AudD® Muziekherkenning API\n\nGemaakt en ontworpen door het AudD.io-team met hulp van Eric Stark, Mitchell Kossoris en Ivan Kasatkin."
   }
 }
