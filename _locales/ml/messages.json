@@ -1,1 +1,85 @@
-{}
+{
+  "noAudioOnTab": {
+    "message": "നിലവിലെ ടാബിൽ ഓഡിയോ ഇല്ല"
+  },
+  "lyrics": {
+    "message": "വരികൾ"
+  },
+  "history": {
+    "message": "ചരിത്രം"
+  },
+  "settings": {
+    "message": "ക്രമീകരണങ്ങൾ"
+  },
+  "goTo": {
+    "message": "പോകുക"
+  },
+  "confirm": {
+    "message": "സ്ഥിരീകരിക്കുക"
+  },
+  "confirmQuestion": {
+    "message": "ഈ പ്രവർത്തനം മാറ്റാനാവാത്തതാണ്. ചരിത്രം മായ്‌ക്കണമെന്ന് തീർച്ചയാണോ?"
+  },
+  "yes": {
+    "message": "അതെ"
+  },
+  "no": {
+    "message": "ഇല്ല"
+  },
+  "signIn": {
+    "message": "ദയവായി, Google Chrome-ൽ <a url=\"chrome://chrome-signin/\" href=\"#\">നിങ്ങളുടെ Google അക്കൗണ്ട് ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യുക</a>"
+  },
+  "noLyrics": {
+    "message": "ഈ പാട്ടിന്റെ വരികൾ ഒന്നും കണ്ടെത്താനായില്ല"
+  },
+  "countryCode": {
+    "message": "ഞങ്ങളെ"
+  },
+  "noMatchesText": {
+    "message": "ക്ഷമിക്കണം, ഞങ്ങൾക്ക് പൊരുത്തങ്ങളൊന്നും നേടാനായില്ല"
+  },
+  "playsAt": {
+    "message": "എന്നതിൽ കളിക്കുന്നു"
+  },
+  "needAuth": {
+    "message": "ഈ വെബ്‌സൈറ്റിൽ AudD ഉപയോഗിക്കുന്നതിന്, നിങ്ങൾ ലോഗിൻ ചെയ്യേണ്ടതുണ്ട്"
+  },
+  "trialEnded": {
+    "message": "നിങ്ങളുടെ ട്രയൽ അവസാനിച്ചു. ഈ വെബ്‌സൈറ്റിൽ പൂർണ്ണ പതിപ്പ് മാത്രമേ പ്രവർത്തിക്കൂ. <a href=\"https://dashboard.audd.io\" target=\"_blank\">സബ്‌സ്‌ക്രൈബ്</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "ക്ഷമിക്കണം, ഈ വെബ്‌സൈറ്റിൽ പണമടച്ചുള്ള പതിപ്പ് മാത്രമേ പ്രവർത്തിക്കൂ. <a href=\"https://dashboard.audd.io\" target=\"_blank\">ഇവിടെ ടോക്കൺ നേടുക</a> അത് ക്രമീകരണങ്ങളിൽ ഒട്ടിക്കുക അല്ലെങ്കിൽ ഞങ്ങളുടെ <a href=\"https://audd.io\" target=\"_blank\">API</a> ഉപയോഗിച്ച് നിങ്ങളുടെ ജോലി ഓട്ടോമേറ്റ് ചെയ്യുന്നത് പരിഗണിക്കുക."
+  },
+  "SavedToHistory": {
+    "message": "ചരിത്രത്തിലേക്ക് സംരക്ഷിച്ചു"
+  },
+  "notInvoked": {
+    "message": "നിലവിലെ പേജിനായി വിപുലീകരണം അഭ്യർത്ഥിച്ചിട്ടില്ല. Chrome പേജുകൾ ക്യാപ്‌ചർ ചെയ്യാൻ കഴിയില്ല. ഒരു ടാബിൽ ക്ലിക്ക് ചെയ്ത് വിപുലീകരണം വീണ്ടും സമാരംഭിക്കുക."
+  },
+  "tryAgainText": {
+    "message": "വീണ്ടും ശ്രമിക്കുക"
+  },
+  "identifiedEarlierText": {
+    "message": "നേരത്തെ തിരിച്ചറിഞ്ഞത്"
+  },
+  "copiedSuccessfully": {
+    "message": "പകർത്തി!"
+  },
+  "clearHistoryInit": {
+    "message": "അറിയിപ്പുകളിലെ പ്രവർത്തനം സ്ഥിരീകരിക്കുക"
+  },
+  "settingsSaved": {
+    "message": "ക്രമീകരണങ്ങൾ സംരക്ഷിച്ചു"
+  },
+  "appName": {
+    "message": "AudD® സംഗീതം തിരിച്ചറിയൽ",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "നിങ്ങളുടെ ബ്രൗസറിലെ ഏത് വെബ്‌സൈറ്റിൽ നിന്നും ഏത് സംഗീതവും തിരിച്ചറിയുക",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "ദയവായി ഒരു ടാബ് തിരഞ്ഞെടുക്കുക"
+  }
+}
