@@ -78,5 +78,8 @@
   },
   "settingsSaved": {
     "message": "Seadete salvestamine õnnestus"
+  },
+  "listingDescription": {
+    "message": "Installige laiendus AudD ja klõpsake selle ikoonil, et tuvastada praegusel vahekaardil esitatav lugu.\nVaadake ülaltoodud videot, et näha, kuidas see töötab.\n\nAudD laiendus:\n- tuvastab teie brauseris mängitava muusika;\n- Otsib oma muusikatuvastustehnoloogia abil AudD andmebaasist enam kui 65 miljoni looga muusikat;\n- Näitab tuvastatud laulude sõnu;\n- Näitab linke, et kuulata lugusid teenuses Apple Music, Spotify, Deezer, YouTube Music;\n- Kuvab tuvastatud loo täpse hetke, mil brauserist pärit heli esitatakse.\n\nMuusikatuvastuse API: https://audd.io\nLähtekood: https://github.com/AudDMusic/chrome-extension\n\nLaiendust toetab AudD® muusikatuvastuse API\n\nLoonud ja kujundanud AudD.io meeskond Eric Starki, Mitchell Kossorise ja Ivan Kasatkini abiga."
   }
 }
