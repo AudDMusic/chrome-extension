@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "Reconeixement de música AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Reconeix qualsevol música de qualsevol lloc web al teu navegador",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Seleccioneu una pestanya"
+  },
+  "noAudioOnTab": {
+    "message": "No hi ha àudio a la pestanya actual"
+  },
+  "lyrics": {
+    "message": "Lletres"
+  },
+  "history": {
+    "message": "Història"
+  },
+  "settings": {
+    "message": "Configuració"
+  },
+  "goTo": {
+    "message": "Anar a"
+  },
+  "confirm": {
+    "message": "Confirmeu"
+  },
+  "confirmQuestion": {
+    "message": "Aquesta acció és irreversible. Esteu segur que voleu esborrar l'historial?"
+  },
+  "yes": {
+    "message": "Sí"
+  },
+  "no": {
+    "message": "No"
+  },
+  "signIn": {
+    "message": "Si us plau, <a url=\"chrome://chrome-signin/\" href=\"#\">inicieu la sessió amb el vostre compte de Google</a> a Google Chrome"
+  },
+  "noLyrics": {
+    "message": "No s'ha pogut trobar cap lletra d'aquesta cançó"
+  },
+  "countryCode": {
+    "message": "nosaltres"
+  },
+  "noMatchesText": {
+    "message": "Ho sentim, no hem pogut obtenir cap coincidència"
+  },
+  "playsAt": {
+    "message": "juga a"
+  },
+  "needAuth": {
+    "message": "Per utilitzar AudD en aquest lloc web, cal que inicieu sessió"
+  },
+  "trialEnded": {
+    "message": "El vostre judici ha finalitzat. En aquest lloc web només funciona la versió completa. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Subscriu-te</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Ho sentim, només la versió de pagament funciona en aquest lloc web. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Obteniu el testimoni aquí</a> i enganxeu-lo a la configuració o considereu automatitzar el vostre treball amb la nostra <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Guardat a la Història"
+  },
+  "notInvoked": {
+    "message": "L'extensió no s'ha invocat per a la pàgina actual. Les pàgines de Chrome no es poden capturar. Feu clic a una pestanya i reinicieu l'extensió."
+  },
+  "tryAgainText": {
+    "message": "torna-ho a provar"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificat abans"
+  },
+  "copiedSuccessfully": {
+    "message": "Copiat!"
+  },
+  "clearHistoryInit": {
+    "message": "Confirmeu l'acció a les notificacions"
+  },
+  "settingsSaved": {
+    "message": "S'ha desat correctament la configuració"
+  }
+}
