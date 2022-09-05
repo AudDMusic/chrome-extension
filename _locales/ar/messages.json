@@ -1,1 +1,85 @@
-{}
+{
+  "selectOneTab": {
+    "message": "الرجاء تحديد علامة تبويب واحدة"
+  },
+  "no": {
+    "message": "رقم"
+  },
+  "appName": {
+    "message": "AudD® التعرف على الموسيقى",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "تعرف على أي موسيقى من أي موقع ويب في متصفحك",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "noAudioOnTab": {
+    "message": "لا يوجد صوت في علامة التبويب الحالية"
+  },
+  "lyrics": {
+    "message": "كلمات الاغنية"
+  },
+  "history": {
+    "message": "تاريخ"
+  },
+  "settings": {
+    "message": "إعدادات"
+  },
+  "goTo": {
+    "message": "اذهب إلى"
+  },
+  "confirm": {
+    "message": "يتأكد"
+  },
+  "confirmQuestion": {
+    "message": "هذا العمل لا رجوع فيه. هل أنت متأكد أنك تريد مسح السجل؟"
+  },
+  "yes": {
+    "message": "نعم"
+  },
+  "signIn": {
+    "message": "الرجاء <a url=\"chrome://chrome-signin/\" href=\"#\"> تسجيل الدخول باستخدام حساب Google الخاص بك </a> في Google Chrome"
+  },
+  "noLyrics": {
+    "message": "تعذر العثور على أي كلمات لهذه الأغنية"
+  },
+  "countryCode": {
+    "message": "نحن"
+  },
+  "noMatchesText": {
+    "message": "معذرةً ، لم نتمكن من الحصول على أي مطابقات"
+  },
+  "playsAt": {
+    "message": "يلعب في"
+  },
+  "needAuth": {
+    "message": "لاستخدام AudD على هذا الموقع ، تحتاج إلى تسجيل الدخول"
+  },
+  "trialEnded": {
+    "message": "انتهت الفترة التجريبية الخاصة بك. فقط النسخة الكاملة تعمل على هذا الموقع. <a href=\"https://dashboard.audd.io\" target=\"_blank\"> اشتراك </a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "عذرا ، النسخة المدفوعة فقط تعمل على هذا الموقع. <a href=\"https://dashboard.audd.io\" target=\"_blank\"> احصل على رمز هنا </a> ولصقه في الإعدادات أو ضع في اعتبارك أتمتة عملك باستخدام <a href=\"https://audd.io\" target=\"_blank\"> API </a>."
+  },
+  "SavedToHistory": {
+    "message": "تم الحفظ في التاريخ"
+  },
+  "notInvoked": {
+    "message": "لم يتم استدعاء الامتداد للصفحة الحالية. لا يمكن التقاط صفحات Chrome. انقر فوق علامة تبويب وأعد تشغيل الامتداد."
+  },
+  "tryAgainText": {
+    "message": "حاول مرة أخرى"
+  },
+  "identifiedEarlierText": {
+    "message": "حددت في وقت سابق"
+  },
+  "copiedSuccessfully": {
+    "message": "نسخ!"
+  },
+  "clearHistoryInit": {
+    "message": "قم بتأكيد الإجراء في الإخطارات"
+  },
+  "settingsSaved": {
+    "message": "تم حفظ الإعدادات بنجاح"
+  }
+}
