@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® zenefelismerés",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Bármilyen webhelyről származó zenét felismer a böngészőjében",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Kérjük, válasszon egy lapot"
+  },
+  "noAudioOnTab": {
+    "message": "Nincs hang az aktuális lapon"
+  },
+  "lyrics": {
+    "message": "Dalszöveg"
+  },
+  "history": {
+    "message": "Történelem"
+  },
+  "settings": {
+    "message": "Beállítások"
+  },
+  "goTo": {
+    "message": "Menj"
+  },
+  "confirm": {
+    "message": "megerősít"
+  },
+  "confirmQuestion": {
+    "message": "Ez a művelet visszafordíthatatlan. Biztosan törli az előzményeket?"
+  },
+  "yes": {
+    "message": "Igen"
+  },
+  "no": {
+    "message": "Nem"
+  },
+  "signIn": {
+    "message": "Kérjük, <a url=\"chrome://chrome-signin/\" href=\"#\">jelentkezzen be Google Fiókjával</a> a Google Chrome-ban"
+  },
+  "noLyrics": {
+    "message": "Nem található szöveg ehhez a dalhoz"
+  },
+  "countryCode": {
+    "message": "minket"
+  },
+  "noMatchesText": {
+    "message": "Sajnáljuk, nem tudtunk egyezést szerezni"
+  },
+  "playsAt": {
+    "message": "helyen játszik"
+  },
+  "needAuth": {
+    "message": "Az AudD használatához ezen a webhelyen be kell jelentkeznie"
+  },
+  "trialEnded": {
+    "message": "A próbaidőszak véget ért. Ezen a weboldalon csak a teljes verzió működik. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Feliratkozás</a>"
+  },
+  "SavedToHistory": {
+    "message": "Mentve az előzmények közé"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Sajnos ezen a webhelyen csak a fizetős verzió működik. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Szerezzen be tokent innen</a>, és szüntesse meg a beállításokban, vagy fontolja meg a munka automatizálását az <a href=\"https://audd.io\" target=\"_blank\">API</a> segítségével."
+  },
+  "notInvoked": {
+    "message": "A kiterjesztés nem lett meghívva az aktuális oldalhoz. A Chrome-oldalak nem rögzíthetők. Kattintson egy lapra, és indítsa újra a bővítményt."
+  },
+  "tryAgainText": {
+    "message": "próbáld újra"
+  },
+  "identifiedEarlierText": {
+    "message": "Korábban azonosították"
+  },
+  "copiedSuccessfully": {
+    "message": "Másolva!"
+  },
+  "clearHistoryInit": {
+    "message": "Erősítse meg a műveletet az értesítésekben"
+  },
+  "settingsSaved": {
+    "message": "A beállítások sikeresen elmentve"
+  }
+}
