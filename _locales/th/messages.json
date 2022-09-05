@@ -1,1 +1,85 @@
-{}
+{
+  "needAuth": {
+    "message": "หากต้องการใช้ AudD บนเว็บไซต์นี้ คุณต้องเข้าสู่ระบบ"
+  },
+  "trialEnded": {
+    "message": "ช่วงทดลองใช้ของคุณสิ้นสุดแล้ว เฉพาะเวอร์ชันเต็มเท่านั้นที่ใช้งานได้บนเว็บไซต์นี้ <a href=\"https://dashboard.audd.io\" target=\"_blank\">สมัครสมาชิก</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "ขออภัย เฉพาะรุ่นที่ต้องชำระเงินเท่านั้นที่ใช้งานได้บนเว็บไซต์นี้ <a href=\"https://dashboard.audd.io\" target=\"_blank\">รับโทเค็นที่นี่</a> และวางในการตั้งค่าหรือพิจารณาทำให้งานของคุณเป็นแบบอัตโนมัติด้วย <a href=\"https://audd.io\" target=\"_blank\">API</a> ของเรา"
+  },
+  "SavedToHistory": {
+    "message": "บันทึกไว้ในประวัติศาสตร์"
+  },
+  "notInvoked": {
+    "message": "ส่วนขยายนี้ไม่ได้ถูกเรียกใช้สำหรับหน้าปัจจุบัน ไม่สามารถจับภาพหน้า Chrome ได้ คลิกที่แท็บและเปิดส่วนขยายอีกครั้ง"
+  },
+  "tryAgainText": {
+    "message": "ลองอีกครั้ง"
+  },
+  "identifiedEarlierText": {
+    "message": "ระบุก่อนหน้านี้"
+  },
+  "copiedSuccessfully": {
+    "message": "คัดลอก!"
+  },
+  "clearHistoryInit": {
+    "message": "ยืนยันการดำเนินการในการแจ้งเตือน"
+  },
+  "playsAt": {
+    "message": "เล่นที่"
+  },
+  "settingsSaved": {
+    "message": "บันทึกการตั้งค่าเรียบร้อยแล้ว"
+  },
+  "appName": {
+    "message": "AudD® Music Recognition",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "รู้จักเพลงจากเว็บไซต์ใด ๆ ในเบราว์เซอร์ของคุณ",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "โปรดเลือกหนึ่งแท็บ"
+  },
+  "noAudioOnTab": {
+    "message": "ไม่มีเสียงในแท็บปัจจุบัน"
+  },
+  "lyrics": {
+    "message": "เนื้อเพลง"
+  },
+  "history": {
+    "message": "ประวัติศาสตร์"
+  },
+  "settings": {
+    "message": "การตั้งค่า"
+  },
+  "goTo": {
+    "message": "ไปที่"
+  },
+  "confirm": {
+    "message": "ยืนยัน"
+  },
+  "confirmQuestion": {
+    "message": "การดำเนินการนี้ย้อนกลับไม่ได้ คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติ"
+  },
+  "yes": {
+    "message": "ใช่"
+  },
+  "no": {
+    "message": "ไม่"
+  },
+  "signIn": {
+    "message": "กรุณา <a url=\"chrome://chrome-signin/\" href=\"#\">เข้าสู่ระบบด้วยบัญชี Google ของคุณ</a> ใน Google Chrome"
+  },
+  "noLyrics": {
+    "message": "ไม่พบเนื้อร้องสำหรับเพลงนี้"
+  },
+  "countryCode": {
+    "message": "เรา"
+  },
+  "noMatchesText": {
+    "message": "ขออภัย ไม่พบรายการที่ตรงกัน"
+  }
+}
