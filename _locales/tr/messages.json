@@ -75,5 +75,11 @@
   },
   "yes": {
     "message": "Evet"
+  },
+  "settingsSaved": {
+    "message": "Ayarlar başarıyla kaydedildi"
+  },
+  "webstoreListingDescription": {
+    "message": "AudD uzantısını yükleyin ve geçerli sekmede çalan şarkıyı belirlemek için simgesine tıklayın.\nNasıl çalıştığını görmek için yukarıdaki videoyu izleyin.\n\nAudD uzantısı:\n- Tarayıcınızda çalan müziği tanır;\n- Müzik tanıma teknolojisini kullanarak AudD veritabanında 75 milyondan fazla şarkı içeren müzik bulur;\n- Belirlenen şarkıların sözlerini gösterir;\n- Şarkıları Apple Music, Spotify, Deezer, YouTube Music'te dinlemek için bağlantılar gösterir;\n- Tarayıcıdan gelen ses çalındığında tanınan şarkıdaki tam anı görüntüler.\n\nMüzik Tanıma API'si: https://audd.io\nKaynak kodu: https://github.com/AudDMusic/chrome-extension\n\nAudD® Müzik tanıma API'sinden güç alan uzantı\n\nAudD.io ekibi tarafından Eric Stark, Mitchell Kossoris ve Ivan Kasatkin'in yardımıyla oluşturuldu ve tasarlandı."
   }
 }
