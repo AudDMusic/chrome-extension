@@ -1,1 +1,85 @@
-{}
+{
+  "playsAt": {
+    "message": "gioca a"
+  },
+  "appName": {
+    "message": "Riconoscimento musicale AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Riconosci la musica di qualsiasi sito web nel tuo browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Seleziona una scheda"
+  },
+  "noAudioOnTab": {
+    "message": "Nessun audio nella scheda corrente"
+  },
+  "lyrics": {
+    "message": "Testi"
+  },
+  "history": {
+    "message": "Storia"
+  },
+  "settings": {
+    "message": "Impostazioni"
+  },
+  "goTo": {
+    "message": "Vai a"
+  },
+  "confirm": {
+    "message": "Confermare"
+  },
+  "confirmQuestion": {
+    "message": "Questa azione è irreversibile. Sei sicuro di voler cancellare la cronologia?"
+  },
+  "yes": {
+    "message": "sì"
+  },
+  "no": {
+    "message": "No"
+  },
+  "signIn": {
+    "message": "Per favore, <a url=\"chrome://chrome-signin/\" href=\"#\">accedi con il tuo account Google</a> in Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Impossibile trovare il testo di questa canzone"
+  },
+  "countryCode": {
+    "message": "noi"
+  },
+  "noMatchesText": {
+    "message": "Spiacenti, non siamo riusciti a trovare corrispondenze"
+  },
+  "needAuth": {
+    "message": "Per utilizzare AudD su questo sito Web, è necessario effettuare il login"
+  },
+  "trialEnded": {
+    "message": "La tua prova è terminata. Solo la versione completa funziona su questo sito. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abbonati</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Siamo spiacenti, solo la versione a pagamento funziona su questo sito. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Ottieni il token qui</a> e incollalo nelle impostazioni o considera di automatizzare il tuo lavoro con la nostra <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Salvato nella cronologia"
+  },
+  "notInvoked": {
+    "message": "L'estensione non è stata invocata per la pagina corrente. Impossibile acquisire le pagine di Chrome. Fare clic su una scheda e riavviare l'estensione."
+  },
+  "tryAgainText": {
+    "message": "riprova"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificato in precedenza"
+  },
+  "copiedSuccessfully": {
+    "message": "Copiato!"
+  },
+  "clearHistoryInit": {
+    "message": "Conferma l'azione nelle notifiche"
+  },
+  "settingsSaved": {
+    "message": "Impostazioni salvate con successo"
+  }
+}
