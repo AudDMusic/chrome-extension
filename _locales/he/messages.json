@@ -1,1 +1,85 @@
-{}
+{
+  "confirmQuestion": {
+    "message": "פעולה זו היא בלתי הפיכה. האם אתה בטוח שברצונך לנקות את ההיסטוריה?"
+  },
+  "no": {
+    "message": "לא"
+  },
+  "signIn": {
+    "message": "אנא, <a url=\"chrome://chrome-signin/\" href=\"#\">התחבר עם חשבון Google שלך</a> ב-Google Chrome"
+  },
+  "noLyrics": {
+    "message": "לא הצלחתי למצוא מילים לשיר הזה"
+  },
+  "countryCode": {
+    "message": "לָנוּ"
+  },
+  "noMatchesText": {
+    "message": "מצטערים, לא הצלחנו להשיג התאמות"
+  },
+  "playsAt": {
+    "message": "משחק ב"
+  },
+  "needAuth": {
+    "message": "כדי להשתמש ב-AudD באתר זה, עליך להתחבר"
+  },
+  "trialEnded": {
+    "message": "הניסיון שלך הסתיים. רק הגרסה המלאה פועלת באתר זה. <a href=\"https://dashboard.audd.io\" target=\"_blank\">הירשם</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "מצטערים, רק הגרסה בתשלום פועלת באתר זה. <a href=\"https://dashboard.audd.io\" target=\"_blank\">קבל אסימון כאן</a> והעבר אותו בהגדרות או שקול להפוך את העבודה שלך לאוטומטית עם <a href=\"https://audd.io\" target=\"_blank\">API</a> שלנו."
+  },
+  "SavedToHistory": {
+    "message": "נשמר בהיסטוריה"
+  },
+  "notInvoked": {
+    "message": "התוסף לא הופעל עבור הדף הנוכחי. לא ניתן ללכוד דפי Chrome. לחץ על כרטיסייה והפעל מחדש את התוסף."
+  },
+  "tryAgainText": {
+    "message": "נסה שוב"
+  },
+  "identifiedEarlierText": {
+    "message": "זוהה קודם לכן"
+  },
+  "copiedSuccessfully": {
+    "message": "מוּעֲתָק!"
+  },
+  "clearHistoryInit": {
+    "message": "אשר את הפעולה בהתראות"
+  },
+  "settingsSaved": {
+    "message": "ההגדרות נשמרו בהצלחה"
+  },
+  "appName": {
+    "message": "AudD® זיהוי מוזיקה",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "זהה כל מוזיקה מכל אתר בדפדפן שלך",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "אנא בחר כרטיסייה אחת"
+  },
+  "noAudioOnTab": {
+    "message": "אין שמע בכרטיסייה הנוכחית"
+  },
+  "lyrics": {
+    "message": "מילים"
+  },
+  "history": {
+    "message": "הִיסטוֹרִיָה"
+  },
+  "settings": {
+    "message": "הגדרות"
+  },
+  "goTo": {
+    "message": "לך ל"
+  },
+  "confirm": {
+    "message": "לְאַשֵׁר"
+  },
+  "yes": {
+    "message": "כן"
+  }
+}
