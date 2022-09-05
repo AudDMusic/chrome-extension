@@ -1,1 +1,85 @@
-{}
+{
+  "needAuth": {
+    "message": "Aby korzystać z AudD na tej stronie, musisz się zalogować"
+  },
+  "trialEnded": {
+    "message": "Twój okres próbny dobiegł końca. Na tej stronie działa tylko pełna wersja. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Subskrybuj</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Przepraszamy, na tej stronie działa tylko wersja płatna. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Pobierz token tutaj</a> i wklej go w ustawieniach lub rozważ zautomatyzowanie swojej pracy za pomocą naszego <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Zapisane w historii"
+  },
+  "notInvoked": {
+    "message": "Rozszerzenie nie zostało wywołane dla bieżącej strony. Nie można przechwycić stron Chrome. Kliknij kartę i ponownie uruchom rozszerzenie."
+  },
+  "tryAgainText": {
+    "message": "Spróbuj ponownie"
+  },
+  "identifiedEarlierText": {
+    "message": "Zidentyfikowane wcześniej"
+  },
+  "copiedSuccessfully": {
+    "message": "Skopiowane!"
+  },
+  "clearHistoryInit": {
+    "message": "Potwierdź akcję w powiadomieniach"
+  },
+  "settingsSaved": {
+    "message": "Pomyślnie zapisano ustawienia"
+  },
+  "appName": {
+    "message": "Rozpoznawanie muzyki AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Rozpoznaj dowolną muzykę z dowolnej witryny w przeglądarce",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Proszę wybrać jedną kartę"
+  },
+  "noAudioOnTab": {
+    "message": "Brak dźwięku na bieżącej karcie"
+  },
+  "lyrics": {
+    "message": "tekst piosenki"
+  },
+  "history": {
+    "message": "Historia"
+  },
+  "settings": {
+    "message": "Ustawienia"
+  },
+  "goTo": {
+    "message": "Iść do"
+  },
+  "confirm": {
+    "message": "Potwierdzać"
+  },
+  "confirmQuestion": {
+    "message": "To działanie jest nieodwracalne. Czy na pewno chcesz wyczyścić historię?"
+  },
+  "yes": {
+    "message": "TAk"
+  },
+  "no": {
+    "message": "Nie"
+  },
+  "signIn": {
+    "message": "Proszę <a url=\"chrome://chrome-signin/\" href=\"#\">zalogować się na swoje konto Google</a> w Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Nie udało się znaleźć żadnego tekstu do tej piosenki"
+  },
+  "countryCode": {
+    "message": "nas"
+  },
+  "noMatchesText": {
+    "message": "Przepraszamy, nie udało się uzyskać żadnych dopasowań"
+  },
+  "playsAt": {
+    "message": "gra w"
+  }
+}
