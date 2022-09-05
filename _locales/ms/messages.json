@@ -75,5 +75,11 @@
   },
   "yes": {
     "message": "ya"
+  },
+  "settingsSaved": {
+    "message": "Berjaya menyimpan tetapan"
+  },
+  "webstoreListingDescription": {
+    "message": "Pasang sambungan AudD dan klik pada ikonnya untuk mengenal pasti lagu yang dimainkan pada tab semasa.\nTonton video di atas untuk melihat cara ia berfungsi.\n\nSambungan AudD:\n- Mengecam muzik yang dimainkan dalam penyemak imbas anda;\n- Mencari muzik dalam pangkalan data AudD dengan lebih daripada 75 juta lagu menggunakan teknologi pengecaman muziknya;\n- Menunjukkan lirik untuk lagu yang dikenal pasti;\n- Menunjukkan pautan untuk mendengar lagu di Apple Music, Spotify, Deezer, YouTube Music;\n- Memaparkan detik yang tepat dalam lagu yang diiktiraf apabila bunyi dari pelayar dimainkan.\n\nAPI Pengecaman Muzik: https://audd.io\nKod sumber: https://github.com/AudDMusic/chrome-extension\n\nSambungan Dikuasakan Oleh API pengecaman Muzik AudD®\n\nDicipta dan direka oleh pasukan AudD.io dengan bantuan daripada Eric Stark, Mitchell Kossoris dan Ivan Kasatkin."
   }
 }
