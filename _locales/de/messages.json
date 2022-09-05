@@ -78,5 +78,8 @@
   },
   "lyrics": {
     "message": "Text"
+  },
+  "listingDescription": {
+    "message": "Installieren Sie die AudD-Erweiterung und klicken Sie auf ihr Symbol, um den Song zu identifizieren, der auf der aktuellen Registerkarte abgespielt wird.\nSehen Sie sich das Video oben an, um zu sehen, wie es funktioniert.\n\nAudD-Erweiterung:\n- erkennt die Musik, die in Ihrem Browser abgespielt wird;\n- Findet Musik in der AudD-Datenbank mit mehr als 65 Millionen Songs mithilfe seiner Musikerkennungstechnologie;\n- Zeigt Texte für identifizierte Songs;\n- Zeigt Links zum Anhören der Songs auf Apple Music, Spotify, Deezer, YouTube Music;\n- Zeigt den genauen Moment im erkannten Song an, wenn der Sound vom Browser abgespielt wird.\n\nMusikerkennungs-API: https://audd.io\nQuellcode: https://github.com/AudDMusic/chrome-extension\n\nErweiterung Powered By AudD® Musikerkennungs-API\n\nErstellt und gestaltet vom AudD.io-Team mit Hilfe von Eric Stark, Mitchell Kossoris und Ivan Kasatkin."
   }
 }
