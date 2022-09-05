@@ -1,1 +1,85 @@
-{}
+{
+  "appDesc": {
+    "message": "Reconheça qualquer música de qualquer site em seu navegador",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Selecione uma guia"
+  },
+  "noAudioOnTab": {
+    "message": "Sem áudio na guia atual"
+  },
+  "lyrics": {
+    "message": "Letra da música"
+  },
+  "history": {
+    "message": "História"
+  },
+  "settings": {
+    "message": "Definições"
+  },
+  "goTo": {
+    "message": "Vamos para"
+  },
+  "confirm": {
+    "message": "confirme"
+  },
+  "confirmQuestion": {
+    "message": "Esta ação é irreversível. Tem certeza de que deseja limpar o histórico?"
+  },
+  "yes": {
+    "message": "Sim"
+  },
+  "no": {
+    "message": "Não"
+  },
+  "signIn": {
+    "message": "Por favor, <a url=\"chrome://chrome-signin/\" href=\"#\">faça login com sua conta do Google</a> no Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Não foi possível encontrar nenhuma letra para esta música"
+  },
+  "countryCode": {
+    "message": "nós"
+  },
+  "noMatchesText": {
+    "message": "Não foi possível obter correspondências"
+  },
+  "playsAt": {
+    "message": "joga em"
+  },
+  "needAuth": {
+    "message": "Para usar o AudD neste site, você precisa fazer o login"
+  },
+  "trialEnded": {
+    "message": "Seu julgamento terminou. Apenas a versão completa funciona neste site. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Assinar</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Desculpe, apenas a versão paga funciona neste site. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Obtenha o token aqui</a> e cole-o nas configurações ou considere automatizar seu trabalho com nossa <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Salvo no histórico"
+  },
+  "notInvoked": {
+    "message": "A extensão não foi invocada para a página atual. As páginas do Chrome não podem ser capturadas. Clique em uma guia e reinicie a extensão."
+  },
+  "tryAgainText": {
+    "message": "tente novamente"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificado anteriormente"
+  },
+  "copiedSuccessfully": {
+    "message": "Copiado!"
+  },
+  "clearHistoryInit": {
+    "message": "Confirme a ação nas notificações"
+  },
+  "settingsSaved": {
+    "message": "As configurações foram salvas com sucesso"
+  },
+  "appName": {
+    "message": "Reconhecimento de Música AudD®",
+    "description": "The title of the application, displayed in the web store."
+  }
+}
