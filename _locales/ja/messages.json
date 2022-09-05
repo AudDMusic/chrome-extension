@@ -77,6 +77,6 @@
     "message": "通知でアクションを確認する"
   },
   "settingsSaved": {
-    "message": "設定を保存しました"
+    "message": "AudD 拡張機能をインストールし、そのアイコンをクリックして、現在のタブで再生中の曲を特定します。\n上のビデオを見て、その仕組みを確認してください。\n\nAudD 拡張子:\n- ブラウザで再生中の音楽を認識します。\n- 音楽認識技術を使用して、7,500 万曲を超える AudD データベースで音楽を検索します。\n- 特定された曲の歌詞を表示します。\n- Apple Music、Spotify、Deezer、YouTube Music で曲を聴くためのリンクを表示します。\n- ブラウザからのサウンドが再生されると、認識された曲の正確な瞬間が表示されます。\n\n音楽認識 API: https://audd.io\nソースコード: https://github.com/AudDMusic/chrome-extension\n\nAudD® 音楽認識 API を利用した拡張機能\n\nEric Stark、Mitchell Kossoris、Ivan Kasatkin の協力を得て、AudD.io チームによって作成および設計されました。"
   }
 }
