@@ -4,8 +4,8 @@
     "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "Распознавай любую музыку, играющую на любом сайте в браузере", 
-    "description":"The description of the application, displayed in the web store."
+    "message": "Распознавай любую музыку, играющую на любом сайте в браузере",
+    "description": "The description of the application, displayed in the web store."
   },
   "selectOneTab": {
     "message": "Пожалуйста, выбери одну вкладку"
@@ -42,9 +42,6 @@
   },
   "noLyrics": {
     "message": "Не могу найти текст слов этой песни"
-  },
-  "countryCode": {
-    "message": "ru"
   },
   "noMatchesText": {
     "message": "Простите, не получилось распознать эту песню"

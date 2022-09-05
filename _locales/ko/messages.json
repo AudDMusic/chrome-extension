@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "이 노래의 가사를 찾을 수 없습니다"
   },
-  "countryCode": {
-    "message": "우리를"
-  },
   "noMatchesText": {
     "message": "죄송합니다. 일치하는 항목을 찾을 수 없습니다"
   },

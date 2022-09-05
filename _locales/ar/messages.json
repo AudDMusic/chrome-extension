@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "تعذر العثور على أي كلمات لهذه الأغنية"
   },
-  "countryCode": {
-    "message": "نحن"
-  },
   "noMatchesText": {
     "message": "معذرةً ، لم نتمكن من الحصول على أي مطابقات"
   },

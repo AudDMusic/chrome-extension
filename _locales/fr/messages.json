@@ -76,9 +76,6 @@
   "noLyrics": {
     "message": "Impossible de trouver les paroles de cette chanson"
   },
-  "countryCode": {
-    "message": "nous"
-  },
   "noMatchesText": {
     "message": "Désolé, nous n'avons pu obtenir aucune correspondance"
   }

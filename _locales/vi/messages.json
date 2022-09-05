@@ -76,9 +76,6 @@
   "noLyrics": {
     "message": "Không thể tìm thấy bất kỳ lời bài hát nào cho bài hát này"
   },
-  "countryCode": {
-    "message": "chúng ta"
-  },
   "noMatchesText": {
     "message": "Xin lỗi, chúng tôi không thể nhận được bất kỳ kết quả phù hợp nào"
   }

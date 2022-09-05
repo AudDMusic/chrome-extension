@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "Tidak dapat menemukan lirik untuk lagu ini"
   },
-  "countryCode": {
-    "message": "kita"
-  },
   "noMatchesText": {
     "message": "Maaf, kami tidak bisa mendapatkan kecocokan"
   },

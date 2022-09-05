@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "Det gick inte att hitta någon text till den här låten"
   },
-  "countryCode": {
-    "message": "oss"
-  },
   "noMatchesText": {
     "message": "Tyvärr, vi kunde inte få några matchningar"
   },

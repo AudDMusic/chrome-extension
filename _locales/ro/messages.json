@@ -26,9 +26,6 @@
   "noLyrics": {
     "message": "Nu am găsit versuri pentru această melodie"
   },
-  "countryCode": {
-    "message": "ne"
-  },
   "noMatchesText": {
     "message": "Ne pare rău, nu am putut obține niciun meci"
   },

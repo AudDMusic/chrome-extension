@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "Kunne ikke finde nogen tekst til denne sang"
   },
-  "countryCode": {
-    "message": "os"
-  },
   "noMatchesText": {
     "message": "Beklager, vi kunne ikke få nogen matches"
   },

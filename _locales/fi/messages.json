@@ -64,9 +64,6 @@
   "noLyrics": {
     "message": "Tälle kappaleelle ei löytynyt sanoja"
   },
-  "countryCode": {
-    "message": "meille"
-  },
   "noMatchesText": {
     "message": "Valitettavasti emme löytäneet yhtään ottelua"
   },

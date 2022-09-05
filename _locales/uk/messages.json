@@ -14,9 +14,6 @@
   "noLyrics": {
     "message": "Не вдалося знайти слова цієї пісні"
   },
-  "countryCode": {
-    "message": "нас"
-  },
   "noMatchesText": {
     "message": "На жаль, не вдалося знайти збігів"
   },

@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "Selle laulu sõnu ei leitud"
   },
-  "countryCode": {
-    "message": "meie"
-  },
   "noMatchesText": {
     "message": "Kahjuks ei õnnestunud vasteid leida"
   },
