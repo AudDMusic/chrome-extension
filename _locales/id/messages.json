@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "Pengenalan Musik AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Kenali musik apa pun dari situs web mana pun di browser Anda",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Silakan pilih satu tab"
+  },
+  "noAudioOnTab": {
+    "message": "Tidak ada audio di tab saat ini"
+  },
+  "lyrics": {
+    "message": "Lirik"
+  },
+  "history": {
+    "message": "Sejarah"
+  },
+  "settings": {
+    "message": "Pengaturan"
+  },
+  "goTo": {
+    "message": "Pergi ke"
+  },
+  "confirm": {
+    "message": "Mengonfirmasi"
+  },
+  "confirmQuestion": {
+    "message": "Tindakan ini tidak dapat diubah. Yakin ingin menghapus histori?"
+  },
+  "yes": {
+    "message": "Ya"
+  },
+  "no": {
+    "message": "Tidak"
+  },
+  "signIn": {
+    "message": "Silakan, <a url=\"chrome://chrome-signin/\" href=\"#\">login dengan akun Google Anda</a> di Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Tidak dapat menemukan lirik untuk lagu ini"
+  },
+  "countryCode": {
+    "message": "kita"
+  },
+  "noMatchesText": {
+    "message": "Maaf, kami tidak bisa mendapatkan kecocokan"
+  },
+  "playsAt": {
+    "message": "bermain di"
+  },
+  "needAuth": {
+    "message": "Untuk menggunakan AudD di situs web ini, Anda harus login"
+  },
+  "trialEnded": {
+    "message": "Uji coba Anda telah berakhir. Hanya versi lengkap yang berfungsi di situs web ini. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Berlangganan</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Maaf, hanya versi berbayar yang berfungsi di situs web ini. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Dapatkan token di sini</a> dan tempelkan di pengaturan atau pertimbangkan untuk mengotomatiskan pekerjaan Anda dengan <a href=\"https://audd.io\" target=\"_blank\">API</a> kami."
+  },
+  "SavedToHistory": {
+    "message": "Disimpan ke Sejarah"
+  },
+  "notInvoked": {
+    "message": "Ekstensi belum dipanggil untuk halaman saat ini. Halaman Chrome tidak dapat diambil. Klik pada tab dan luncurkan kembali ekstensi."
+  },
+  "tryAgainText": {
+    "message": "coba lagi"
+  },
+  "identifiedEarlierText": {
+    "message": "Diidentifikasi sebelumnya"
+  },
+  "copiedSuccessfully": {
+    "message": "Disalin!"
+  },
+  "clearHistoryInit": {
+    "message": "Konfirmasikan tindakan di notifikasi"
+  },
+  "settingsSaved": {
+    "message": "Berhasil menyimpan pengaturan"
+  }
+}
