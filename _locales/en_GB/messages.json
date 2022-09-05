@@ -1,0 +1,82 @@
+{
+  "appName": {
+    "message": "AudD® Music Recognition",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Recognize any music from any website in your browser", 
+    "description":"The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Please select one tab"
+  },
+  "noAudioOnTab": {
+    "message": "No audio on the current tab"
+  },
+  "lyrics": {
+    "message": "Lyrics"
+  },
+  "history": {
+    "message": "History"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "goTo": {
+    "message": "Go to"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "confirmQuestion": {
+    "message": "This action is irreversible. Are you sure you want to clear the history?"
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "signIn": {
+    "message": "Please, <a url=\"chrome://chrome-signin/\" href=\"#\">login with your Google account</a> in Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Couldn't find any lyrics for this song"
+  },
+  "noMatchesText": {
+    "message": "Sorry, we couldn't get any matches"
+  },
+  "playsAt": {
+    "message": "plays at"
+  },
+  "needAuth": {
+    "message": "To use AudD on this website, you need to login"
+  },
+  "trialEnded": {
+    "message": "Your trial has ended. Only the full version works on this website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Subscribe</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Sorry, only the paid version works on this website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Get token here</a> and past it in the settings or consider automating your work with our <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Saved to the History"
+  },
+  "notInvoked": {
+    "message": "The extension has not been invoked for the current page. Chrome pages cannot be captured. Click on a tab and relaunch the extension."
+  },
+  "tryAgainText": {
+    "message": "try again"
+  },
+  "identifiedEarlierText": {
+    "message": "Identified earlier"
+  },
+  "copiedSuccessfully": {
+    "message": "Copied!"
+  },
+  "clearHistoryInit": {
+    "message": "Confirm the action in the notifications"
+  },
+  "settingsSaved": {
+    "message": "Successfully saved the settings"
+  }
+}
