@@ -38,7 +38,7 @@
     "message": "Nr"
   },
   "signIn": {
-    "message": "Prašome <a url=\"chrome://chrome-signin/\" href=\"#\">prisijungti naudodami „Google“ paskyrą</a> „Google Chrome“."
+    "message": "Prašome <a url=\"chrome://chrome-signin/\" href=\"#\">login with your Google account</a> in Google Chrome"
   },
   "noLyrics": {
     "message": "Nepavyko rasti jokių šios dainos žodžių"
