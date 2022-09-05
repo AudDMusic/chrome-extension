@@ -78,5 +78,8 @@
   },
   "settingsSaved": {
     "message": "Berhasil menyimpan pengaturan"
+  },
+  "listingDescription": {
+    "message": "Instal ekstensi AudD dan klik ikonnya untuk mengidentifikasi lagu yang diputar di tab saat ini.\nTonton video di atas untuk melihat cara kerjanya.\n\nEkstensi AUDD:\n- Mengenali musik yang diputar di browser Anda;\n- Menemukan musik di database AudD dengan lebih dari 65 juta lagu menggunakan teknologi pengenalan musiknya;\n- Menampilkan lirik untuk lagu yang diidentifikasi;\n- Menampilkan tautan untuk mendengarkan lagu di Apple Music, Spotify, Deezer, YouTube Music;\n- Menampilkan momen yang tepat dalam lagu yang dikenali saat suara dari browser diputar.\n\nAPI Pengenalan Musik: https://audd.io\nKode sumber: https://github.com/AudDMusic/chrome-extension\n\nEkstensi Didukung Oleh AudD® Music recognition API\n\nDibuat dan dirancang oleh tim AudD.io dengan bantuan Eric Stark, Mitchell Kossoris, dan Ivan Kasatkin."
   }
 }
