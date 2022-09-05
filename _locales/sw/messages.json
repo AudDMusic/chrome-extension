@@ -75,5 +75,11 @@
   },
   "clearHistoryInit": {
     "message": "Thibitisha kitendo katika arifa"
+  },
+  "settingsSaved": {
+    "message": "Imefaulu kuhifadhi mipangilio"
+  },
+  "webstoreListingDescription": {
+    "message": "Sakinisha kiendelezi cha AudD na ubofye ikoni yake ili kutambua wimbo unaocheza kwenye kichupo cha sasa.\nTazama video hapo juu kuona jinsi inavyofanya kazi.\n\nUgani wa AudD:\n- Inatambua muziki unaocheza kwenye kivinjari chako;\n- Hupata muziki katika hifadhidata ya AudD iliyo na zaidi ya nyimbo milioni 75 kwa kutumia teknolojia yake ya utambuzi wa muziki;\n- Inaonyesha maneno ya nyimbo zilizotambuliwa;\n- Inaonyesha viungo vya kusikiliza nyimbo kwenye Apple Music, Spotify, Deezer, YouTube Music;\n- Inaonyesha wakati halisi katika wimbo unaotambuliwa wakati sauti kutoka kwa kivinjari inachezwa.\n\nAPI ya Utambuzi wa Muziki: https://audd.io\nNambari ya chanzo: https://github.com/AudDMusic/chrome-extension\n\nKiendelezi Kinachoendeshwa na API ya utambuzi wa Muziki ya AudD®\n\nImeundwa na kuundwa na timu ya AudD.io kwa usaidizi kutoka kwa Eric Stark, Mitchell Kossoris na Ivan Kasatkin."
   }
 }
