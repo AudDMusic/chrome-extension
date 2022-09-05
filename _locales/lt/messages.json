@@ -75,5 +75,11 @@
   },
   "clearHistoryInit": {
     "message": "Patvirtinkite veiksmą pranešimuose"
+  },
+  "settingsSaved": {
+    "message": "Nustatymai sėkmingai išsaugoti"
+  },
+  "webstoreListingDescription": {
+    "message": "Įdiekite AudD plėtinį ir spustelėkite jo piktogramą, kad nustatytumėte dainą, grojamą dabartiniame skirtuke.\nŽiūrėkite aukščiau esantį vaizdo įrašą, kad sužinotumėte, kaip tai veikia.\n\nAudD plėtinys:\n- Atpažįsta jūsų naršyklėje grojamą muziką;\n- Suranda muziką AudD duomenų bazėje su daugiau nei 75 milijonais dainų, naudodamas savo muzikos atpažinimo technologiją;\n- Rodo identifikuotų dainų žodžius;\n- Rodomos nuorodos, leidžiančios klausytis dainų „Apple Music“, „Spotify“, „Deezer“, „YouTube Music“;\n- Rodo tikslų atpažintos dainos momentą, kai grojamas garsas iš naršyklės.\n\nMuzikos atpažinimo API: https://audd.io\nŠaltinio kodas: https://github.com/AudDMusic/chrome-extension\n\nPlėtinys, kurį palaiko AudD® muzikos atpažinimo API\n\nSukūrė ir sukūrė AudD.io komanda, padedama Erico Starko, Mitchell Kossoris ir Ivan Kasatkin."
   }
 }
