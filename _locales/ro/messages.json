@@ -1,1 +1,85 @@
-{}
+{
+  "lyrics": {
+    "message": "Versuri"
+  },
+  "history": {
+    "message": "Istorie"
+  },
+  "settings": {
+    "message": "Setări"
+  },
+  "goTo": {
+    "message": "Mergi la"
+  },
+  "confirm": {
+    "message": "A confirma"
+  },
+  "confirmQuestion": {
+    "message": "Această acțiune este ireversibilă. Sigur doriți să ștergeți istoricul?"
+  },
+  "no": {
+    "message": "Nu"
+  },
+  "signIn": {
+    "message": "Vă rugăm, <a url=\"chrome://chrome-signin/\" href=\"#\">conectați-vă cu contul dvs. Google</a> în Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Nu am găsit versuri pentru această melodie"
+  },
+  "countryCode": {
+    "message": "ne"
+  },
+  "noMatchesText": {
+    "message": "Ne pare rău, nu am putut obține niciun meci"
+  },
+  "playsAt": {
+    "message": "joacă la"
+  },
+  "needAuth": {
+    "message": "Pentru a utiliza AudD pe acest site, trebuie să vă autentificați"
+  },
+  "trialEnded": {
+    "message": "Procesul tău s-a încheiat. Pe acest site funcționează doar versiunea completă. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abonează-te</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Ne pare rău, doar versiunea plătită funcționează pe acest site. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Obțineți simbolul aici</a> și treceți-l în setări sau luați în considerare automatizarea activității dvs. cu <a href=\"https://audd.io\" target=\"_blank\">API-ul nostru</a>."
+  },
+  "SavedToHistory": {
+    "message": "Salvat în Istorie"
+  },
+  "notInvoked": {
+    "message": "Extensia nu a fost invocată pentru pagina curentă. Paginile Chrome nu pot fi capturate. Faceți clic pe o filă și relansați extensia."
+  },
+  "tryAgainText": {
+    "message": "încearcă din nou"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificat mai devreme"
+  },
+  "copiedSuccessfully": {
+    "message": "Copiat!"
+  },
+  "clearHistoryInit": {
+    "message": "Confirmați acțiunea în notificări"
+  },
+  "settingsSaved": {
+    "message": "Setările au fost salvate"
+  },
+  "appName": {
+    "message": "Recunoaștere muzicală AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Recunoașteți orice muzică de pe orice site web în browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Vă rugăm să selectați o filă"
+  },
+  "noAudioOnTab": {
+    "message": "Nu există sunet în fila curentă"
+  },
+  "yes": {
+    "message": "da"
+  }
+}
