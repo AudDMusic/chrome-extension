@@ -77,6 +77,6 @@
     "message": "Potrdite dejanje v obvestilih"
   },
   "settingsSaved": {
-    "message": "Nastavitve so bile uspešno shranjene"
+    "message": "Namestite razširitev AudD in kliknite njeno ikono, da prepoznate skladbo, ki se predvaja na trenutnem zavihku.\nOglejte si zgornji videoposnetek, da vidite, kako deluje.\n\nRazširitev AudD:\n- Prepozna glasbo, ki se predvaja v vašem brskalniku;\n- Najde glasbo v bazi podatkov AudD z več kot 75 milijoni pesmi s svojo tehnologijo za prepoznavanje glasbe;\n- Prikaže besedila za prepoznane pesmi;\n- Prikazuje povezave za poslušanje pesmi na Apple Music, Spotify, Deezer, YouTube Music;\n- Prikaže natančen trenutek v prepoznani pesmi, ko se predvaja zvok iz brskalnika.\n\nAPI za prepoznavanje glasbe: https://audd.io\nIzvorna koda: https://github.com/AudDMusic/chrome-extension\n\nRazširitev, ki jo poganja AudD® API za prepoznavanje glasbe\n\nUstvarila in oblikovala ekipa AudD.io s pomočjo Erica Starka, Mitchella Kossorisa in Ivana Kasatkina."
   }
 }
