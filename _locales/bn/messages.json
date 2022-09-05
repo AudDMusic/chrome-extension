@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® সঙ্গীত স্বীকৃতি",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "আপনার ব্রাউজারে যেকোন ওয়েবসাইট থেকে যেকোনো সঙ্গীত চিনুন",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "একটি ট্যাব নির্বাচন করুন"
+  },
+  "noAudioOnTab": {
+    "message": "বর্তমান ট্যাবে কোন অডিও নেই"
+  },
+  "lyrics": {
+    "message": "গানের কথা"
+  },
+  "history": {
+    "message": "ইতিহাস"
+  },
+  "settings": {
+    "message": "সেটিংস"
+  },
+  "goTo": {
+    "message": "যাও"
+  },
+  "confirm": {
+    "message": "নিশ্চিত করুন"
+  },
+  "confirmQuestion": {
+    "message": "এই কর্ম অপরিবর্তনীয়. আপনি কি নিশ্চিত আপনি ইতিহাস সাফ করতে চান?"
+  },
+  "yes": {
+    "message": "হ্যাঁ"
+  },
+  "no": {
+    "message": "না"
+  },
+  "signIn": {
+    "message": "অনুগ্রহ করে, Google Chrome-এ <a url=\"chrome://chrome-signin/\" href=\"#\">আপনার Google অ্যাকাউন্ট দিয়ে লগইন করুন</a>"
+  },
+  "noLyrics": {
+    "message": "এই গানের জন্য কোন লিরিক খুঁজে পাওয়া যায়নি"
+  },
+  "countryCode": {
+    "message": "আমাদের"
+  },
+  "noMatchesText": {
+    "message": "দুঃখিত, আমরা কোনো ম্যাচ পেতে পারিনি"
+  },
+  "playsAt": {
+    "message": "এ খেলে"
+  },
+  "needAuth": {
+    "message": "এই ওয়েবসাইটে AudD ব্যবহার করতে, আপনাকে লগইন করতে হবে"
+  },
+  "trialEnded": {
+    "message": "আপনার ট্রায়াল শেষ হয়েছে. শুধুমাত্র সম্পূর্ণ সংস্করণ এই ওয়েবসাইটে কাজ করে. <a href=\"https://dashboard.audd.io\" target=\"_blank\">সাবস্ক্রাইব করুন</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "দুঃখিত, শুধুমাত্র অর্থ প্রদান সংস্করণ এই ওয়েবসাইটে কাজ করে. এখানে টোকেন পান"
+  },
+  "SavedToHistory": {
+    "message": "ইতিহাসে সংরক্ষিত"
+  },
+  "notInvoked": {
+    "message": "বর্তমান পৃষ্ঠার জন্য এক্সটেনশনটি আহ্বান করা হয়নি। Chrome পৃষ্ঠাগুলি ক্যাপচার করা যাবে না৷ একটি ট্যাবে ক্লিক করুন এবং এক্সটেনশনটি পুনরায় চালু করুন।"
+  },
+  "tryAgainText": {
+    "message": "আবার চেষ্টা করুন"
+  },
+  "identifiedEarlierText": {
+    "message": "আগে শনাক্ত হয়েছে"
+  },
+  "copiedSuccessfully": {
+    "message": "অনুলিপি করা হয়েছে!"
+  },
+  "clearHistoryInit": {
+    "message": "বিজ্ঞপ্তিতে কর্ম নিশ্চিত করুন"
+  },
+  "settingsSaved": {
+    "message": "সেটিংস সফলভাবে সংরক্ষণ করা হয়েছে৷"
+  }
+}
