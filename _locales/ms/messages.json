@@ -1,1 +1,85 @@
-{}
+{
+  "no": {
+    "message": "Tidak"
+  },
+  "signIn": {
+    "message": "Sila, <a url=\"chrome://chrome-signin/\" href=\"#\">log masuk dengan akaun Google anda</a> dalam Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Tidak dapat mencari sebarang lirik untuk lagu ini"
+  },
+  "countryCode": {
+    "message": "kami"
+  },
+  "noMatchesText": {
+    "message": "Maaf, kami tidak dapat sebarang perlawanan"
+  },
+  "playsAt": {
+    "message": "bermain di"
+  },
+  "needAuth": {
+    "message": "Untuk menggunakan AudD di tapak web ini, anda perlu log masuk"
+  },
+  "trialEnded": {
+    "message": "Percubaan anda telah tamat. Hanya versi penuh berfungsi di tapak web ini. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Langgan</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Maaf, hanya versi berbayar yang berfungsi di tapak web ini. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Dapatkan token di sini</a> dan letakkannya dalam tetapan atau pertimbangkan untuk mengautomasikan kerja anda dengan <a href=\"https://audd.io\" target=\"_blank\">API</a> kami."
+  },
+  "SavedToHistory": {
+    "message": "Disimpan ke Sejarah"
+  },
+  "notInvoked": {
+    "message": "Sambungan belum digunakan untuk halaman semasa. Halaman Chrome tidak boleh ditangkap. Klik pada tab dan lancarkan semula sambungan."
+  },
+  "tryAgainText": {
+    "message": "cuba lagi"
+  },
+  "identifiedEarlierText": {
+    "message": "Dikenal pasti lebih awal"
+  },
+  "copiedSuccessfully": {
+    "message": "disalin!"
+  },
+  "clearHistoryInit": {
+    "message": "Sahkan tindakan dalam pemberitahuan"
+  },
+  "settingsSaved": {
+    "message": "Berjaya menyimpan tetapan"
+  },
+  "appName": {
+    "message": "Pengecaman Muzik AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Kenali mana-mana muzik dari mana-mana tapak web dalam penyemak imbas anda",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Sila pilih satu tab"
+  },
+  "noAudioOnTab": {
+    "message": "Tiada audio pada tab semasa"
+  },
+  "lyrics": {
+    "message": "Lirik"
+  },
+  "history": {
+    "message": "Sejarah"
+  },
+  "settings": {
+    "message": "tetapan"
+  },
+  "goTo": {
+    "message": "Pergi ke"
+  },
+  "confirm": {
+    "message": "sahkan"
+  },
+  "confirmQuestion": {
+    "message": "Tindakan ini tidak dapat dipulihkan. Adakah anda pasti mahu mengosongkan sejarah?"
+  },
+  "yes": {
+    "message": "ya"
+  }
+}
