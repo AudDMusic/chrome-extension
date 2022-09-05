@@ -1,1 +1,85 @@
-{}
+{
+  "confirmQuestion": {
+    "message": "Deze actie is onomkeerbaar. Weet u zeker dat u de geschiedenis wilt wissen?"
+  },
+  "no": {
+    "message": "Nee"
+  },
+  "signIn": {
+    "message": "Alsjeblieft, <a url=\"chrome://chrome-signin/\" href=\"#\">log in met je Google-account</a> in Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Kon geen songtekst vinden voor dit nummer"
+  },
+  "countryCode": {
+    "message": "ons"
+  },
+  "noMatchesText": {
+    "message": "Sorry, we konden geen overeenkomsten vinden"
+  },
+  "playsAt": {
+    "message": "speelt bij"
+  },
+  "needAuth": {
+    "message": "Om AudD op deze website te gebruiken, moet u inloggen"
+  },
+  "trialEnded": {
+    "message": "Uw proefperiode is afgelopen. Alleen de volledige versie werkt op deze website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abonneren</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Sorry, alleen de betaalde versie werkt op deze website. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Haal de token hier</a> en plak deze in de instellingen of overweeg om je werk te automatiseren met onze <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Opgeslagen in de geschiedenis"
+  },
+  "notInvoked": {
+    "message": "De extensie is niet aangeroepen voor de huidige pagina. Chrome-pagina's kunnen niet worden vastgelegd. Klik op een tabblad en start de extensie opnieuw."
+  },
+  "tryAgainText": {
+    "message": "probeer het nog eens"
+  },
+  "identifiedEarlierText": {
+    "message": "eerder geïdentificeerd"
+  },
+  "copiedSuccessfully": {
+    "message": "gekopieerd!"
+  },
+  "clearHistoryInit": {
+    "message": "Bevestig de actie in de meldingen"
+  },
+  "settingsSaved": {
+    "message": "De instellingen zijn opgeslagen"
+  },
+  "appName": {
+    "message": "AudD® Muziekherkenning",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Herken alle muziek van elke website in uw browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Selecteer een tabblad"
+  },
+  "noAudioOnTab": {
+    "message": "Geen audio op het huidige tabblad"
+  },
+  "lyrics": {
+    "message": "Songtekst"
+  },
+  "history": {
+    "message": "Geschiedenis"
+  },
+  "settings": {
+    "message": "Instellingen"
+  },
+  "goTo": {
+    "message": "Ga naar"
+  },
+  "confirm": {
+    "message": "Bevestigen"
+  },
+  "yes": {
+    "message": "Ja"
+  }
+}
