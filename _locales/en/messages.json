@@ -75,5 +75,11 @@
   },
   "clearHistoryInit": {
     "message": "Confirm the action in the notifications"
+  },
+  "settingsSaved": {
+    "message": "Successfully saved the settings"
+  },
+  "webstoreListingDescription": {
+    "message": "Install the AudD extension and click on its icon to identify the song playing on the current tab.\nWatch the video above to see how it works.\n\nAudD extension:\n- Recognizes the music playing in your browser;\n- Finds music in the AudD database with more than 75 million songs using its music recognition technology;\n- Shows lyrics for identified songs;\n- Shows links to listen to the songs on Apple Music, Spotify, Deezer, YouTube Music;\n- Displays the exact moment in the recognized song when the sound from the browser is played.\n\nMusic Recognition API: https://audd.io\nSource code: https://github.com/AudDMusic/chrome-extension\n\nExtension Powered By AudD® Music recognition API\n\nCreated and designed by the AudD.io team with help from Eric Stark, Mitchell Kossoris, and Ivan Kasatkin."
   }
 }
