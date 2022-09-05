@@ -75,5 +75,11 @@
   },
   "clearHistoryInit": {
     "message": "Bekræft handlingen i meddelelserne"
+  },
+  "settingsSaved": {
+    "message": "Indstillingerne blev gemt"
+  },
+  "webstoreListingDescription": {
+    "message": "Installer AudD-udvidelsen, og klik på dens ikon for at identificere den sang, der afspilles på den aktuelle fane.\nSe videoen ovenfor for at se, hvordan det fungerer.\n\nAudD udvidelse:\n- Genkender musikken, der afspilles i din browser;\n- Finder musik i AudD-databasen med mere end 75 millioner sange ved hjælp af dens musikgenkendelsesteknologi;\n- Viser tekster til identificerede sange;\n- Viser links til at lytte til sangene på Apple Music, Spotify, Deezer, YouTube Music;\n- Viser det nøjagtige øjeblik i den genkendte sang, når lyden fra browseren afspilles.\n\nMusic Recognition API: https://audd.io\nKildekode: https://github.com/AudDMusic/chrome-extension\n\nUdvidelse drevet af AudD® Musikgenkendelse API\n\nSkabt og designet af AudD.io-teamet med hjælp fra Eric Stark, Mitchell Kossoris og Ivan Kasatkin."
   }
 }
