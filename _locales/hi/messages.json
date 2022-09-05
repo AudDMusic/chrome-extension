@@ -1,1 +1,85 @@
-{}
+{
+  "countryCode": {
+    "message": "हम"
+  },
+  "noMatchesText": {
+    "message": "क्षमा करें, हमें कोई मैच नहीं मिला"
+  },
+  "playsAt": {
+    "message": "पर खेलता है"
+  },
+  "needAuth": {
+    "message": "इस वेबसाइट पर AudD का उपयोग करने के लिए, आपको लॉग इन करना होगा"
+  },
+  "appName": {
+    "message": "ऑडडी® संगीत पहचान",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "अपने ब्राउज़र में किसी भी वेबसाइट के किसी भी संगीत को पहचानें",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "कृपया एक टैब चुनें"
+  },
+  "noAudioOnTab": {
+    "message": "वर्तमान टैब पर कोई ऑडियो नहीं"
+  },
+  "lyrics": {
+    "message": "बोल"
+  },
+  "history": {
+    "message": "इतिहास"
+  },
+  "settings": {
+    "message": "समायोजन"
+  },
+  "goTo": {
+    "message": "के लिए जाओ"
+  },
+  "confirm": {
+    "message": "पुष्टि करें"
+  },
+  "confirmQuestion": {
+    "message": "यह क्रिया अपरिवर्तनीय है। क्या आप वाकई इतिहास साफ़ करना चाहते हैं?"
+  },
+  "yes": {
+    "message": "हाँ"
+  },
+  "no": {
+    "message": "नहीं"
+  },
+  "signIn": {
+    "message": "कृपया, <a url=\"chrome://chrome-signin/\" href=\"#\"> अपने Google खाते से लॉगिन करें</a> Google Chrome में"
+  },
+  "noLyrics": {
+    "message": "इस गीत के लिए कोई गीत नहीं मिला"
+  },
+  "trialEnded": {
+    "message": "आपका परीक्षण समाप्त हो गया है। इस वेबसाइट पर सिर्फ फुल वर्जन ही काम करता है। <a href=\"https://dashboard.audd.io\" target=\"_blank\"> सदस्यता लें </a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "क्षमा करें, इस वेबसाइट पर केवल भुगतान किया गया संस्करण ही काम करता है। <a href=\"https://dashboard.audd.io\" target=\"_blank\">यहां टोकन प्राप्त करें</a> और इसे सेटिंग में पेस्ट करें या हमारे <a href=\"https://audd.io\" target=\"_blank\">API</a> के साथ अपने काम को स्वचालित करने पर विचार करें।"
+  },
+  "SavedToHistory": {
+    "message": "इतिहास में सहेजा गया"
+  },
+  "notInvoked": {
+    "message": "वर्तमान पृष्ठ के लिए एक्सटेंशन को लागू नहीं किया गया है। क्रोम पेज कैप्चर नहीं किए जा सकते। एक टैब पर क्लिक करें और एक्सटेंशन को फिर से लॉन्च करें।"
+  },
+  "tryAgainText": {
+    "message": "पुनः प्रयास करें"
+  },
+  "identifiedEarlierText": {
+    "message": "पहले पहचाना गया"
+  },
+  "copiedSuccessfully": {
+    "message": "कॉपी किया गया!"
+  },
+  "clearHistoryInit": {
+    "message": "सूचनाओं में कार्रवाई की पुष्टि करें"
+  },
+  "settingsSaved": {
+    "message": "सेटिंग्स को सफलतापूर्वक सहेजा गया"
+  }
+}
