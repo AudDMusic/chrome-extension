@@ -46,9 +46,6 @@
   "noLyrics": {
     "message": "Impossibile trovare il testo di questa canzone"
   },
-  "countryCode": {
-    "message": "noi"
-  },
   "noMatchesText": {
     "message": "Spiacenti, non siamo riusciti a trovare corrispondenze"
   },

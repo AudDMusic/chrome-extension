@@ -46,9 +46,6 @@
   "noLyrics": {
     "message": "Pre túto pieseň sa nepodarilo nájsť žiadny text"
   },
-  "countryCode": {
-    "message": "nás"
-  },
   "noMatchesText": {
     "message": "Ľutujeme, nepodarilo sa nám získať žiadne zhody"
   },

@@ -76,9 +76,6 @@
   "noLyrics": {
     "message": "ไม่พบเนื้อร้องสำหรับเพลงนี้"
   },
-  "countryCode": {
-    "message": "เรา"
-  },
   "noMatchesText": {
     "message": "ขออภัย ไม่พบรายการที่ตรงกัน"
   }

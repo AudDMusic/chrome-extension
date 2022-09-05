@@ -43,9 +43,6 @@
   "noLyrics": {
     "message": "No se pudo encontrar ninguna letra para esta canción"
   },
-  "countryCode": {
-    "message": "a nosotros"
-  },
   "noMatchesText": {
     "message": "Lo sentimos, no pudimos obtener ninguna coincidencia"
   },
