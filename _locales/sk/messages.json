@@ -75,5 +75,11 @@
   },
   "clearHistoryInit": {
     "message": "Potvrďte akciu v upozorneniach"
+  },
+  "settingsSaved": {
+    "message": "Nastavenia boli úspešne uložené"
+  },
+  "webstoreListingDescription": {
+    "message": "Nainštalujte rozšírenie AudD a kliknutím na jeho ikonu identifikujte skladbu prehrávanú na aktuálnej karte.\nPozrite si video vyššie, aby ste videli, ako to funguje.\n\nRozšírenie AudD:\n- Rozpozná hudbu prehrávanú vo vašom prehliadači;\n- Nájde hudbu v databáze AudD s viac ako 75 miliónmi skladieb pomocou technológie rozpoznávania hudby;\n- Zobrazuje texty pre identifikované piesne;\n- Zobrazuje odkazy na počúvanie skladieb na Apple Music, Spotify, Deezer, YouTube Music;\n- Zobrazuje presný moment v rozpoznanej skladbe pri prehrávaní zvuku z prehliadača.\n\nRozhranie API na rozpoznávanie hudby: https://audd.io\nZdrojový kód: https://github.com/AudDMusic/chrome-extension\n\nRozšírenie poháňané rozhraním API na rozpoznávanie hudby AudD®\n\nVytvoril a navrhol tím AudD.io s pomocou Erica Starka, Mitchella Kossorisa a Ivana Kasatkina."
   }
 }
