@@ -78,5 +78,8 @@
   },
   "settingsSaved": {
     "message": "설정을 저장했습니다"
+  },
+  "listingDescription": {
+    "message": "AudD 확장 프로그램을 설치하고 해당 아이콘을 클릭하여 현재 탭에서 재생 중인 노래를 식별합니다.\n작동 방식을 보려면 위의 비디오를 보십시오.\n\nAudD 확장:\n- 브라우저에서 재생되는 음악을 인식합니다.\n- 음악 인식 기술을 사용하여 AudD 데이터베이스에서 6,500만 곡 이상의 음악을 찾습니다.\n- 식별된 노래의 가사를 표시합니다.\n- Apple Music, Spotify, Deezer, YouTube Music에서 노래를 들을 수 있는 링크를 표시합니다.\n- 브라우저의 소리가 재생될 때 인식된 노래의 정확한 순간을 표시합니다.\n\n음악 인식 API: https://audd.io\n소스 코드: https://github.com/AudDMusic/chrome-extension\n\nAudD® 음악 인식 API로 구동되는 확장 기능\n\nEric Stark, Mitchell Kossoris 및 Ivan Kasatkin의 도움으로 AudD.io 팀이 만들고 설계했습니다."
   }
 }
