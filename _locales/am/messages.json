@@ -11,7 +11,7 @@
     "message": "እባክዎ አንድ ትር ይምረጡ"
   },
   "noAudioOnTab": {
-    "message": "በአሁኑ ትር ላይ ምንም ኦዲዮ የለም።"
+    "message": "በአሁኑ ትር ላይ ምንም ኦዲዮ የለም"
   },
   "lyrics": {
     "message": "ግጥሞች"
@@ -47,7 +47,7 @@
     "message": "እኛ"
   },
   "noMatchesText": {
-    "message": "ይቅርታ፣ ምንም ተዛማጅ ማግኘት አልቻልንም።"
+    "message": "ይቅርታ፣ ምንም ተዛማጅ ማግኘት አልቻልንም"
   },
   "playsAt": {
     "message": "ላይ ይጫወታል"
