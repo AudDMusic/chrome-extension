@@ -1,1 +1,85 @@
-{}
+{
+  "no": {
+    "message": "Numara"
+  },
+  "signIn": {
+    "message": "Lütfen, Google Chrome'da <a url=\"chrome://chrome-signin/\" href=\"#\">Google hesabınızla</a> oturum açın"
+  },
+  "noLyrics": {
+    "message": "Bu şarkı için şarkı sözü bulunamadı"
+  },
+  "countryCode": {
+    "message": "biz"
+  },
+  "noMatchesText": {
+    "message": "Üzgünüz, herhangi bir eşleşme alamadık"
+  },
+  "playsAt": {
+    "message": "oynuyor"
+  },
+  "needAuth": {
+    "message": "AudD'yi bu web sitesinde kullanmak için oturum açmanız gerekir"
+  },
+  "trialEnded": {
+    "message": "Denemeniz sona erdi. Bu web sitesinde yalnızca tam sürüm çalışır. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abone ol</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Üzgünüz, bu web sitesinde yalnızca ücretli sürüm çalışır. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Tokeni buradan alın</a> ve ayarlarda yapıştırın veya çalışmanızı <a href=\"https://audd.io\" target=\"_blank\">API</a> ile otomatikleştirmeyi düşünün."
+  },
+  "SavedToHistory": {
+    "message": "Geçmişe Kaydedildi"
+  },
+  "notInvoked": {
+    "message": "Uzantı, geçerli sayfa için çağrılmadı. Chrome sayfaları yakalanamıyor. Bir sekmeye tıklayın ve uzantıyı yeniden başlatın."
+  },
+  "tryAgainText": {
+    "message": "Tekrar deneyin"
+  },
+  "identifiedEarlierText": {
+    "message": "Daha önce tanımlanmış"
+  },
+  "copiedSuccessfully": {
+    "message": "kopyalandı!"
+  },
+  "clearHistoryInit": {
+    "message": "Bildirimlerdeki eylemi onaylayın"
+  },
+  "settingsSaved": {
+    "message": "Ayarlar başarıyla kaydedildi"
+  },
+  "appName": {
+    "message": "AudD® Müzik Tanıma",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Tarayıcınızdaki herhangi bir web sitesinden herhangi bir müziği tanıyın",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Lütfen bir sekme seçin"
+  },
+  "noAudioOnTab": {
+    "message": "Geçerli sekmede ses yok"
+  },
+  "lyrics": {
+    "message": "Şarkı sözleri"
+  },
+  "history": {
+    "message": "Tarih"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "goTo": {
+    "message": "git"
+  },
+  "confirm": {
+    "message": "Onaylamak"
+  },
+  "confirmQuestion": {
+    "message": "Bu eylem geri döndürülemez. Geçmişi temizlemek istediğinizden emin misiniz?"
+  },
+  "yes": {
+    "message": "Evet"
+  }
+}
