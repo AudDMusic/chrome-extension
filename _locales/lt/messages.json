@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® muzikos atpažinimas",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Atpažinkite bet kokią muziką iš bet kurios svetainės savo naršyklėje",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Pasirinkite vieną skirtuką"
+  },
+  "noAudioOnTab": {
+    "message": "Dabartiniame skirtuke nėra garso"
+  },
+  "lyrics": {
+    "message": "Dainos žodžiai"
+  },
+  "history": {
+    "message": "Istorija"
+  },
+  "settings": {
+    "message": "Nustatymai"
+  },
+  "goTo": {
+    "message": "Eiti į"
+  },
+  "confirm": {
+    "message": "Patvirtinti"
+  },
+  "confirmQuestion": {
+    "message": "Šis veiksmas yra negrįžtamas. Ar tikrai norite išvalyti istoriją?"
+  },
+  "yes": {
+    "message": "Taip"
+  },
+  "no": {
+    "message": "Nr"
+  },
+  "signIn": {
+    "message": "Prašome <a url=\"chrome://chrome-signin/\" href=\"#\">prisijungti naudodami „Google“ paskyrą</a> „Google Chrome“."
+  },
+  "noLyrics": {
+    "message": "Nepavyko rasti jokių šios dainos žodžių"
+  },
+  "countryCode": {
+    "message": "mus"
+  },
+  "noMatchesText": {
+    "message": "Atsiprašome, nepavyko gauti jokių atitikmenų"
+  },
+  "playsAt": {
+    "message": "vaidina adresu"
+  },
+  "needAuth": {
+    "message": "Norėdami naudoti AudD šioje svetainėje, turite prisijungti"
+  },
+  "trialEnded": {
+    "message": "Jūsų bandymas baigėsi. Šioje svetainėje veikia tik pilna versija. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Prenumeruoti</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Atsiprašome, šioje svetainėje veikia tik mokama versija. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Gaukite prieigos raktą čia</a> ir palikite jį nustatymuose arba apsvarstykite galimybę automatizuoti savo darbą naudodami mūsų <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Išsaugotas istorijoje"
+  },
+  "notInvoked": {
+    "message": "Dabartinio puslapio plėtinys nebuvo iškviestas. „Chrome“ puslapių užfiksuoti negalima. Spustelėkite skirtuką ir iš naujo paleiskite plėtinį."
+  },
+  "tryAgainText": {
+    "message": "Bandyk iš naujo"
+  },
+  "identifiedEarlierText": {
+    "message": "Nustatyta anksčiau"
+  },
+  "copiedSuccessfully": {
+    "message": "Nukopijuota!"
+  },
+  "clearHistoryInit": {
+    "message": "Patvirtinkite veiksmą pranešimuose"
+  },
+  "settingsSaved": {
+    "message": "Nustatymai sėkmingai išsaugoti"
+  }
+}
