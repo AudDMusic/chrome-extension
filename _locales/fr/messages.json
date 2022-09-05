@@ -78,8 +78,5 @@
   },
   "noMatchesText": {
     "message": "Désolé, nous n'avons pu obtenir aucune correspondance"
-  },
-  "listingDescription": {
-    "message": "Installez l'extension AudD et cliquez sur son icône pour identifier la chanson en cours de lecture sur l'onglet actuel.\nRegardez la vidéo ci-dessus pour voir comment cela fonctionne.\n\nExtension AudD :\n- Reconnaît la musique jouée dans votre navigateur ;\n- Trouve de la musique dans la base de données AudD avec plus de 65 millions de chansons en utilisant sa technologie de reconnaissance musicale ;\n- Affiche les paroles des chansons identifiées ;\n- Affiche des liens pour écouter les chansons sur Apple Music, Spotify, Deezer, YouTube Music ;\n- Affiche le moment exact de la chanson reconnue lorsque le son du navigateur est joué.\n\nAPI de reconnaissance musicale : https://audd.io\nCode source : https://github.com/AudDMusic/chrome-extension\n\nExtension Powered By AudD® API de reconnaissance musicale\n\nCréé et conçu par l'équipe AudD.io avec l'aide d'Eric Stark, Mitchell Kossoris et Ivan Kasatkin."
   }
 }
