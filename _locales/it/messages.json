@@ -78,8 +78,5 @@
   },
   "settingsSaved": {
     "message": "Impostazioni salvate con successo"
-  },
-  "listingDescription": {
-    "message": "Installa l'estensione AudD e fai clic sulla sua icona per identificare il brano in riproduzione nella scheda corrente.\nGuarda il video qui sopra per vedere come funziona.\n\nEstensione AudD:\n- Riconosce la musica riprodotta nel tuo browser;\n- Trova la musica nel database AudD con oltre 65 milioni di brani utilizzando la sua tecnologia di riconoscimento musicale;\n- Mostra i testi per le canzoni identificate;\n- Mostra i collegamenti per ascoltare i brani su Apple Music, Spotify, Deezer, YouTube Music;\n- Visualizza il momento esatto nel brano riconosciuto in cui viene riprodotto il suono dal browser.\n\nAPI di riconoscimento musicale: https://audd.io\nCodice sorgente: https://github.com/AudDMusic/chrome-extension\n\nEstensione Powered By AudD® API di riconoscimento della musica\n\nCreato e progettato dal team di AudD.io con l'aiuto di Eric Stark, Mitchell Kossoris e Ivan Kasatkin."
   }
 }
