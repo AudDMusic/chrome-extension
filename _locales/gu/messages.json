@@ -1,1 +1,85 @@
-{}
+{
+  "confirmQuestion": {
+    "message": "આ ક્રિયા બદલી ન શકાય તેવી છે. શું તમે ખરેખર ઇતિહાસ સાફ કરવા માંગો છો?"
+  },
+  "signIn": {
+    "message": "કૃપા કરીને, Google Chrome માં <a url=\"chrome://chrome-signin/\" href=\"#\">તમારા Google એકાઉન્ટથી </a> લોગિન કરો"
+  },
+  "noLyrics": {
+    "message": "આ ગીત માટે કોઈ ગીતો શોધી શક્યા નથી"
+  },
+  "countryCode": {
+    "message": "અમને"
+  },
+  "noMatchesText": {
+    "message": "માફ કરશો, અમે કોઈ મેળ મેળવી શક્યા નથી"
+  },
+  "playsAt": {
+    "message": "ખાતે રમે છે"
+  },
+  "needAuth": {
+    "message": "આ વેબસાઇટ પર AudD નો ઉપયોગ કરવા માટે, તમારે લોગિન કરવાની જરૂર છે"
+  },
+  "trialEnded": {
+    "message": "તમારી અજમાયશ સમાપ્ત થઈ ગઈ છે. આ વેબસાઇટ પર ફક્ત સંપૂર્ણ સંસ્કરણ જ કાર્ય કરે છે. <a href=\"https://dashboard.audd.io\" target=\"_blank\">સબ્સ્ક્રાઇબ કરો</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "માફ કરશો, આ વેબસાઇટ પર માત્ર પેઇડ વર્ઝન જ કામ કરે છે. <a href=\"https://dashboard.audd.io\" target=\"_blank\">અહીં ટોકન મેળવો</a> અને તેને સેટિંગ્સમાં પસાર કરો અથવા અમારા <a href=\"https://audd.io\" target=\"_blank\">API</a> સાથે તમારા કાર્યને સ્વચાલિત કરવાનું વિચારો."
+  },
+  "SavedToHistory": {
+    "message": "ઇતિહાસમાં સાચવેલ"
+  },
+  "notInvoked": {
+    "message": "વર્તમાન પૃષ્ઠ માટે એક્સ્ટેંશનની વિનંતી કરવામાં આવી નથી. Chrome પૃષ્ઠો કેપ્ચર કરી શકાતા નથી. એક ટેબ પર ક્લિક કરો અને એક્સ્ટેંશન ફરીથી લોંચ કરો."
+  },
+  "tryAgainText": {
+    "message": "ફરીથી પ્રયત્ન કરો"
+  },
+  "identifiedEarlierText": {
+    "message": "અગાઉ ઓળખાઈ"
+  },
+  "copiedSuccessfully": {
+    "message": "નકલ કરી!"
+  },
+  "clearHistoryInit": {
+    "message": "સૂચનાઓમાં ક્રિયાની પુષ્ટિ કરો"
+  },
+  "settingsSaved": {
+    "message": "સેટિંગ્સ સફળતાપૂર્વક સાચવી"
+  },
+  "appName": {
+    "message": "AudD® સંગીત ઓળખ",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "તમારા બ્રાઉઝરમાં કોઈપણ વેબસાઇટ પરથી કોઈપણ સંગીતને ઓળખો",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "કૃપા કરીને એક ટેબ પસંદ કરો"
+  },
+  "noAudioOnTab": {
+    "message": "વર્તમાન ટેબ પર કોઈ ઓડિયો નથી"
+  },
+  "lyrics": {
+    "message": "ગીતો"
+  },
+  "history": {
+    "message": "ઇતિહાસ"
+  },
+  "settings": {
+    "message": "સેટિંગ્સ"
+  },
+  "goTo": {
+    "message": "પર જાઓ"
+  },
+  "confirm": {
+    "message": "પુષ્ટિ કરો"
+  },
+  "yes": {
+    "message": "હા"
+  },
+  "no": {
+    "message": "ના"
+  }
+}
