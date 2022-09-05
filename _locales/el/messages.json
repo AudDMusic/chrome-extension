@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "Αναγνώριση μουσικής AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Αναγνωρίστε οποιαδήποτε μουσική από οποιονδήποτε ιστότοπο στο πρόγραμμα περιήγησής σας",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Επιλέξτε μία καρτέλα"
+  },
+  "noAudioOnTab": {
+    "message": "Δεν υπάρχει ήχος στην τρέχουσα καρτέλα"
+  },
+  "lyrics": {
+    "message": "Στίχοι"
+  },
+  "history": {
+    "message": "Ιστορία"
+  },
+  "settings": {
+    "message": "Ρυθμίσεις"
+  },
+  "goTo": {
+    "message": "Παω σε"
+  },
+  "confirm": {
+    "message": "Επιβεβαιώνω"
+  },
+  "confirmQuestion": {
+    "message": "Αυτή η ενέργεια είναι μη αναστρέψιμη. Είστε βέβαιοι ότι θέλετε να διαγράψετε το ιστορικό;"
+  },
+  "yes": {
+    "message": "Ναί"
+  },
+  "no": {
+    "message": "Οχι"
+  },
+  "signIn": {
+    "message": "Παρακαλούμε, <a url=\"chrome://chrome-signin/\" href=\"#\">συνδεθείτε με τον λογαριασμό σας Google</a> στο Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Δεν βρέθηκε κανένας στίχος για αυτό το τραγούδι"
+  },
+  "countryCode": {
+    "message": "μας"
+  },
+  "noMatchesText": {
+    "message": "Λυπούμαστε, δεν μπορέσαμε να λάβουμε αγώνες"
+  },
+  "playsAt": {
+    "message": "παίζει στο"
+  },
+  "needAuth": {
+    "message": "Για να χρησιμοποιήσετε το AudD σε αυτόν τον ιστότοπο, πρέπει να συνδεθείτε"
+  },
+  "trialEnded": {
+    "message": "Η δοκιμή σας έληξε. Μόνο η πλήρης έκδοση λειτουργεί σε αυτόν τον ιστότοπο. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Εγγραφή</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Λυπούμαστε, μόνο η πληρωμένη έκδοση λειτουργεί σε αυτόν τον ιστότοπο. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Λάβετε διακριτικό εδώ</a> και περάστε το στις ρυθμίσεις ή σκεφτείτε να αυτοματοποιήσετε την εργασία σας με το <a href=\"https://audd.io\" target=\"_blank\">API</a> μας."
+  },
+  "SavedToHistory": {
+    "message": "Αποθηκεύτηκε στην Ιστορία"
+  },
+  "notInvoked": {
+    "message": "Η επέκταση δεν έχει γίνει επίκληση για την τρέχουσα σελίδα. Δεν είναι δυνατή η καταγραφή σελίδων Chrome. Κάντε κλικ σε μια καρτέλα και επανεκκινήστε την επέκταση."
+  },
+  "tryAgainText": {
+    "message": "προσπάθησε ξανά"
+  },
+  "identifiedEarlierText": {
+    "message": "Αναγνωρίστηκε νωρίτερα"
+  },
+  "copiedSuccessfully": {
+    "message": "Αντιγράφηκε!"
+  },
+  "clearHistoryInit": {
+    "message": "Επιβεβαιώστε την ενέργεια στις ειδοποιήσεις"
+  },
+  "settingsSaved": {
+    "message": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία"
+  }
+}
