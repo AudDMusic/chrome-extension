@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® разпознаване на музика",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Разпознавайте всяка музика от всеки уебсайт във вашия браузър",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Моля, изберете един раздел"
+  },
+  "noAudioOnTab": {
+    "message": "Няма звук в текущия раздел"
+  },
+  "lyrics": {
+    "message": "Текстове на песни"
+  },
+  "history": {
+    "message": "История"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "goTo": {
+    "message": "Отидете на"
+  },
+  "confirm": {
+    "message": "Потвърдете"
+  },
+  "confirmQuestion": {
+    "message": "Това действие е необратимо. Сигурни ли сте, че искате да изчистите историята?"
+  },
+  "yes": {
+    "message": "да"
+  },
+  "no": {
+    "message": "Не"
+  },
+  "signIn": {
+    "message": "Моля, <a url=\"chrome://chrome-signin/\" href=\"#\">влезте с вашия Google акаунт</a> в Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Не можах да намеря текст за тази песен"
+  },
+  "countryCode": {
+    "message": "нас"
+  },
+  "noMatchesText": {
+    "message": "За съжаление не успяхме да намерим съвпадения"
+  },
+  "playsAt": {
+    "message": "играе на"
+  },
+  "needAuth": {
+    "message": "За да използвате AudD на този уебсайт, трябва да влезете"
+  },
+  "trialEnded": {
+    "message": "Пробният ви период приключи. Само пълната версия работи на този уебсайт. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Абонирайте се</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "За съжаление само платената версия работи на този уебсайт. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Вземете токен тук</a> и го поставете в настройките или помислете за автоматизиране на работата си с нашия <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Запазено в историята"
+  },
+  "notInvoked": {
+    "message": "Разширението не е извикано за текущата страница. Страниците на Chrome не могат да бъдат заснети. Кликнете върху раздел и рестартирайте разширението."
+  },
+  "tryAgainText": {
+    "message": "опитай пак"
+  },
+  "identifiedEarlierText": {
+    "message": "Идентифициран по-рано"
+  },
+  "copiedSuccessfully": {
+    "message": "Копирано!"
+  },
+  "clearHistoryInit": {
+    "message": "Потвърдете действието в известията"
+  },
+  "settingsSaved": {
+    "message": "Настройките са запазени успешно"
+  }
+}
