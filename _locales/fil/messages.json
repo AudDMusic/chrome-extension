@@ -75,5 +75,11 @@
   },
   "yes": {
     "message": "Oo"
+  },
+  "settingsSaved": {
+    "message": "Matagumpay na na-save ang mga setting"
+  },
+  "webstoreListingDescription": {
+    "message": "I-install ang extension ng AudD at mag-click sa icon nito para matukoy ang nagpe-play na kanta sa kasalukuyang tab.\nPanoorin ang video sa itaas upang makita kung paano ito gumagana.\n\nAudD extension:\n- Kinikilala ang musikang tumutugtog sa iyong browser;\n- Naghahanap ng musika sa AudD database na may higit sa 75 milyong mga kanta gamit ang teknolohiya ng pagkilala ng musika nito;\n- Nagpapakita ng mga lyrics para sa mga natukoy na kanta;\n- Nagpapakita ng mga link upang makinig sa mga kanta sa Apple Music, Spotify, Deezer, YouTube Music;\n- Ipinapakita ang eksaktong sandali sa kinikilalang kanta kapag ang tunog mula sa browser ay nilalaro.\n\nMusic Recognition API: https://audd.io\nSource code: https://github.com/AudDMusic/chrome-extension\n\nExtension na Pinapatakbo ng AudD® Music recognition API\n\nGinawa at idinisenyo ng AudD.io team sa tulong nina Eric Stark, Mitchell Kossoris, at Ivan Kasatkin."
   }
 }
