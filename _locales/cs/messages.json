@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "Rozpoznávání hudby AudD®",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Rozpoznejte jakoukoli hudbu z libovolné webové stránky ve svém prohlížeči",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Vyberte jednu kartu"
+  },
+  "noAudioOnTab": {
+    "message": "Na aktuální kartě není žádný zvuk"
+  },
+  "lyrics": {
+    "message": "Text"
+  },
+  "history": {
+    "message": "Dějiny"
+  },
+  "goTo": {
+    "message": "Jít do"
+  },
+  "confirm": {
+    "message": "Potvrdit"
+  },
+  "settings": {
+    "message": "Nastavení"
+  },
+  "confirmQuestion": {
+    "message": "Tato akce je nevratná. Opravdu chcete vymazat historii?"
+  },
+  "yes": {
+    "message": "Ano"
+  },
+  "no": {
+    "message": "Ne"
+  },
+  "signIn": {
+    "message": "<a url=\"chrome://chrome-signin/\" href=\"#\">Přihlaste se prosím pomocí svého účtu Google</a> v prohlížeči Google Chrome"
+  },
+  "noLyrics": {
+    "message": "K této písni se nepodařilo najít žádný text"
+  },
+  "countryCode": {
+    "message": "nás"
+  },
+  "noMatchesText": {
+    "message": "Omlouváme se, nepodařilo se nám získat žádné zápasy"
+  },
+  "playsAt": {
+    "message": "hraje na"
+  },
+  "needAuth": {
+    "message": "Chcete-li používat AudD na tomto webu, musíte se přihlásit"
+  },
+  "trialEnded": {
+    "message": "Vaše zkušební období skončilo. Na tomto webu funguje pouze plná verze. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Přihlásit se</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "Litujeme, na tomto webu funguje pouze placená verze. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Získejte token zde</a> a vložte jej do nastavení nebo zvažte automatizaci své práce pomocí našeho <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "SavedToHistory": {
+    "message": "Uloženo do historie"
+  },
+  "notInvoked": {
+    "message": "Rozšíření nebylo pro aktuální stránku vyvoláno. Stránky Chrome nelze zachytit. Klikněte na kartu a znovu spusťte rozšíření."
+  },
+  "tryAgainText": {
+    "message": "Zkus to znovu"
+  },
+  "identifiedEarlierText": {
+    "message": "Identifikováno dříve"
+  },
+  "copiedSuccessfully": {
+    "message": "Zkopírováno!"
+  },
+  "clearHistoryInit": {
+    "message": "Potvrďte akci v oznámeních"
+  },
+  "settingsSaved": {
+    "message": "Nastavení bylo úspěšně uloženo"
+  }
+}
