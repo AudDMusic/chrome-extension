@@ -1,1 +1,85 @@
-{}
+{
+  "appName": {
+    "message": "AudD® ಸಂಗೀತ ಗುರುತಿಸುವಿಕೆ",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನಿಂದ ಯಾವುದೇ ಸಂಗೀತವನ್ನು ಗುರುತಿಸಿ",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "ದಯವಿಟ್ಟು ಒಂದು ಟ್ಯಾಬ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "noAudioOnTab": {
+    "message": "ಪ್ರಸ್ತುತ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಆಡಿಯೋ ಇಲ್ಲ"
+  },
+  "lyrics": {
+    "message": "ಸಾಹಿತ್ಯ"
+  },
+  "history": {
+    "message": "ಇತಿಹಾಸ"
+  },
+  "settings": {
+    "message": "ಸಂಯೋಜನೆಗಳು"
+  },
+  "goTo": {
+    "message": "ಗೆ ಹೋಗಿ"
+  },
+  "confirm": {
+    "message": "ದೃಢೀಕರಿಸಿ"
+  },
+  "no": {
+    "message": "ಸಂ"
+  },
+  "confirmQuestion": {
+    "message": "ಈ ಕ್ರಿಯೆಯು ಬದಲಾಯಿಸಲಾಗದು. ನೀವು ಇತಿಹಾಸವನ್ನು ತೆರವುಗೊಳಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+  },
+  "yes": {
+    "message": "ಹೌದು"
+  },
+  "signIn": {
+    "message": "ದಯವಿಟ್ಟು, Google Chrome ನಲ್ಲಿ <a url=\"chrome://chrome-signin/\" href=\"#\">ನಿಮ್ಮ Google ಖಾತೆಯೊಂದಿಗೆ</a> ಲಾಗಿನ್ ಮಾಡಿ"
+  },
+  "noLyrics": {
+    "message": "ಈ ಹಾಡಿಗೆ ಯಾವುದೇ ಸಾಹಿತ್ಯವನ್ನು ಹುಡುಕಲಾಗಲಿಲ್ಲ"
+  },
+  "countryCode": {
+    "message": "ನಮಗೆ"
+  },
+  "noMatchesText": {
+    "message": "ಕ್ಷಮಿಸಿ, ನಮಗೆ ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+  },
+  "playsAt": {
+    "message": "ನಲ್ಲಿ ಆಡುತ್ತದೆ"
+  },
+  "needAuth": {
+    "message": "ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ AudD ಅನ್ನು ಬಳಸಲು, ನೀವು ಲಾಗಿನ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ"
+  },
+  "trialEnded": {
+    "message": "ನಿಮ್ಮ ಪ್ರಯೋಗ ಮುಗಿದಿದೆ. ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪೂರ್ಣ ಆವೃತ್ತಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. <a href=\"https://dashboard.audd.io\" target=\"_blank\">ಚಂದಾದಾರರಾಗಿ</a>"
+  },
+  "onlyPaidWorksHere": {
+    "message": "ಕ್ಷಮಿಸಿ, ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪಾವತಿಸಿದ ಆವೃತ್ತಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. <a href=\"https://dashboard.audd.io\" target=\"_blank\">ಇಲ್ಲಿ ಟೋಕನ್ ಪಡೆಯಿರಿ</a> ಮತ್ತು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅಂಟಿಸಿ ಅಥವಾ ನಮ್ಮ <a href=\"https://audd.io\" target=\"_blank\">API</a> ನೊಂದಿಗೆ ನಿಮ್ಮ ಕೆಲಸವನ್ನು ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸುವುದನ್ನು ಪರಿಗಣಿಸಿ."
+  },
+  "SavedToHistory": {
+    "message": "ಇತಿಹಾಸದಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "notInvoked": {
+    "message": "ಪ್ರಸ್ತುತ ಪುಟಕ್ಕೆ ವಿಸ್ತರಣೆಯನ್ನು ಆಹ್ವಾನಿಸಲಾಗಿಲ್ಲ. Chrome ಪುಟಗಳನ್ನು ಸೆರೆಹಿಡಿಯಲಾಗುವುದಿಲ್ಲ. ಟ್ಯಾಬ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ವಿಸ್ತರಣೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ."
+  },
+  "tryAgainText": {
+    "message": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು"
+  },
+  "identifiedEarlierText": {
+    "message": "ಮೊದಲೇ ಗುರುತಿಸಲಾಗಿದೆ"
+  },
+  "copiedSuccessfully": {
+    "message": "ನಕಲು ಮಾಡಲಾಗಿದೆ!"
+  },
+  "clearHistoryInit": {
+    "message": "ಅಧಿಸೂಚನೆಗಳಲ್ಲಿ ಕ್ರಿಯೆಯನ್ನು ದೃಢೀಕರಿಸಿ"
+  },
+  "settingsSaved": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"
+  }
+}
