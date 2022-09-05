@@ -78,5 +78,8 @@
   },
   "onlyPaidWorksHere": {
     "message": "Valitettavasti vain maksullinen versio toimii tällä sivustolla. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Hanki tunnus tästä</a> ja ohita se asetuksissa tai harkitse työsi automatisointia <a href=\"https://audd.io\" target=\"_blank\">API:n</a> avulla."
+  },
+  "listingDescription": {
+    "message": "Asenna AudD-laajennus ja napsauta sen kuvaketta tunnistaaksesi nykyisellä välilehdellä toistettava kappale.\nKatso yllä oleva video nähdäksesi, kuinka se toimii.\n\nAudD-laajennus:\n- Tunnistaa selaimessasi soivan musiikin;\n- Löytää musiikkia AudD-tietokannasta, jossa on yli 65 miljoonaa kappaletta musiikintunnistusteknologiansa avulla;\n- Näyttää sanoitukset tunnistetuille kappaleille;\n- Näyttää linkkejä Apple Musicin, Spotifyn, Deezerin, YouTube Musicin kappaleiden kuuntelemiseksi;\n- Näyttää tarkan hetken tunnistetussa kappaleessa, kun selaimen ääntä toistetaan.\n\nMusic Recognition API: https://audd.io\nLähdekoodi: https://github.com/AudDMusic/chrome-extension\n\nLaajennus toimii AudD® Musicin tunnistussovellusliittymällä\n\nLuonut ja suunnitellut AudD.io-tiimi Eric Starkin, Mitchell Kossorisin ja Ivan Kasatkinin avustuksella."
   }
 }
