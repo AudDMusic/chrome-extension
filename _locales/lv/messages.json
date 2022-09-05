@@ -1,1 +1,85 @@
-{}
+{
+  "onlyPaidWorksHere": {
+    "message": "Atvainojiet, šajā vietnē darbojas tikai maksas versija. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Iegūstiet marķieri šeit</a> un ievadiet to iestatījumos vai apsveriet iespēju automatizēt savu darbu, izmantojot mūsu <a href=\"https://audd.io\" target=\"_blank\">API</a>."
+  },
+  "notInvoked": {
+    "message": "Pašreizējai lapai paplašinājums nav izsaukts. Chrome lapas nevar tvert. Noklikšķiniet uz cilnes un atkārtoti palaidiet paplašinājumu."
+  },
+  "tryAgainText": {
+    "message": "mēģini vēlreiz"
+  },
+  "identifiedEarlierText": {
+    "message": "Identificēts agrāk"
+  },
+  "copiedSuccessfully": {
+    "message": "Kopēts!"
+  },
+  "clearHistoryInit": {
+    "message": "Apstipriniet darbību paziņojumos"
+  },
+  "settingsSaved": {
+    "message": "Iestatījumi ir veiksmīgi saglabāti"
+  },
+  "appName": {
+    "message": "AudD® mūzikas atpazīšana",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Atpazīstiet jebkuru mūziku no jebkuras vietnes savā pārlūkprogrammā",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "selectOneTab": {
+    "message": "Lūdzu, atlasiet vienu cilni"
+  },
+  "noAudioOnTab": {
+    "message": "Pašreizējā cilnē nav audio"
+  },
+  "lyrics": {
+    "message": "Dziesmu vārdi"
+  },
+  "history": {
+    "message": "Vēsture"
+  },
+  "settings": {
+    "message": "Iestatījumi"
+  },
+  "goTo": {
+    "message": "Iet uz"
+  },
+  "confirm": {
+    "message": "Apstiprināt"
+  },
+  "confirmQuestion": {
+    "message": "Šī darbība ir neatgriezeniska. Vai tiešām vēlaties notīrīt vēsturi?"
+  },
+  "yes": {
+    "message": "Jā"
+  },
+  "no": {
+    "message": "Nē"
+  },
+  "signIn": {
+    "message": "Lūdzu, <a url=\"chrome://chrome-signin/\" href=\"#\">piesakieties ar savu Google kontu</a> pārlūkā Google Chrome"
+  },
+  "noLyrics": {
+    "message": "Nevarēja atrast šīs dziesmas vārdus"
+  },
+  "countryCode": {
+    "message": "mums"
+  },
+  "noMatchesText": {
+    "message": "Atvainojiet, mēs nevarējām iegūt nevienu spēli"
+  },
+  "playsAt": {
+    "message": "spēlē plkst"
+  },
+  "needAuth": {
+    "message": "Lai izmantotu AudD šajā vietnē, jums ir jāpiesakās"
+  },
+  "trialEnded": {
+    "message": "Jūsu izmēģinājums ir beidzies. Šajā vietnē darbojas tikai pilna versija. <a href=\"https://dashboard.audd.io\" target=\"_blank\">Abonēt</a>"
+  },
+  "SavedToHistory": {
+    "message": "Saglabāts vēsturē"
+  }
+}
