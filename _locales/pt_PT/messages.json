@@ -17,9 +17,6 @@
   "clearHistoryInit": {
     "message": "Confirme a ação nas notificações"
   },
-  "settingsSaved": {
-    "message": "Instale a extensão AudD e clique em seu ícone para identificar a música que está tocando na aba atual.\nAssista ao vídeo acima para ver como funciona.\n\nExtensão AudD:\n- Reconhece a música tocando no seu navegador;\n- Encontra música no banco de dados AudD com mais de 75 milhões de músicas usando sua tecnologia de reconhecimento de música;\n- Mostra as letras das músicas identificadas;\n- Mostra links para ouvir as músicas no Apple Music, Spotify, Deezer, YouTube Music;\n- Exibe o momento exato na música reconhecida quando o som do navegador é reproduzido.\n\nAPI de reconhecimento de música: https://audd.io\nCódigo fonte: https://github.com/AudDMusic/chrome-extension\n\nExtensão desenvolvida pela API de reconhecimento de música AudD®\n\nCriado e projetado pela equipe AudD.io com a ajuda de Eric Stark, Mitchell Kossoris e Ivan Kasatkin."
-  },
   "appName": {
     "message": "Reconhecimento de Música AudD®",
     "description": "The title of the application, displayed in the web store."

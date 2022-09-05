@@ -75,8 +75,5 @@
   },
   "clearHistoryInit": {
     "message": "Potvrdite radnju u obavijestima"
-  },
-  "settingsSaved": {
-    "message": "Instalirajte proširenje AudD i kliknite njegovu ikonu kako biste identificirali pjesmu koja se reproducira na trenutnoj kartici.\nPogledajte video iznad kako biste vidjeli kako radi.\n\nAudD proširenje:\n- Prepoznaje glazbu koja svira u vašem pregledniku;\n- Pronalazi glazbu u AudD bazi podataka s više od 75 milijuna pjesama koristeći svoju tehnologiju prepoznavanja glazbe;\n- Prikazuje tekstove za identificirane pjesme;\n- Prikazuje poveznice za slušanje pjesama na Apple Music, Spotify, Deezer, YouTube Music;\n- Prikazuje točan trenutak u prepoznatoj pjesmi kada se reproducira zvuk iz preglednika.\n\nAPI za prepoznavanje glazbe: https://audd.io\nIzvorni kod: https://github.com/AudDMusic/chrome-extension\n\nProširenje koje pokreće AudD® API za prepoznavanje glazbe\n\nKreirao i dizajnirao tim AudD.io uz pomoć Erica Starka, Mitchella Kossorisa i Ivana Kasatkina."
   }
 }

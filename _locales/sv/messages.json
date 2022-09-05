@@ -75,8 +75,5 @@
   },
   "clearHistoryInit": {
     "message": "Bekräfta åtgärden i aviseringarna"
-  },
-  "settingsSaved": {
-    "message": "Installera AudD-tillägget och klicka på dess ikon för att identifiera låten som spelas på den aktuella fliken.\nSe videon ovan för att se hur det fungerar.\n\nAudD-tillägg:\n- Känner igen musiken som spelas i din webbläsare;\n- Hittar musik i AudD-databasen med mer än 75 miljoner låtar med hjälp av dess musikigenkänningsteknik;\n- Visar texter för identifierade låtar;\n- Visar länkar för att lyssna på låtarna på Apple Music, Spotify, Deezer, YouTube Music;\n- Visar det exakta ögonblicket i den igenkända låten när ljudet från webbläsaren spelas upp.\n\nMusic Recognition API: https://audd.io\nKällkod: https://github.com/AudDMusic/chrome-extension\n\nTillägg som drivs av AudD® Music recognition API\n\nSkapad och designad av AudD.io-teamet med hjälp av Eric Stark, Mitchell Kossoris och Ivan Kasatkin."
   }
 }

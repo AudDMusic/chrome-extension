@@ -75,8 +75,5 @@
   },
   "clearHistoryInit": {
     "message": "Confirmeu l'acció a les notificacions"
-  },
-  "settingsSaved": {
-    "message": "Instal·leu l'extensió AudD i feu clic a la seva icona per identificar la cançó que es reprodueix a la pestanya actual.\nMireu el vídeo de dalt per veure com funciona.\n\nExtensió AudD:\n- Reconeix la música que es reprodueix al vostre navegador;\n- Troba música a la base de dades AudD amb més de 75 milions de cançons utilitzant la seva tecnologia de reconeixement musical;\n- Mostra lletres de cançons identificades;\n- Mostra enllaços per escoltar les cançons a Apple Music, Spotify, Deezer, YouTube Music;\n- Mostra el moment exacte de la cançó reconeguda quan es reprodueix el so del navegador.\n\nAPI de reconeixement de música: https://audd.io\nCodi font: https://github.com/AudDMusic/chrome-extension\n\nExtensió impulsada per l'API de reconeixement de música AudD®\n\nCreat i dissenyat per l'equip d'AudD.io amb l'ajuda d'Eric Stark, Mitchell Kossoris i Ivan Kasatkin."
   }
 }

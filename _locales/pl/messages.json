@@ -26,9 +26,6 @@
   "clearHistoryInit": {
     "message": "Potwierdź akcję w powiadomieniach"
   },
-  "settingsSaved": {
-    "message": "Zainstaluj rozszerzenie AudD i kliknij jego ikonę, aby zidentyfikować utwór odtwarzany na bieżącej karcie.\nObejrzyj powyższy film, aby zobaczyć, jak to działa.\n\nRozszerzenie AudiD:\n- Rozpoznaje muzykę odtwarzaną w przeglądarce;\n- Znajduje muzykę w bazie danych AudD z ponad 75 milionami utworów przy użyciu technologii rozpoznawania muzyki;\n- Pokazuje teksty dla zidentyfikowanych piosenek;\n- Pokazuje linki do słuchania utworów w Apple Music, Spotify, Deezer, YouTube Music;\n- Wyświetla dokładny moment w rozpoznanej piosence, gdy odtwarzany jest dźwięk z przeglądarki.\n\nAPI rozpoznawania muzyki: https://audd.io\nKod źródłowy: https://github.com/AudDMusic/chrome-extension\n\nRozszerzenie obsługiwane przez interfejs API rozpoznawania muzyki AudD®\n\nStworzony i zaprojektowany przez zespół AudD.io z pomocą Erica Starka, Mitchella Kossorisa i Ivana Kasatkina."
-  },
   "appName": {
     "message": "Rozpoznawanie muzyki AudD®",
     "description": "The title of the application, displayed in the web store."
