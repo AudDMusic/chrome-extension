@@ -11,7 +11,7 @@ You can [install this extension from the Chrome Web Store](https://audd.app/chro
 
 AudD extension:
 - Recognizes the music playing in your browser;
-- Finds music in the AudD database with more than 65 million songs using its music recognition technology;
+- Finds music in the AudD database with more than 80 million songs using its music recognition technology;
 - Shows lyrics for identified songs;
 - Shows links to listen to the songs on Apple Music, Spotify, Deezer, YouTube Music;
 - Displays the exact moment in the recognized song when the sound from the browser is played.
