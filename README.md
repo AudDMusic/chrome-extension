@@ -7,7 +7,7 @@ The extension is based on the [Music Recognition API](https://audd.io).
 Recognize any music from any website in your browser
 Install the AudD extension and click on its icon to identify the song playing on the current tab.
 
-You can [install this extension from the Chrome Web Store](https://audd.app/chrome). See also the [Firefox add-on](https://github.com/AudDMusic/firefox-extension) ([install](https://audd.cc/firefox)).
+You can [install this extension from the Chrome Web Store](https://audd.cc/chrome). See also the [Firefox add-on](https://github.com/AudDMusic/firefox-extension) ([install](https://audd.cc/firefox)).
 
 AudD extension:
 - Recognizes the music playing in your browser;
