@@ -759,6 +759,17 @@ function PopupView() {
 				var share_left = $(".share").offset().left + $(".share").width()/2 - $(".sub_menu").width() / 2;
 				$(".sub_menu").css("left", share_left);
 			}, 1000);
+            $('#patreon-link').on('click', function() {
+                chrome.tabs.create({url: 'https://www.patreon.com/audd'});
+            });
+            
+            $('#patreon-close').on('click', function() {
+                $('.patreon-suggestion').fadeOut();
+            });
+            
+            if(_info.api_token) {
+                $('.patreon-suggestion').hide();
+            }
 		});
         if(song.lyrics) {
             $("#lyrics_body").html(song.lyrics.lyrics.replace(/(?:\r\n|\r|\n)/g, '<br>').replace(/(\])/g, ']<br>'));
