@@ -1280,3 +1280,83 @@ canvas#canvas {
 .button.button--secondary:not(.button--active):not(:hover):not(:focus):not(.focus-visible) {
     color: var(--ifm-color-gray-900);
 }
+
+
+.bottom-content {
+    position: relative;  
+}
+
+.patreon-suggestion {
+    background: linear-gradient(101.2deg, #FF424D 8.04%, #F96854 87.77%);
+    padding: 14px 16px;
+    margin: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 1.4;
+    box-shadow: 0 2px 6px rgba(249,104,84,0.3);
+    position: absolute; 
+    bottom: 0;        
+    left: 0;           
+    right: 0;         
+    z-index: 10;      
+}
+
+.patreon-button {
+    background: white;
+    color: #F96854;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px; 
+    font-weight: 700; 
+    cursor: pointer;
+    transition: all 0.2s ease; 
+    white-space: nowrap;
+    font-size: 14px;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.patreon-button:hover {
+    background: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+}
+
+.patreon-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+:root {
+    /* Add new variables for consistent spacing and transitions */
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --transition-fast: 200ms;
+    --border-radius: 10px;
+  }
+  .patreon-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.patreon-close {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    line-height: 1;
+    padding: 4px 8px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.patreon-close:hover {
+    opacity: 1;
+}
